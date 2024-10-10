@@ -1,0 +1,49 @@
+[0.051s] Invoking command in '/home/student/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/cpp_pubsub
+[0.419s] -- The C compiler identification is GNU 11.4.0
+[0.487s] -- The CXX compiler identification is GNU 11.4.0
+[0.509s] -- Detecting C compiler ABI info
+[0.760s] -- Detecting C compiler ABI info - done
+[0.778s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.781s] -- Detecting C compile features
+[0.782s] -- Detecting C compile features - done
+[0.795s] -- Detecting CXX compiler ABI info
+[1.036s] -- Detecting CXX compiler ABI info - done
+[1.052s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.053s] -- Detecting CXX compile features
+[1.055s] -- Detecting CXX compile features - done
+[1.061s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.452s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.574s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.669s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.871s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.872s] -- Configured cppcheck include dirs: 
+[1.872s] -- Configured cppcheck exclude dirs and/or files: 
+[1.874s] -- Added test 'lint_cmake' to check CMake code style
+[1.877s] -- Added test 'uncrustify' to check C / C++ code style
+[1.877s] -- Configured uncrustify additional arguments: 
+[1.878s] -- Added test 'xmllint' to check XML markup files
+[1.882s] -- Configuring done
+[1.889s] -- Generating done
+[1.891s] -- Build files have been written to: /home/student/ros2_ws/build/cpp_pubsub
+[1.911s] Invoked command in '/home/student/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/cpp_pubsub
+[1.911s] Invoking command in '/home/student/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[2.029s] Invoked command in '/home/student/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[2.240s] Invoking command in '/home/student/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/cpp_pubsub
+[2.276s] -- Install configuration: ""
+[2.277s] -- Execute custom install script
+[2.278s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.296s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.318s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.336s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.367s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.391s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.414s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.429s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.473s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.489s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.513s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.554s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.588s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.606s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.636s] -- Symlinking: /home/student/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.671s] Invoked command in '/home/student/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/cpp_pubsub

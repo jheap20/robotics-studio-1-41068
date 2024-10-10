@@ -1,0 +1,69 @@
+[0.030s] Invoking command in '/home/student/ros2_ws/build/laser_processor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/laser_processor_pkg -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/laser_processor_pkg
+[0.835s] -- The C compiler identification is GNU 11.4.0
+[1.477s] -- The CXX compiler identification is GNU 11.4.0
+[1.501s] -- Detecting C compiler ABI info
+[1.701s] -- Detecting C compiler ABI info - done
+[1.714s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.717s] -- Detecting C compile features
+[1.722s] -- Detecting C compile features - done
+[1.728s] -- Detecting CXX compiler ABI info
+[1.932s] -- Detecting CXX compiler ABI info - done
+[1.943s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.944s] -- Detecting CXX compile features
+[1.944s] -- Detecting CXX compile features - done
+[1.971s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.289s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.524s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.628s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.642s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.663s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.766s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.934s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.941s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.226s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.276s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.392s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.415s] -- Looking for pthread.h
+[3.636s] -- Looking for pthread.h - found
+[3.636s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.824s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.825s] -- Found Threads: TRUE  
+[4.136s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.372s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.521s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.521s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/student/ros2_ws/src/laser_processor_pkg/include>
+[4.521s] -- Configured cppcheck exclude dirs and/or files: 
+[4.522s] -- Added test 'lint_cmake' to check CMake code style
+[4.522s] -- Added test 'uncrustify' to check C / C++ code style
+[4.522s] -- Configured uncrustify additional arguments: 
+[4.522s] -- Added test 'xmllint' to check XML markup files
+[4.525s] -- Configuring done
+[4.542s] -- Generating done
+[4.547s] -- Build files have been written to: /home/student/ros2_ws/build/laser_processor_pkg
+[4.570s] Invoked command in '/home/student/ros2_ws/build/laser_processor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/laser_processor_pkg -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/laser_processor_pkg
+[4.571s] Invoking command in '/home/student/ros2_ws/build/laser_processor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_processor_pkg -- -j8 -l8
+[4.716s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_processor.dir/src/laser_processor.cpp.o[0m
+[20.582s] [100%] [32m[1mLinking CXX executable laser_processor[0m
+[21.407s] [100%] Built target laser_processor
+[21.440s] Invoked command in '/home/student/ros2_ws/build/laser_processor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_processor_pkg -- -j8 -l8
+[21.534s] Invoking command in '/home/student/ros2_ws/build/laser_processor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/laser_processor_pkg
+[21.554s] -- Install configuration: ""
+[21.555s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/lib/laser_processor_pkg/laser_processor
+[21.565s] -- Set runtime path of "/home/student/ros2_ws/install/laser_processor_pkg/lib/laser_processor_pkg/laser_processor" to ""
+[21.565s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/ament_index/resource_index/package_run_dependencies/laser_processor_pkg
+[21.566s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/ament_index/resource_index/parent_prefix_path/laser_processor_pkg
+[21.566s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/environment/ament_prefix_path.sh
+[21.566s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/environment/ament_prefix_path.dsv
+[21.567s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/environment/path.sh
+[21.567s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/environment/path.dsv
+[21.567s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/local_setup.bash
+[21.567s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/local_setup.sh
+[21.567s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/local_setup.zsh
+[21.568s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/local_setup.dsv
+[21.568s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/package.dsv
+[21.568s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/ament_index/resource_index/packages/laser_processor_pkg
+[21.568s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/cmake/laser_processor_pkgConfig.cmake
+[21.569s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/cmake/laser_processor_pkgConfig-version.cmake
+[21.569s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/package.xml
+[21.572s] Invoked command in '/home/student/ros2_ws/build/laser_processor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/laser_processor_pkg

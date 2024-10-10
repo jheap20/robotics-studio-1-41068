@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable map_processor_node[0m
+[100%] Built target map_processor_node
+-- Install configuration: ""
+-- Installing: /home/student/ros2_ws/install/scan_matching_localiser/lib/scan_matching_localiser/map_processor_node
+-- Set runtime path of "/home/student/ros2_ws/install/scan_matching_localiser/lib/scan_matching_localiser/map_processor_node" to ""
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/ament_index/resource_index/package_run_dependencies/scan_matching_localiser
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/ament_index/resource_index/parent_prefix_path/scan_matching_localiser
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/environment/ament_prefix_path.sh
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/environment/path.sh
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/environment/path.dsv
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/local_setup.bash
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/local_setup.sh
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/local_setup.zsh
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/local_setup.dsv
+-- Installing: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/package.dsv
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/ament_index/resource_index/packages/scan_matching_localiser
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/cmake/scan_matching_localiserConfig.cmake
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/cmake/scan_matching_localiserConfig-version.cmake
+-- Up-to-date: /home/student/ros2_ws/install/scan_matching_localiser/share/scan_matching_localiser/package.xml

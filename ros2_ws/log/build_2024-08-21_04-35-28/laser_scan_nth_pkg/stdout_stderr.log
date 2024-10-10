@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target laser_scan_nth[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/laser_scan_nth.dir/src/laser_scan_nth.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/laser_scan_nth_pkg/src/laser_scan_nth.cpp:[m[K In member function ‘[01m[Kvoid LaserProcessor::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/laser_scan_nth_pkg/src/laser_scan_nth.cpp:62:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubset_scan_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubset_scan[m[K’?
+   62 |        scan_pub_->publish(*[01;31m[Ksubset_scan_[m[K);
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+      |                            [32m[Ksubset_scan[m[K
+gmake[2]: *** [CMakeFiles/laser_scan_nth.dir/build.make:76: CMakeFiles/laser_scan_nth.dir/src/laser_scan_nth.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_scan_nth.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

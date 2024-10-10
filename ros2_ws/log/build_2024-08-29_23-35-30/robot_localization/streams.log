@@ -1,0 +1,178 @@
+[0.016s] Invoking command in '/home/student/ros2_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/robot_localization
+[0.032s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[0.032s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.179s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.180s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.217s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.220s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.228s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.240s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.323s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.325s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.484s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.662s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.708s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.728s] -- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)
+[0.905s] -- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)
+[0.911s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.004s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.013s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.110s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.128s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.138s] -- Found tf2_eigen: 0.25.7 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.523s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.527s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.528s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.544s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.975s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.976s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.977s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.979s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.814s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.845s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.873s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.873s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.873s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.955s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.956s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.973s] -- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[2.973s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[3.002s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.002s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.002s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.003s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.036s] -- Configuring done
+[3.056s] [31mCMake Error at CMakeLists.txt:67 (add_library):
+[3.057s]   Target "rl_lib" links to target "yaml-cpp::yaml-cpp" but the target was not
+[3.057s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[3.057s]   an ALIAS target is missing?
+[3.057s] 
+[3.057s] [0m
+[3.057s] [31mCMake Error at CMakeLists.txt:82 (add_executable):
+[3.058s]   Target "ekf_node" links to target "yaml-cpp::yaml-cpp" but the target was
+[3.058s]   not found.  Perhaps a find_package() call is missing for an IMPORTED
+[3.058s]   target, or an ALIAS target is missing?
+[3.058s] 
+[3.058s] [0m
+[3.059s] [31mCMake Error at CMakeLists.txt:87 (add_executable):
+[3.059s]   Target "ukf_node" links to target "yaml-cpp::yaml-cpp" but the target was
+[3.059s]   not found.  Perhaps a find_package() call is missing for an IMPORTED
+[3.059s]   target, or an ALIAS target is missing?
+[3.059s] 
+[3.060s] [0m
+[3.060s] [31mCMake Error at CMakeLists.txt:92 (add_executable):
+[3.060s]   Target "navsat_transform_node" links to target "yaml-cpp::yaml-cpp" but the
+[3.060s]   target was not found.  Perhaps a find_package() call is missing for an
+[3.060s]   IMPORTED target, or an ALIAS target is missing?
+[3.060s] 
+[3.061s] [0m
+[3.061s] [31mCMake Error at CMakeLists.txt:97 (add_executable):
+[3.061s]   Target "robot_localization_listener_node" links to target
+[3.061s]   "yaml-cpp::yaml-cpp" but the target was not found.  Perhaps a
+[3.061s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[3.061s]   is missing?
+[3.061s] 
+[3.061s] [0m
+[3.061s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.062s]   Target "filter_base-test" links to target "yaml-cpp::yaml-cpp" but the
+[3.062s]   target was not found.  Perhaps a find_package() call is missing for an
+[3.062s]   IMPORTED target, or an ALIAS target is missing?
+[3.062s] Call Stack (most recent call first):
+[3.062s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.062s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[3.062s]   CMakeLists.txt:178 (ament_add_gtest)
+[3.062s] 
+[3.063s] [0m
+[3.063s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.063s]   Target "test_filter_base_diagnostics_timestamps" links to target
+[3.063s]   "yaml-cpp::yaml-cpp" but the target was not found.  Perhaps a
+[3.063s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[3.063s]   is missing?
+[3.063s] Call Stack (most recent call first):
+[3.063s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.064s]   CMakeLists.txt:182 (ament_add_gtest_executable)
+[3.064s] 
+[3.064s] [0m
+[3.064s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.064s]   Target "test_ekf" links to target "yaml-cpp::yaml-cpp" but the target was
+[3.064s]   not found.  Perhaps a find_package() call is missing for an IMPORTED
+[3.065s]   target, or an ALIAS target is missing?
+[3.065s] Call Stack (most recent call first):
+[3.065s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.065s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[3.065s]   CMakeLists.txt:198 (ament_add_gtest)
+[3.066s] 
+[3.066s] [0m
+[3.066s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.067s]   Target "test_ekf_node_interfaces" links to target "yaml-cpp::yaml-cpp" but
+[3.067s]   the target was not found.  Perhaps a find_package() call is missing for an
+[3.067s]   IMPORTED target, or an ALIAS target is missing?
+[3.067s] Call Stack (most recent call first):
+[3.067s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.068s]   CMakeLists.txt:204 (ament_add_gtest_executable)
+[3.068s] 
+[3.068s] [0m
+[3.068s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.068s]   Target "test_ukf" links to target "yaml-cpp::yaml-cpp" but the target was
+[3.068s]   not found.  Perhaps a find_package() call is missing for an IMPORTED
+[3.068s]   target, or an ALIAS target is missing?
+[3.068s] Call Stack (most recent call first):
+[3.068s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.069s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[3.069s]   CMakeLists.txt:230 (ament_add_gtest)
+[3.069s] 
+[3.069s] [0m
+[3.069s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.069s]   Target "test_ukf_node_interfaces" links to target "yaml-cpp::yaml-cpp" but
+[3.069s]   the target was not found.  Perhaps a find_package() call is missing for an
+[3.069s]   IMPORTED target, or an ALIAS target is missing?
+[3.069s] Call Stack (most recent call first):
+[3.070s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.070s]   CMakeLists.txt:236 (ament_add_gtest_executable)
+[3.070s] 
+[3.070s] [0m
+[3.070s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.070s]   Target "test_robot_localization_estimator" links to target
+[3.070s]   "yaml-cpp::yaml-cpp" but the target was not found.  Perhaps a
+[3.070s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[3.071s]   is missing?
+[3.071s] Call Stack (most recent call first):
+[3.071s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.071s]   CMakeLists.txt:281 (ament_add_gtest_executable)
+[3.071s] 
+[3.071s] [0m
+[3.071s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.071s]   Target "test_navsat_conversions" links to target "yaml-cpp::yaml-cpp" but
+[3.072s]   the target was not found.  Perhaps a find_package() call is missing for an
+[3.072s]   IMPORTED target, or an ALIAS target is missing?
+[3.072s] Call Stack (most recent call first):
+[3.072s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.072s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[3.072s]   CMakeLists.txt:294 (ament_add_gtest)
+[3.072s] 
+[3.072s] [0m
+[3.073s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.073s]   Target "test_ros_robot_localization_listener" links to target
+[3.073s]   "yaml-cpp::yaml-cpp" but the target was not found.  Perhaps a
+[3.073s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[3.073s]   is missing?
+[3.073s] Call Stack (most recent call first):
+[3.073s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.073s]   CMakeLists.txt:297 (ament_add_gtest_executable)
+[3.073s] 
+[3.074s] [0m
+[3.074s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[3.074s]   Target "test_ros_robot_localization_listener_publisher" links to target
+[3.074s]   "yaml-cpp::yaml-cpp" but the target was not found.  Perhaps a
+[3.074s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[3.074s]   is missing?
+[3.074s] Call Stack (most recent call first):
+[3.074s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[3.075s]   CMakeLists.txt:302 (ament_add_gtest_executable)
+[3.075s] 
+[3.075s] [0m
+[3.211s] -- Generating done
+[3.217s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.241s] Invoked command in '/home/student/ros2_ws/build/robot_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/robot_localization

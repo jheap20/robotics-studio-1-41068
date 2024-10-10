@@ -1,0 +1,5 @@
+[01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:[m[K In member function ‘[01m[Kbool cylinderDetector::is_part_of_cylinder(float, float, float, float)[m[K’:
+[01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:62:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle_increment[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   62 | at r3, [01;35m[Kfloat angle_increment[m[K)
+      |        [01;35m[K~~~~~~^~~~~~~~~~~~~~~[m[K
+

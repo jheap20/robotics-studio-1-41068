@@ -1,0 +1,23 @@
+[0.048s] Invoking command in '/home/student/ros2_ws/build/laser_scan_nth_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_scan_nth_pkg -- -j8 -l8
+[0.155s] [100%] Built target laser_scan_nth
+[0.182s] Invoked command in '/home/student/ros2_ws/build/laser_scan_nth_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_scan_nth_pkg -- -j8 -l8
+[0.340s] Invoking command in '/home/student/ros2_ws/build/laser_scan_nth_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/laser_scan_nth_pkg
+[0.358s] -- Install configuration: "Release"
+[0.359s] -- Execute custom install script
+[0.359s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/lib/laser_scan_nth_pkg/laser_scan_nth
+[0.360s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/ament_index/resource_index/package_run_dependencies/laser_scan_nth_pkg
+[0.360s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/ament_index/resource_index/parent_prefix_path/laser_scan_nth_pkg
+[0.361s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/environment/ament_prefix_path.sh
+[0.361s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/environment/ament_prefix_path.dsv
+[0.361s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/environment/path.sh
+[0.362s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/environment/path.dsv
+[0.362s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/local_setup.bash
+[0.362s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/local_setup.sh
+[0.363s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/local_setup.zsh
+[0.364s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/local_setup.dsv
+[0.365s] -- Symlinking: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/package.dsv
+[0.374s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/ament_index/resource_index/packages/laser_scan_nth_pkg
+[0.375s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/cmake/laser_scan_nth_pkgConfig.cmake
+[0.375s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/cmake/laser_scan_nth_pkgConfig-version.cmake
+[0.376s] -- Up-to-date symlink: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/package.xml
+[0.436s] Invoked command in '/home/student/ros2_ws/build/laser_scan_nth_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/laser_scan_nth_pkg

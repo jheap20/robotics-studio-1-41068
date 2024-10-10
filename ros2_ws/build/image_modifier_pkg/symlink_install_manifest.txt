@@ -1,0 +1,16 @@
+/home/student/ros2_ws/install/image_modifier_pkg/lib/image_modifier_pkg/image_modifier
+/home/student/ros2_ws/install/image_modifier_pkg/share/ament_index/resource_index/package_run_dependencies/image_modifier_pkg
+/home/student/ros2_ws/install/image_modifier_pkg/share/ament_index/resource_index/parent_prefix_path/image_modifier_pkg
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/environment/ament_prefix_path.sh
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/environment/path.sh
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/environment/path.dsv
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/local_setup.bash
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/local_setup.sh
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/local_setup.zsh
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/local_setup.dsv
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/package.dsv
+/home/student/ros2_ws/install/image_modifier_pkg/share/ament_index/resource_index/packages/image_modifier_pkg
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/cmake/image_modifier_pkgConfig.cmake
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/cmake/image_modifier_pkgConfig-version.cmake
+/home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/package.xml

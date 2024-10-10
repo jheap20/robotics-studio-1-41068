@@ -1,0 +1,54 @@
+[0.029s] Invoking command in '/home/student/ros2_ws/build/overlay_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/overlay_map -- -j8 -l8
+[0.081s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.322s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.458s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.482s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.510s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.546s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.804s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.816s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.059s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.130s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.229s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.261s] -- Looking for pthread.h
+[1.407s] -- Looking for pthread.h - found
+[1.407s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.584s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.586s] -- Found Threads: TRUE  
+[1.923s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.062s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.062s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/student/ros2_ws/src/overlay_map/include>
+[2.062s] -- Configured cppcheck exclude dirs and/or files: 
+[2.063s] -- Added test 'lint_cmake' to check CMake code style
+[2.063s] -- Added test 'uncrustify' to check C / C++ code style
+[2.067s] -- Configured uncrustify additional arguments: 
+[2.067s] -- Added test 'xmllint' to check XML markup files
+[2.068s] -- Configuring done
+[2.084s] -- Generating done
+[2.086s] -- Build files have been written to: /home/student/ros2_ws/build/overlay_map
+[2.147s] [35m[1mConsolidate compiler generated dependencies of target overlay_map_node[0m
+[2.181s] [ 50%] [32mBuilding CXX object CMakeFiles/overlay_map_node.dir/src/overlay_map_node.cpp.o[0m
+[4.713s] [100%] [32m[1mLinking CXX executable overlay_map_node[0m
+[5.436s] [100%] Built target overlay_map_node
+[5.462s] Invoked command in '/home/student/ros2_ws/build/overlay_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/overlay_map -- -j8 -l8
+[5.564s] Invoking command in '/home/student/ros2_ws/build/overlay_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/overlay_map
+[5.576s] -- Install configuration: ""
+[5.576s] -- Installing: /home/student/ros2_ws/install/overlay_map/lib/overlay_map/overlay_map_node
+[5.580s] -- Set runtime path of "/home/student/ros2_ws/install/overlay_map/lib/overlay_map/overlay_map_node" to ""
+[5.580s] -- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/ament_index/resource_index/package_run_dependencies/overlay_map
+[5.580s] -- Installing: /home/student/ros2_ws/install/overlay_map/share/ament_index/resource_index/parent_prefix_path/overlay_map
+[5.580s] -- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/environment/ament_prefix_path.sh
+[5.584s] -- Installing: /home/student/ros2_ws/install/overlay_map/share/overlay_map/environment/ament_prefix_path.dsv
+[5.584s] -- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/environment/path.sh
+[5.585s] -- Installing: /home/student/ros2_ws/install/overlay_map/share/overlay_map/environment/path.dsv
+[5.585s] -- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/local_setup.bash
+[5.585s] -- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/local_setup.sh
+[5.585s] -- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/local_setup.zsh
+[5.585s] -- Installing: /home/student/ros2_ws/install/overlay_map/share/overlay_map/local_setup.dsv
+[5.585s] -- Installing: /home/student/ros2_ws/install/overlay_map/share/overlay_map/package.dsv
+[5.585s] -- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/ament_index/resource_index/packages/overlay_map
+[5.586s] -- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/cmake/overlay_mapConfig.cmake
+[5.586s] -- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/cmake/overlay_mapConfig-version.cmake
+[5.586s] -- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/package.xml
+[5.586s] Invoked command in '/home/student/ros2_ws/build/overlay_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/overlay_map

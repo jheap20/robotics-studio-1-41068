@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.000332] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000477] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000754] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001033] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001270] (-) JobUnselected: {'identifier': 'image_modifier_pkg'}
+[0.001583] (-) JobUnselected: {'identifier': 'laser_processor_pkg'}
+[0.001617] (-) JobUnselected: {'identifier': 'laser_scan_nth_pkg'}
+[0.001641] (-) JobUnselected: {'identifier': 'robot_localization'}
+[0.001674] (-) JobUnselected: {'identifier': 'scan_to_image_localizer'}
+[0.001695] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001717] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001740] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001761] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001782] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001804] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001825] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001846] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001867] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001888] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001910] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001931] (-) JobUnselected: {'identifier': 'turtlebot3_state_estimation'}
+[0.001952] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001973] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001998] (scan_matching_localiser) JobQueued: {'identifier': 'scan_matching_localiser', 'dependencies': OrderedDict()}
+[0.002032] (scan_matching_localiser) JobStarted: {'identifier': 'scan_matching_localiser'}
+[0.006280] (scan_matching_localiser) JobProgress: {'identifier': 'scan_matching_localiser', 'progress': 'cmake'}
+[0.006402] (scan_matching_localiser) JobProgress: {'identifier': 'scan_matching_localiser', 'progress': 'build'}
+[0.006452] (scan_matching_localiser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/build/scan_matching_localiser', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/build/scan_matching_localiser', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1853'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/robot_localization/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1757'), ('SYSTEMD_EXEC_PID', '1965'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '84503'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('JOURNAL_STREAM', '8:31011'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/1942,unix/labMGJSX0:/tmp/.ICE-unix/1942'), ('INVOCATION_ID', '5cd41880c54a46748a7cdb4a4e0792f9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_state_estimation:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/scan_to_image_localizer:/home/student/ros2_ws/install/scan_matching_localiser:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3499b86a-e013-49e6-b297-745dae3b5ba0'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/build/scan_matching_localiser'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/build/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/build/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_state_estimation:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/scan_to_image_localizer:/home/student/ros2_ws/install/scan_matching_localiser:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.081615] (-) TimerEvent: {}
+[0.099046] (scan_matching_localiser) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target map_processor_node\x1b[0m\n'}
+[0.138171] (scan_matching_localiser) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o\x1b[0m\n'}
+[0.181738] (-) TimerEvent: {}
+[0.282164] (-) TimerEvent: {}
+[0.382597] (-) TimerEvent: {}
+[0.483139] (-) TimerEvent: {}
+[0.583722] (-) TimerEvent: {}
+[0.658565] (scan_matching_localiser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:9\x1b[m\x1b[K:\n'}
+[0.658826] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.658908] (scan_matching_localiser) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[0.658977] (scan_matching_localiser) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.683835] (-) TimerEvent: {}
+[0.784201] (-) TimerEvent: {}
+[0.884626] (-) TimerEvent: {}
+[0.985156] (-) TimerEvent: {}
+[1.085711] (-) TimerEvent: {}
+[1.186156] (-) TimerEvent: {}
+[1.286573] (-) TimerEvent: {}
+[1.387035] (-) TimerEvent: {}
+[1.487630] (-) TimerEvent: {}
+[1.588160] (-) TimerEvent: {}
+[1.689420] (-) TimerEvent: {}
+[1.789954] (-) TimerEvent: {}
+[1.891073] (-) TimerEvent: {}
+[1.991609] (-) TimerEvent: {}
+[2.092080] (-) TimerEvent: {}
+[2.192447] (-) TimerEvent: {}
+[2.292872] (-) TimerEvent: {}
+[2.393306] (-) TimerEvent: {}
+[2.494265] (-) TimerEvent: {}
+[2.594931] (-) TimerEvent: {}
+[2.695418] (-) TimerEvent: {}
+[2.795886] (-) TimerEvent: {}
+[2.897826] (-) TimerEvent: {}
+[2.998249] (-) TimerEvent: {}
+[3.098697] (-) TimerEvent: {}
+[3.199149] (-) TimerEvent: {}
+[3.299618] (-) TimerEvent: {}
+[3.400074] (-) TimerEvent: {}
+[3.500519] (-) TimerEvent: {}
+[3.600965] (-) TimerEvent: {}
+[3.701524] (-) TimerEvent: {}
+[3.802029] (-) TimerEvent: {}
+[3.902638] (-) TimerEvent: {}
+[4.003046] (-) TimerEvent: {}
+[4.103589] (-) TimerEvent: {}
+[4.204179] (-) TimerEvent: {}
+[4.304709] (-) TimerEvent: {}
+[4.405267] (-) TimerEvent: {}
+[4.505819] (-) TimerEvent: {}
+[4.606244] (-) TimerEvent: {}
+[4.706782] (-) TimerEvent: {}
+[4.807370] (-) TimerEvent: {}
+[4.907969] (-) TimerEvent: {}
+[5.008425] (-) TimerEvent: {}
+[5.085806] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KKDL::Twist\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.086249] (scan_matching_localiser) StderrLine: {'line': b'  176 | Publisher<geometry_msgs::msg::\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K>::SharedPtr cmd_publisher_;\n'}
+[5.086425] (scan_matching_localiser) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.086577] (scan_matching_localiser) StderrLine: {'line': b'\n'}
+[5.086885] (scan_matching_localiser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:53\x1b[m\x1b[K,\n'}
+[5.087032] (scan_matching_localiser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:37\x1b[m\x1b[K,\n'}
+[5.087168] (scan_matching_localiser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:9\x1b[m\x1b[K:\n'}
+[5.087301] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/kdl/frames.hpp:720:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KKDL::Twist\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.087450] (scan_matching_localiser) StderrLine: {'line': b'  720 | class \x1b[01;36m\x1b[KTwist\x1b[m\x1b[K {\n'}
+[5.087574] (scan_matching_localiser) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.087696] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.087820] (scan_matching_localiser) StderrLine: {'line': b'  176 | sher<geometry_msgs::msg::Twist\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr cmd_publisher_;\n'}
+[5.087966] (scan_matching_localiser) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.088100] (scan_matching_localiser) StderrLine: {'line': b'\n'}
+[5.088226] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[5.088364] (scan_matching_localiser) StderrLine: {'line': b'  176 | r<geometry_msgs::msg::Twist>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K cmd_publisher_;\n'}
+[5.088491] (scan_matching_localiser) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.088615] (scan_matching_localiser) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.093012] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcmd_publisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.093295] (scan_matching_localiser) StderrLine: {'line': b'  176 | _msgs::msg::Twist>::SharedPtr \x1b[01;31m\x1b[Kcmd_publisher_\x1b[m\x1b[K;\n'}
+[5.093467] (scan_matching_localiser) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.093624] (scan_matching_localiser) StderrLine: {'line': b'      |                               \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[5.094109] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMapProcessorNode::MapProcessorNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.094410] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:15:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMapProcessorNode\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Krelative_orientaion_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.094629] (scan_matching_localiser) StderrLine: {'line': b'   15 | de"), angle_difference_(0.0), \x1b[01;31m\x1b[Krelative_orientaion_\x1b[m\x1b[K(0.0)\n'}
+[5.094813] (scan_matching_localiser) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.094986] (scan_matching_localiser) StderrLine: {'line': b'\n'}
+[5.108510] (-) TimerEvent: {}
+[5.122804] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcmd_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.123090] (scan_matching_localiser) StderrLine: {'line': b'   23 |         \x1b[01;31m\x1b[Kcmd_publisher_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);\n'}
+[5.123260] (scan_matching_localiser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.123401] (scan_matching_localiser) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[5.123891] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KKDL::Twist\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.124299] (scan_matching_localiser) StderrLine: {'line': b'   23 | publisher<geometry_msgs::msg::\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K>("/cmd_vel", 10);\n'}
+[5.124628] (scan_matching_localiser) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.124920] (scan_matching_localiser) StderrLine: {'line': b'\n'}
+[5.125147] (scan_matching_localiser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:53\x1b[m\x1b[K,\n'}
+[5.125336] (scan_matching_localiser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:37\x1b[m\x1b[K,\n'}
+[5.125564] (scan_matching_localiser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:9\x1b[m\x1b[K:\n'}
+[5.125739] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/kdl/frames.hpp:720:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KKDL::Twist\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.125867] (scan_matching_localiser) StderrLine: {'line': b'  720 | class \x1b[01;36m\x1b[KTwist\x1b[m\x1b[K {\n'}
+[5.127760] (scan_matching_localiser) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.127904] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMapProcessorNode::create_publisher<<expression error> >(const char [9], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.128035] (scan_matching_localiser) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[Kher<geometry_msgs::msg::Twist>("/cmd_vel", 10)\x1b[m\x1b[K;\n'}
+[5.128159] (scan_matching_localiser) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.128281] (scan_matching_localiser) StderrLine: {'line': b'\n'}
+[5.128396] (scan_matching_localiser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.128515] (scan_matching_localiser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.128635] (scan_matching_localiser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.128751] (scan_matching_localiser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.128868] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.128995] (scan_matching_localiser) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[5.129150] (scan_matching_localiser) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.129320] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.129496] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.129695] (scan_matching_localiser) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[Kher<geometry_msgs::msg::Twist>("/cmd_vel", 10)\x1b[m\x1b[K;\n'}
+[5.129865] (scan_matching_localiser) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.130002] (scan_matching_localiser) StderrLine: {'line': b'\n'}
+[5.149606] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MapProcessorNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.149787] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:58:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KrotateRobot\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.149874] (scan_matching_localiser) StderrLine: {'line': b'   58 |         \x1b[01;31m\x1b[KrotateRobot\x1b[m\x1b[K();\n'}
+[5.150129] (scan_matching_localiser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.150235] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MapProcessorNode::occupancyGridToImage(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.150397] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:65:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.150548] (scan_matching_localiser) StderrLine: {'line': b'   65 |         for (int row = 0; \x1b[01;35m\x1b[Krow < grid->info.height\x1b[m\x1b[K; ++row)\n'}
+[5.150670] (scan_matching_localiser) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.150789] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:67:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.150922] (scan_matching_localiser) StderrLine: {'line': b'   67 |         for (int col = 0; \x1b[01;35m\x1b[Kcol < grid->info.width\x1b[m\x1b[K; ++col)\n'}
+[5.151056] (scan_matching_localiser) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.151171] (scan_matching_localiser) StderrLine: {'line': b'\n'}
+[5.173056] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MapProcessorNode::detectAndMatchFeatures(const cv::Mat&, const cv::Mat&, std::vector<cv::Point_<float> >&, std::vector<cv::Point_<float> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.173518] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:141:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimage_c\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kimgage_c\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.173754] (scan_matching_localiser) StderrLine: {'line': b'  141 |         orb->detectAndCompute(\x1b[01;31m\x1b[Kimage_c\x1b[m\x1b[K, cv::noArray(), keypoints2, descriptors2);\n'}
+[5.173935] (scan_matching_localiser) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.174092] (scan_matching_localiser) StderrLine: {'line': b'      |                               \x1b[32m\x1b[Kimgage_c\x1b[m\x1b[K\n'}
+[5.176792] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:134:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kimgage_c\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.177094] (scan_matching_localiser) StderrLine: {'line': b'  134 | Mat& imgage_b, \x1b[01;35m\x1b[Kconst cv::Mat& imgage_c\x1b[m\x1b[K, std::vector<cv::Point2f>& src_points, std::vector<cv::Point2f>& dst_points)\n'}
+[5.177279] (scan_matching_localiser) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[5.177468] (scan_matching_localiser) StderrLine: {'line': b'\n'}
+[5.208631] (-) TimerEvent: {}
+[5.309020] (-) TimerEvent: {}
+[5.409479] (-) TimerEvent: {}
+[5.510004] (-) TimerEvent: {}
+[5.610500] (-) TimerEvent: {}
+[5.710972] (-) TimerEvent: {}
+[5.811461] (-) TimerEvent: {}
+[5.912017] (-) TimerEvent: {}
+[6.012475] (-) TimerEvent: {}
+[6.113294] (-) TimerEvent: {}
+[6.213734] (-) TimerEvent: {}
+[6.314137] (-) TimerEvent: {}
+[6.414719] (-) TimerEvent: {}
+[6.515266] (-) TimerEvent: {}
+[6.616315] (-) TimerEvent: {}
+[6.716909] (-) TimerEvent: {}
+[6.817318] (-) TimerEvent: {}
+[6.917895] (-) TimerEvent: {}
+[7.018418] (-) TimerEvent: {}
+[7.118823] (-) TimerEvent: {}
+[7.220293] (-) TimerEvent: {}
+[7.320709] (-) TimerEvent: {}
+[7.421084] (-) TimerEvent: {}
+[7.521546] (-) TimerEvent: {}
+[7.622629] (-) TimerEvent: {}
+[7.723210] (-) TimerEvent: {}
+[7.823925] (-) TimerEvent: {}
+[7.924375] (-) TimerEvent: {}
+[8.024826] (-) TimerEvent: {}
+[8.125934] (-) TimerEvent: {}
+[8.226518] (-) TimerEvent: {}
+[8.327141] (-) TimerEvent: {}
+[8.427615] (-) TimerEvent: {}
+[8.529290] (-) TimerEvent: {}
+[8.629741] (-) TimerEvent: {}
+[8.730313] (-) TimerEvent: {}
+[8.830764] (-) TimerEvent: {}
+[8.931205] (-) TimerEvent: {}
+[9.033271] (-) TimerEvent: {}
+[9.133914] (-) TimerEvent: {}
+[9.234434] (-) TimerEvent: {}
+[9.334844] (-) TimerEvent: {}
+[9.435400] (-) TimerEvent: {}
+[9.535808] (-) TimerEvent: {}
+[9.636218] (-) TimerEvent: {}
+[9.736770] (-) TimerEvent: {}
+[9.837381] (-) TimerEvent: {}
+[9.940651] (-) TimerEvent: {}
+[10.041231] (-) TimerEvent: {}
+[10.141800] (-) TimerEvent: {}
+[10.242379] (-) TimerEvent: {}
+[10.342936] (-) TimerEvent: {}
+[10.443559] (-) TimerEvent: {}
+[10.544805] (-) TimerEvent: {}
+[10.561491] (scan_matching_localiser) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1\n'}
+[10.561882] (scan_matching_localiser) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2\n'}
+[10.562176] (scan_matching_localiser) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.565051] (scan_matching_localiser) CommandEnded: {'returncode': 2}
+[10.644310] (scan_matching_localiser) JobEnded: {'identifier': 'scan_matching_localiser', 'rc': 2}
+[10.646516] (-) TimerEvent: {}
+[10.646827] (-) EventReactorShutdown: {}

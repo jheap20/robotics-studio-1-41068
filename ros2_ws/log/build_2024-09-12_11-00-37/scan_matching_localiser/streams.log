@@ -1,0 +1,17 @@
+[0.021s] Invoking command in '/home/student/ros2_ws/build/scan_matching_localiser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[0.189s] [ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+[0.711s] In file included from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:9[m[K:
+[0.711s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.711s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.711s]       |  [01;35m[K^~~~~~~[m[K
+[5.053s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:241:31:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble MapProcessorNode::map_scale_[m[K’
+[5.053s]   241 |     double angle_difference_, [01;31m[Kmap_scale_[m[K;
+[5.053s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[5.054s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:234:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble MapProcessorNode::map_scale_[m[K’
+[5.054s]   234 |     double [01;36m[Kmap_scale_[m[K;
+[5.054s]       |            [01;36m[K^~~~~~~~~~[m[K
+[10.445s] gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+[10.445s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+[10.446s] gmake: *** [Makefile:146: all] Error 2
+[10.448s] Invoked command in '/home/student/ros2_ws/build/scan_matching_localiser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8

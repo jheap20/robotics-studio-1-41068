@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:31 (add_executable):
+  add_executable cannot create target "image_modifier" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/student/ros2_ws/src/image_modifier_pkg".
+  See documentation for policy CMP0002 for more details.
+
+[0m

@@ -1,0 +1,19 @@
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::updatePose(double)[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:204:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoMsg(tf2::Quaternion&)[m[K’
+  204 | _.orientation = [01;31m[Ktf2::toMsg(q)[m[K;
+      |                 [01;31m[K~~~~~~~~~~^~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/tf2/tf2/impl/utils.h:18[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2/tf2/utils.h:20[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/tf2/tf2/convert.h:129:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B tf2::toMsg(const A&)[m[K’
+  129 | B [01;36m[KtoMsg[m[K(const A & a);
+      |   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2/tf2/convert.h:129:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:204:47:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KB[m[K’
+  204 | _.orientation = [01;36m[Ktf2::toMsg(q)[m[K;
+      |                 [01;36m[K~~~~~~~~~~^~~[m[K
+
+gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,18 @@
+[1.492s] Invoking command in '/home/student/ros2_ws/build/rtabmap_python': PYTHONPATH=/home/student/ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/student/ros2_ws/build/rtabmap_python/build --no-deps symlink_data
+[2.034s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.035s]   warnings.warn(
+[2.035s] running develop
+[2.378s] running egg_info
+[2.379s] writing rtabmap_python.egg-info/PKG-INFO
+[2.379s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[2.380s] writing entry points to rtabmap_python.egg-info/entry_points.txt
+[2.380s] writing requirements to rtabmap_python.egg-info/requires.txt
+[2.380s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[2.382s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[2.384s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[2.386s] running build_ext
+[2.386s] Creating /home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[2.387s] 
+[2.387s] Installed /home/student/ros2_ws/build/rtabmap_python
+[2.388s] running symlink_data
+[2.655s] Invoked command in '/home/student/ros2_ws/build/rtabmap_python' returned '0': PYTHONPATH=/home/student/ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/student/ros2_ws/build/rtabmap_python/build --no-deps symlink_data

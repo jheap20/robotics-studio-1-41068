@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target overlay_map_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/overlay_map_node.dir/src/overlay_map_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable overlay_map_node[0m
+[100%] Built target overlay_map_node
+-- Install configuration: ""
+-- Installing: /home/student/ros2_ws/install/overlay_map/lib/overlay_map/overlay_map_node
+-- Set runtime path of "/home/student/ros2_ws/install/overlay_map/lib/overlay_map/overlay_map_node" to ""
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/ament_index/resource_index/package_run_dependencies/overlay_map
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/ament_index/resource_index/parent_prefix_path/overlay_map
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/environment/ament_prefix_path.sh
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/environment/path.sh
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/environment/path.dsv
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/local_setup.bash
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/local_setup.sh
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/local_setup.zsh
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/local_setup.dsv
+-- Installing: /home/student/ros2_ws/install/overlay_map/share/overlay_map/package.dsv
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/ament_index/resource_index/packages/overlay_map
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/cmake/overlay_mapConfig.cmake
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/cmake/overlay_mapConfig-version.cmake
+-- Up-to-date: /home/student/ros2_ws/install/overlay_map/share/overlay_map/package.xml

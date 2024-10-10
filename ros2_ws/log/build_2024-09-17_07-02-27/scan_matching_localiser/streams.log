@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/student/ros2_ws/build/scan_matching_localiser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[0.152s] [ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+[4.661s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In constructor ‘[01m[KMapProcessorNode::MapProcessorNode()[m[K’:
+[4.661s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:21:25:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW2[m[K’ was not declared in this scope; did you mean ‘[01m[KWINDOW1[m[K’?
+[4.661s]    21 |         cv::namedWindow([01;31m[KWINDOW2[m[K, cv::WINDOW_AUTOSIZE);  // New window for edge image
+[4.661s]       |                         [01;31m[K^~~~~~~[m[K
+[4.661s]       |                         [32m[KWINDOW1[m[K
+[4.666s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.666s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:25:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.666s]    25 | [01;35m[Kgs::msg::LaserScan::SharedPtr msg[m[K) {
+[4.669s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.670s] 
+[4.675s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::mapCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.676s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:50:20:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW2[m[K’ was not declared in this scope; did you mean ‘[01m[KWINDOW1[m[K’?
+[4.676s]    50 |         cv::imshow([01;31m[KWINDOW2[m[K, edge_img);  // Show the edge image in a new window
+[4.676s]       |                    [01;31m[K^~~~~~~[m[K
+[4.676s]       |                    [32m[KWINDOW1[m[K
+[9.686s] gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+[9.686s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+[9.686s] gmake: *** [Makefile:146: all] Error 2
+[9.693s] Invoked command in '/home/student/ros2_ws/build/scan_matching_localiser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8

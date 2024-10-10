@@ -1,0 +1,23 @@
+[0.022s] Invoking command in '/home/student/ros2_ws/build/image_modifier_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/image_modifier_pkg -- -j8 -l8
+[0.175s] [100%] Built target image_modifier
+[0.208s] Invoked command in '/home/student/ros2_ws/build/image_modifier_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/image_modifier_pkg -- -j8 -l8
+[0.314s] Invoking command in '/home/student/ros2_ws/build/image_modifier_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/image_modifier_pkg
+[0.332s] -- Install configuration: "Release"
+[0.332s] -- Execute custom install script
+[0.342s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/lib/image_modifier_pkg/image_modifier
+[0.345s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/ament_index/resource_index/package_run_dependencies/image_modifier_pkg
+[0.346s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/ament_index/resource_index/parent_prefix_path/image_modifier_pkg
+[0.346s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/environment/ament_prefix_path.sh
+[0.346s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/environment/ament_prefix_path.dsv
+[0.346s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/environment/path.sh
+[0.347s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/environment/path.dsv
+[0.347s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/local_setup.bash
+[0.348s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/local_setup.sh
+[0.348s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/local_setup.zsh
+[0.349s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/local_setup.dsv
+[0.349s] -- Symlinking: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/package.dsv
+[0.386s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/ament_index/resource_index/packages/image_modifier_pkg
+[0.386s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/cmake/image_modifier_pkgConfig.cmake
+[0.386s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/cmake/image_modifier_pkgConfig-version.cmake
+[0.386s] -- Up-to-date symlink: /home/student/ros2_ws/install/image_modifier_pkg/share/image_modifier_pkg/package.xml
+[0.404s] Invoked command in '/home/student/ros2_ws/build/image_modifier_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/image_modifier_pkg

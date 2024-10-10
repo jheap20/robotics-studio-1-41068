@@ -1,0 +1,8 @@
+[01m[K/home/student/ros2_ws/src/laser_scan_nth_pkg/src/laser_scan_nth.cpp:[m[K In constructor ‘[01m[KLaserProcessor::LaserProcessor()[m[K’:
+[01m[K/home/student/ros2_ws/src/laser_scan_nth_pkg/src/laser_scan_nth.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kscan_sub_[m[K’?
+   12 |         [01;31m[Kscan_pub_[m[K = this->create_publisher<sensor_msgs::msg::LaserScan>("/scan_subset", 10);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Kscan_sub_[m[K
+gmake[2]: *** [CMakeFiles/laser_scan_nth.dir/build.make:76: CMakeFiles/laser_scan_nth.dir/src/laser_scan_nth.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_scan_nth.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,5 @@
+/home/student/ros2_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/MapGraphDisplay.h
+/home/student/ros2_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/MapCloudDisplay.h
+/home/student/ros2_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/InfoDisplay.h
+/home/student/ros2_ws/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/visibility.h
+/home/student/ros2_ws/install/rtabmap_rviz_plugins/lib/librtabmap_rviz_plugins.so

@@ -1,0 +1,12 @@
+[0.047s] Invoking command in '/home/student/ros2_ws/build/turtlebot3_state_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot3_state_estimation -- -j8 -l8
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target dead_reckoning[0m
+[0.235s] [ 50%] [32mBuilding CXX object CMakeFiles/dead_reckoning.dir/src/dead_reckoning.cpp.o[0m
+[5.111s] [01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:[m[K In constructor ‘[01m[KDeadReckoningNode::DeadReckoningNode()[m[K’:
+[5.111s] [01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:17:75:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveRobot[m[K’ is not a member of ‘[01m[KDeadReckoningNode[m[K’
+[5.111s]    17 | d::bind(&DeadReckoningNode::[01;31m[KmoveRobot[m[K, this));
+[5.111s]       |                             [01;31m[K^~~~~~~~~[m[K
+[5.111s] 
+[10.105s] gmake[2]: *** [CMakeFiles/dead_reckoning.dir/build.make:76: CMakeFiles/dead_reckoning.dir/src/dead_reckoning.cpp.o] Error 1
+[10.105s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dead_reckoning.dir/all] Error 2
+[10.106s] gmake: *** [Makefile:146: all] Error 2
+[10.109s] Invoked command in '/home/student/ros2_ws/build/turtlebot3_state_estimation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot3_state_estimation -- -j8 -l8

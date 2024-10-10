@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/rtabmap_rviz_plugins/ament_cmake_core/rtabmap_rviz_pluginsConfig-version.cmake

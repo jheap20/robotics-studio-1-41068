@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/scan_to_image_localizer/ament_cmake_core/scan_to_image_localizerConfig.cmake

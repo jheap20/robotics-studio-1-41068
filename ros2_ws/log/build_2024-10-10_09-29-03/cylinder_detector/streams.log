@@ -1,0 +1,67 @@
+[0.019s] Invoking command in '/home/student/ros2_ws/build/cylinder_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cylinder_detector -- -j8 -l8
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o[0m
+[3.332s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type
+[3.332s]    11 |     [01;31m[Kros[m[K::NodeHandle nh_;
+[3.332s]       |     [01;31m[K^~~[m[K
+[3.333s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type
+[3.333s]    12 |     [01;31m[Kros[m[K::Subscriber laser_sub_;
+[3.333s]       |     [01;31m[K^~~[m[K
+[3.334s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type
+[3.334s]    13 |     [01;31m[Kros[m[K::Publisher marker_pub_;
+[3.334s]       |     [01;31m[K^~~[m[K
+[3.334s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:14:14:[m[K [01;31m[Kerror: [m[K‘[01m[KBuffer[m[K’ in namespace ‘[01m[Ktf2_ros[m[K’ does not name a type
+[3.334s]    14 |     tf2_ros::[01;31m[KBuffer[m[K tf_buffer_;
+[3.334s]       |              [01;31m[K^~~~~~[m[K
+[3.334s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:26:43:[m[K [01;31m[Kerror: [m[K‘[01m[KLaserScan[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[3.334s]    26 |     void laserCallback(const sensor_msgs::[01;31m[KLaserScan[m[K::ConstPtr& scan) {
+[3.334s]       |                                           [01;31m[K^~~~~~~~~[m[K
+[3.334s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:26:62:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[3.334s]    26 |     void laserCallback(const sensor_msgs::LaserScan::ConstPtr[01;31m[K&[m[K scan) {
+[3.334s]       |                                                              [01;31m[K^[m[K
+[3.335s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:26:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[3.335s]    26 |     void laserCallback[34m[K([m[Kconst sensor_msgs::LaserScan::ConstPtr[01;31m[K&[m[K scan) {
+[3.335s]       |                       [34m[K~[m[K                                      [01;31m[K^[m[K
+[3.335s]       |                                                              [32m[K)[m[K
+[3.338s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:26:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.338s]    26 |     void laserCallback(const sensor_msgs::LaserScan::ConstPtr[01;31m[K&[m[K scan) {
+[3.338s]       |                                                              [01;31m[K^[m[K
+[3.338s]       |                                                               [32m[K;[m[K
+[3.338s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:26:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan[m[K’ does not name a type
+[3.339s]    26 |     void laserCallback(const sensor_msgs::LaserScan::ConstPtr& [01;31m[Kscan[m[K) {
+[3.339s]       |                                                                [01;31m[K^~~~[m[K
+[3.345s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:[m[K In constructor ‘[01m[KcylinderDetector::cylinderDetector()[m[K’:
+[3.345s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:21:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+[3.345s]    21 |     cylinderDetector() : tf_listener_([01;31m[Ktf_buffer_[m[K) {
+[3.345s]       |                                       [01;31m[K^~~~~~~~~~[m[K
+[3.351s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klaser_sub_[m[K’ was not declared in this scope
+[3.351s]    22 |         [01;31m[Klaser_sub_[m[K = nh_.subscribe("/scan", 1, &cylinderDetector::laserCallback, this);
+[3.351s]       |         [01;31m[K^~~~~~~~~~[m[K
+[3.354s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:22:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope
+[3.355s]    22 |         laser_sub_ = [01;31m[Knh_[m[K.subscribe("/scan", 1, &cylinderDetector::laserCallback, this);
+[3.355s]       |                      [01;31m[K^~~[m[K
+[3.361s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[3.361s]    23 |         [01;31m[Kmarker_pub_[m[K = nh_.advertise<visualization_msgs::Marker>("/cylinder_marker", 1);
+[3.361s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.361s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:23:57:[m[K [01;31m[Kerror: [m[K‘[01m[KMarker[m[K’ is not a member of ‘[01m[Kvisualization_msgs[m[K’; did you mean ‘[01m[Kvisualization_msgs::msg::Marker[m[K’?
+[3.361s]    23 |         marker_pub_ = nh_.advertise<visualization_msgs::[01;31m[KMarker[m[K>("/cylinder_marker", 1);
+[3.361s]       |                                                         [01;31m[K^~~~~~[m[K
+[3.361s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7[m[K,
+[3.361s]                  from [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:2[m[K:
+[3.361s] [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:435:7:[m[K [01;36m[Knote: [m[K‘[01m[Kvisualization_msgs::msg::Marker[m[K’ declared here
+[3.361s]   435 | using [01;36m[KMarker[m[K =
+[3.362s]       |       [01;36m[K^~~~~~[m[K
+[3.365s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:23:65:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.365s]    23 |     marker_pub_ = nh_.advertise<visualization_msgs::Marker>([01;35m[K"/cylinder_marker"[m[K, 1);
+[3.365s]       |                                                             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.365s] 
+[3.365s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.365s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:95:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[3.365s]    95 |     [01;31m[Kros[m[K::init(argc, argv, "cylinder_detector");
+[3.365s]       |     [01;31m[K^~~[m[K
+[3.365s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:97:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[3.365s]    97 |     [01;31m[Kros[m[K::spin();
+[3.365s]       |     [01;31m[K^~~[m[K
+[3.804s] gmake[2]: *** [CMakeFiles/cylinderDetector.dir/build.make:76: CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o] Error 1
+[3.804s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cylinderDetector.dir/all] Error 2
+[3.804s] gmake: *** [Makefile:146: all] Error 2
+[3.807s] Invoked command in '/home/student/ros2_ws/build/cylinder_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cylinder_detector -- -j8 -l8

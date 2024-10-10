@@ -1,0 +1,16 @@
+[0.026s] Invoking command in '/home/student/ros2_ws/build/turtlebot3_state_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot3_state_estimation -- -j8 -l8
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target dead_reckoning[0m
+[0.230s] [ 50%] [32mBuilding CXX object CMakeFiles/dead_reckoning.dir/src/dead_reckoning.cpp.o[0m
+[4.823s] [01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:[m[K In member function ‘[01m[Kvoid DeadReckoningNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.823s] [01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:23:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen_[m[K’ was not declared in this scope
+[4.823s]    23 | se.pose.position.x + noise_dist_([01;31m[Kgen_[m[K);
+[4.823s]       |                                  [01;31m[K^~~~[m[K
+[4.824s] 
+[4.834s] [01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:23:54:[m[K [01;31m[Kerror: [m[K‘[01m[Knoise_dist_[m[K’ was not declared in this scope
+[4.834s]    23 | msg->pose.pose.position.x + [01;31m[Knoise_dist_[m[K(gen_);
+[4.834s]       |                             [01;31m[K^~~~~~~~~~~[m[K
+[4.834s] 
+[9.614s] gmake[2]: *** [CMakeFiles/dead_reckoning.dir/build.make:76: CMakeFiles/dead_reckoning.dir/src/dead_reckoning.cpp.o] Error 1
+[9.614s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dead_reckoning.dir/all] Error 2
+[9.614s] gmake: *** [Makefile:146: all] Error 2
+[9.621s] Invoked command in '/home/student/ros2_ws/build/turtlebot3_state_estimation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot3_state_estimation -- -j8 -l8

@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/rtabmap_sync/cmake/extra_configs.cmake

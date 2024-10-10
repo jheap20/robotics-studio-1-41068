@@ -1,0 +1,1 @@
+/home/student/ros2_ws/src/rtabmap_ros/rtabmap_msgs/msg/Info.msg

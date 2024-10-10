@@ -1,0 +1,68 @@
+[0.015s] Invoking command in '/home/student/ros2_ws/build/cylinder_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cylinder_detector -- -j8 -l8
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target cylinderDetector[0m
+[0.184s] [ 50%] [32mBuilding CXX object CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o[0m
+[0.648s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:57:80:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.648s]    57 | ected" at (%.2f, %.2f)[01;35m[K"[m[K,
+[0.648s]       |                       [01;35m[K^[m[K
+[0.648s] 
+[0.648s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:58:65:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.648s]    58 | , cylinder_position.y[01;35m[K"[m[K);
+[0.648s]       |                      [01;35m[K^[m[K
+[0.648s] 
+[0.649s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:88:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.649s]    88 | }
+[0.649s]       |  [01;31m[K^[m[K
+[4.056s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:57:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[4.056s]    57 |   RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Cylinder detected" at (%.2f, %.2f)",
+[4.056s]       |              [01;31m[K^[m[K
+[4.056s] 
+[4.056s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:8:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.056s]     8 | [01;36m[K{[m[K
+[4.056s]       | [01;36m[K^[m[K
+[4.066s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:[m[K In constructor ‘[01m[KcylinderDetector::cylinderDetector()[m[K’:
+[4.067s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[4.067s]    13 |         [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+[4.067s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[4.067s]       |         [32m[Krmw_subscription_t[m[K
+[4.151s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[4.151s]    17 |         [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Point>("cylinder_position", 10);
+[4.152s]       |         [01;31m[K^~~~~~~~~~[m[K
+[4.152s]       |         [32m[Krmw_publisher_t[m[K
+[4.164s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcylinder_diameter_[m[K’ was not declared in this scope
+[4.164s]    20 |         [01;31m[Kcylinder_diameter_[m[K = 0.3; // 30 cm
+[4.164s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.190s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:[m[K In member function ‘[01m[Kvoid cylinderDetector::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.190s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:34:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_part_of_cylinder[m[K’ was not declared in this scope
+[4.190s]    34 |          if ([01;31m[Kis_part_of_cylinder[m[K(ranges[i - 1], ranges[i], ranges[i + 1], angle_increment))
+[4.195s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.196s] 
+[4.199s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:56:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[4.199s]    56 |             [01;31m[Kpublisher_[m[K->publish(cylinder_position);
+[4.199s]       |             [01;31m[K^~~~~~~~~~[m[K
+[4.199s]       |             [32m[Krmw_publisher_t[m[K
+[4.208s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:57:13:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[4.209s]    57 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Cylinder detected" at (%.2f, %.2f)",
+[4.210s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.210s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:57:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[4.210s]    57 |   RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Cylinder detected" at (%.2f, %.2f)",
+[4.210s]       |              [01;31m[K^[m[K
+[4.210s] 
+[4.210s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:42:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.210s]    42 |         [01;36m[K{[m[K
+[4.211s]       |         [01;36m[K^[m[K
+[4.211s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:57:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[4.211s]    57 |   RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Cylinder detected" at (%.2f, %.2f)",
+[4.211s]       |              [01;31m[K^[m[K
+[4.211s] 
+[4.211s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:25:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.212s]    25 |     [01;36m[K{[m[K
+[4.212s]       |     [01;36m[K^[m[K
+[4.212s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:[m[K At global scope:
+[4.212s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:57:24:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[4.212s]    57 |   RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Cylinder detected" at (%.2f, %.2f)",
+[4.212s]       |              [01;31m[K^[m[K
+[4.212s] 
+[7.790s] gmake[2]: *** [CMakeFiles/cylinderDetector.dir/build.make:76: CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o] Error 1
+[7.792s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cylinderDetector.dir/all] Error 2
+[7.792s] gmake: *** [Makefile:146: all] Error 2
+[7.797s] Invoked command in '/home/student/ros2_ws/build/cylinder_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cylinder_detector -- -j8 -l8

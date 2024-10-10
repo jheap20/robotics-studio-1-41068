@@ -1,0 +1,10 @@
+[ 16%] [34m[1mAutomatic MOC for target rtabmap_rviz_plugins[0m
+[ 16%] Built target rtabmap_rviz_plugins_autogen
+[ 33%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/rtabmap_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/MapCloudDisplay.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/MapGraphDisplay.cpp.o[0m
+gmake[2]: *** [CMakeFiles/rtabmap_rviz_plugins.dir/build.make:90: CMakeFiles/rtabmap_rviz_plugins.dir/src/MapCloudDisplay.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_rviz_plugins.dir/build.make:76: CMakeFiles/rtabmap_rviz_plugins.dir/rtabmap_rviz_plugins_autogen/mocs_compilation.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_rviz_plugins.dir/build.make:104: CMakeFiles/rtabmap_rviz_plugins.dir/src/MapGraphDisplay.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rtabmap_rviz_plugins.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

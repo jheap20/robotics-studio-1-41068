@@ -1,0 +1,54 @@
+[0.019s] Invoking command in '/home/student/ros2_ws/build/scan_matching_localiser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[0.165s] [ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+[0.689s] In file included from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:9[m[K:
+[0.689s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.690s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.690s]       |  [01;35m[K^~~~~~~[m[K
+[5.074s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::mapCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.074s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:35:31:[m[K [01;31m[Kerror: [m[K‘[01m[Km_MapColImage[m[K’ was not declared in this scope; did you mean ‘[01m[Km_MapBinImage[m[K’?
+[5.074s]    35 |         cv::Mat map_section = [01;31m[Km_MapColImage[m[K.clone();
+[5.074s]       |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[5.074s]       |                               [32m[Km_MapBinImage[m[K
+[5.086s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::occupancyGridToImage(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.086s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_temp_img[m[K’ was not declared in this scope
+[5.087s]    69 |     [01;31m[Km_temp_img[m[K = cv::Mat::zeros(grid->info.height, grid->info.width, CV_8UC1);
+[5.087s]       |     [01;31m[K^~~~~~~~~~[m[K
+[5.088s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:79:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.088s]    79 |            m_temp_img.at<uchar[01;31m[K>[m[K(grid->info.height - row - 1, col) = val;
+[5.088s]       |                               [01;31m[K^[m[K
+[5.088s] 
+[5.088s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:79:62:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.089s]    79 | char>([01;35m[Kgrid->info.height - row - 1[m[K, col) = val;
+[5.089s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.089s] 
+[5.089s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:81:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.089s]    81 |            m_temp_img.at<uchar[01;31m[K>[m[K(grid->info.height - row - 1, col) = 0;
+[5.089s]       |                               [01;31m[K^[m[K
+[5.089s] 
+[5.090s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:81:62:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.090s]    81 | char>([01;35m[Kgrid->info.height - row - 1[m[K, col) = 0;
+[5.090s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.090s] 
+[5.098s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:87:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_x[m[K’ was not declared in this scope
+[5.098s]    87 |     [01;31m[Korigin_x[m[K = grid->info.origin.position.x;
+[5.098s]       |     [01;31m[K^~~~~~~~[m[K
+[5.107s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:88:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_y[m[K’ was not declared in this scope
+[5.107s]    88 |     [01;31m[Korigin_y[m[K = grid->info.origin.position.y;
+[5.108s]       |     [01;31m[K^~~~~~~~[m[K
+[5.113s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:89:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_x[m[K’ was not declared in this scope; did you mean ‘[01m[Ksize_t[m[K’?
+[5.114s]    89 |     [01;31m[Ksize_x[m[K = grid->info.width;
+[5.114s]       |     [01;31m[K^~~~~~[m[K
+[5.114s]       |     [32m[Ksize_t[m[K
+[5.120s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:90:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_y[m[K’ was not declared in this scope; did you mean ‘[01m[Ksize_t[m[K’?
+[5.120s]    90 |     [01;31m[Ksize_y[m[K = grid->info.height;
+[5.120s]       |     [01;31m[K^~~~~~[m[K
+[5.120s]       |     [32m[Ksize_t[m[K
+[5.132s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:97:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_MapColImage[m[K’ was not declared in this scope; did you mean ‘[01m[Km_MapBinImage[m[K’?
+[5.132s]    97 |     [01;31m[Km_MapColImage[m[K.create(m_MapBinImage.size(), CV_8UC3);
+[5.132s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[5.132s]       |     [32m[Km_MapBinImage[m[K
+[10.527s] gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+[10.527s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+[10.528s] gmake: *** [Makefile:146: all] Error 2
+[10.531s] Invoked command in '/home/student/ros2_ws/build/scan_matching_localiser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8

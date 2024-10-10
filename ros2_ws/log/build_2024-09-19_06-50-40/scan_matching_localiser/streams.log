@@ -1,0 +1,27 @@
+[0.026s] Invoking command in '/home/student/ros2_ws/build/scan_matching_localiser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[0.190s] [ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+[4.605s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:27:49:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type
+[4.605s]    27 | nst geometry_msgs::msg::[01;31m[KPoseStamped[m[K::SharedPtr msg)
+[4.605s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[4.605s] 
+[4.605s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:27:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[4.605s]    27 | s::msg::PoseStamped::SharedPtr [01;31m[Kmsg[m[K)
+[4.605s]       |                                [01;31m[K^~~[m[K
+[4.605s] 
+[4.605s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:27:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[4.606s]    27 | s::msg::PoseStamped::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+[4.606s]       |                               [01;31m[K^[m[K[32m[K~~~[m[K
+[4.606s]       |                               [32m[K)[m[K
+[4.606s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:27:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.606s]    27 | msgs::msg::PoseStamped::[01;31m[KSharedPtr[m[K msg)
+[4.606s]       |                         [01;31m[K^~~~~~~~~[m[K
+[4.606s]       |                                  [32m[K;[m[K
+[4.606s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:27:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[4.606s]    27 | s::msg::PoseStamped::SharedPtr [01;31m[Kmsg[m[K)
+[4.606s]       |                                [01;31m[K^~~[m[K
+[4.607s] 
+[9.858s] gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+[9.859s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+[9.859s] gmake: *** [Makefile:146: all] Error 2
+[9.862s] Invoked command in '/home/student/ros2_ws/build/scan_matching_localiser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8

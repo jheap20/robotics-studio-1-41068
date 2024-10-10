@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target cylinderDetector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cylinderDetector[0m
+[100%] Built target cylinderDetector
+-- Install configuration: ""
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/lib/cylinder_detector/cylinderDetector
+-- Set runtime path of "/home/student/ros2_ws/install/cylinder_detector/lib/cylinder_detector/cylinderDetector" to ""
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/ament_index/resource_index/package_run_dependencies/cylinder_detector
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/ament_index/resource_index/parent_prefix_path/cylinder_detector
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/ament_prefix_path.sh
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/ament_prefix_path.dsv
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/path.sh
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/path.dsv
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.bash
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.sh
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.zsh
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.dsv
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/package.dsv
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/ament_index/resource_index/packages/cylinder_detector
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/cmake/cylinder_detectorConfig.cmake
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/cmake/cylinder_detectorConfig-version.cmake
+-- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/package.xml

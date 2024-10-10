@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/gazebo_map_creator_interface/rosidl_generator_c/gazebo_map_creator_interface/srv/detail/map_request__struct.h

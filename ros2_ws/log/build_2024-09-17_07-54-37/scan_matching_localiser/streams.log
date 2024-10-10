@@ -1,0 +1,33 @@
+[0.032s] Invoking command in '/home/student/ros2_ws/build/scan_matching_localiser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[0.156s] [ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+[4.547s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::detectAndMatchFeatures(const cv::Mat&, const cv::Mat&, std::vector<cv::Point_<float> >&, std::vector<cv::Point_<float> >&)[m[K’:
+[4.547s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:163:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KdrawMatches(cv::Mat&, std::vector<cv::KeyPoint>&, cv::Mat&, std::vector<cv::KeyPoint>&, size_t&, cv::Mat&)[m[K’
+[4.547s]   163 |         [01;31m[Kcv::drawMatches(edge_img, keypoints1, scan_image, keypoints2, numGoodMatches, img_matches)[m[K;
+[4.547s]       |         [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.547s] In file included from [01m[K/usr/include/opencv4/opencv2/calib3d.hpp:48[m[K,
+[4.547s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:56[m[K,
+[4.547s]                  from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:4[m[K:
+[4.547s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:1333:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid cv::drawMatches(cv::InputArray, const std::vector<cv::KeyPoint>&, cv::InputArray, const std::vector<cv::KeyPoint>&, const std::vector<cv::DMatch>&, cv::InputOutputArray, const Scalar&, const Scalar&, const std::vector<char>&, cv::DrawMatchesFlags)[m[K’
+[4.547s]  1333 | CV_EXPORTS_W void [01;36m[KdrawMatches[m[K( InputArray img1, const std::vector<KeyPoint>& keypoints1,
+[4.547s]       |                   [01;36m[K^~~~~~~~~~~[m[K
+[4.548s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:1335:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 5 from ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kconst std::vector<cv::DMatch>&[m[K’
+[4.548s]  1335 | [01;36m[Knst std::vector<DMatch>& matches1to2[m[K, InputOutputArray outImg,
+[4.548s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.548s] 
+[4.548s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:1340:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid cv::drawMatches(cv::InputArray, const std::vector<cv::KeyPoint>&, cv::InputArray, const std::vector<cv::KeyPoint>&, const std::vector<cv::DMatch>&, cv::InputOutputArray, int, const Scalar&, const Scalar&, const std::vector<char>&, cv::DrawMatchesFlags)[m[K’
+[4.548s]  1340 | CV_EXPORTS_W void [01;36m[KdrawMatches[m[K( InputArray img1, const std::vector<KeyPoint>& keypoints1,
+[4.548s]       |                   [01;36m[K^~~~~~~~~~~[m[K
+[4.552s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:1340:19:[m[K [01;36m[Knote: [m[K  candidate expects 11 arguments, 6 provided
+[4.552s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:1347:36:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid cv::drawMatches(cv::InputArray, const std::vector<cv::KeyPoint>&, cv::InputArray, const std::vector<cv::KeyPoint>&, const std::vector<std::vector<cv::DMatch> >&, cv::InputOutputArray, const Scalar&, const Scalar&, const std::vector<std::vector<char> >&, cv::DrawMatchesFlags)[m[K’
+[4.552s]  1347 | _AS(drawMatchesKnn) void [01;36m[KdrawMatches[m[K( InputArray img1, const std::vector<KeyPoint>& keypoints1,
+[4.552s]       |                          [01;36m[K^~~~~~~~~~~[m[K
+[4.552s] 
+[4.552s] [01m[K/usr/include/opencv4/opencv2/features2d.hpp:1349:71:[m[K [01;36m[Knote: [m[K  no known conversion for argument 5 from ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kconst std::vector<std::vector<cv::DMatch> >&[m[K’
+[4.552s]  1349 | [01;36m[Kr<std::vector<DMatch> >& matches1to2[m[K, InputOutputArray outImg,
+[4.552s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.553s] 
+[9.593s] gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+[9.595s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+[9.596s] gmake: *** [Makefile:146: all] Error 2
+[9.597s] Invoked command in '/home/student/ros2_ws/build/scan_matching_localiser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8

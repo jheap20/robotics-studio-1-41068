@@ -1,0 +1,31 @@
+[0.068s] Invoking command in '/home/student/ros2_ws/build/laser_processor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_processor_pkg -- -j8 -l8
+[0.752s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_processor.dir/src/laser_processor.cpp.o[0m
+[6.714s] [01m[K/home/student/ros2_ws/src/laser_processor_pkg/src/laser_processor.cpp:[m[K In constructor ‘[01m[KLaserProcessor::LaserProcessor()[m[K’:
+[6.714s] [01m[K/home/student/ros2_ws/src/laser_processor_pkg/src/laser_processor.cpp:10:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_callback[m[K’ is not a member of ‘[01m[KLaserProcessor[m[K’
+[6.715s]    10 | std::bind(&LaserProcessor::[01;31m[Kscan_callback[m[K, this, std::placeholders::_1));
+[6.715s]       |                            [01;31m[K^~~~~~~~~~~~~[m[K
+[6.715s] 
+[6.736s] [01m[K/home/student/ros2_ws/src/laser_processor_pkg/src/laser_processor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.736s] [01m[K/home/student/ros2_ws/src/laser_processor_pkg/src/laser_processor.cpp:61:35:[m[K [01;31m[Kerror: [m[K‘[01m[KLaserScanProcessor[m[K’ was not declared in this scope; did you mean ‘[01m[KLaserProcessor[m[K’?
+[6.737s]    61 | cpp::spin(std::make_shared<[01;31m[KLaserScanProcessor[m[K>());
+[6.737s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.737s]       |                            [32m[KLaserProcessor[m[K
+[6.737s] [01m[K/home/student/ros2_ws/src/laser_processor_pkg/src/laser_processor.cpp:61:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[6.738s]    61 | [01;31m[Kd::make_shared<LaserScanProcessor>()[m[K);
+[6.738s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.738s] 
+[6.742s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[6.742s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.742s]                  from [01m[K/home/student/ros2_ws/src/laser_processor_pkg/src/laser_processor.cpp:1[m[K:
+[6.742s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[6.742s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[6.743s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.743s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.743s] [01m[K/home/student/ros2_ws/src/laser_processor_pkg/src/laser_processor.cpp:61:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.743s]    61 | [01;31m[Kd::make_shared<LaserScanProcessor>()[m[K);
+[6.743s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.743s] 
+[7.981s] gmake[2]: *** [CMakeFiles/laser_processor.dir/build.make:76: CMakeFiles/laser_processor.dir/src/laser_processor.cpp.o] Error 1
+[7.981s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_processor.dir/all] Error 2
+[7.982s] gmake: *** [Makefile:146: all] Error 2
+[7.991s] Invoked command in '/home/student/ros2_ws/build/laser_processor_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_processor_pkg -- -j8 -l8

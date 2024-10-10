@@ -1,0 +1,52 @@
+[0.141s] Invoking command in '/home/student/ros2_ws/build/scan_to_image_localizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/scan_to_image_localizer -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scan_to_image_localizer
+[0.191s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.560s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.601s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.707s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.720s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.734s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.065s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.073s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.534s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.138s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.519s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.879s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.186s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.187s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/student/ros2_ws/src/scan_to_image_localizer/include>
+[3.187s] -- Configured cppcheck exclude dirs and/or files: 
+[3.187s] -- Added test 'lint_cmake' to check CMake code style
+[3.194s] -- Added test 'uncrustify' to check C / C++ code style
+[3.194s] -- Configured uncrustify additional arguments: 
+[3.194s] -- Added test 'xmllint' to check XML markup files
+[3.206s] -- Configuring done
+[3.262s] -- Generating done
+[3.278s] -- Build files have been written to: /home/student/ros2_ws/build/scan_to_image_localizer
+[3.312s] Invoked command in '/home/student/ros2_ws/build/scan_to_image_localizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/scan_to_image_localizer -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scan_to_image_localizer
+[3.313s] Invoking command in '/home/student/ros2_ws/build/scan_to_image_localizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_to_image_localizer
+[5.319s] [35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[5.321s] [ 50%] [32mBuilding CXX object CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o[0m
+[53.536s] [100%] [32m[1mLinking CXX executable scan_to_image_node[0m
+[55.437s] [100%] Built target scan_to_image_node
+[55.529s] Invoked command in '/home/student/ros2_ws/build/scan_to_image_localizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_to_image_localizer
+[55.627s] Invoking command in '/home/student/ros2_ws/build/scan_to_image_localizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/scan_to_image_localizer
+[56.447s] -- Install configuration: "Release"
+[56.447s] -- Execute custom install script
+[56.448s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/lib/scan_to_image_localizer/scan_to_image_node
+[56.448s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/ament_index/resource_index/package_run_dependencies/scan_to_image_localizer
+[56.448s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/ament_index/resource_index/parent_prefix_path/scan_to_image_localizer
+[56.448s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/ament_prefix_path.sh
+[56.448s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/ament_prefix_path.dsv
+[56.448s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/path.sh
+[56.449s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/path.dsv
+[56.449s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.bash
+[56.449s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.sh
+[56.449s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.zsh
+[56.450s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.dsv
+[56.450s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/package.dsv
+[56.450s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/ament_index/resource_index/packages/scan_to_image_localizer
+[56.453s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/cmake/scan_to_image_localizerConfig.cmake
+[56.454s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/cmake/scan_to_image_localizerConfig-version.cmake
+[56.454s] -- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/package.xml
+[56.461s] Invoked command in '/home/student/ros2_ws/build/scan_to_image_localizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/scan_to_image_localizer

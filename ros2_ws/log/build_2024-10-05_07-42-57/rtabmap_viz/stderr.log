@@ -1,0 +1,21 @@
+In file included from [01m[K/home/student/ros2_ws/src/rtabmap_ros/rtabmap_viz/src/PreferencesDialogROS.cpp:28[m[K:
+[01m[K/home/student/ros2_ws/src/rtabmap_ros/rtabmap_viz/include/rtabmap_viz/PreferencesDialogROS.h:33:10:[m[K [01;31m[Kfatal error: [m[Krtabmap/gui/PreferencesDialog.h: No such file or directory
+   33 | #include [01;31m[K<rtabmap/gui/PreferencesDialog.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rtabmap_viz.dir/build.make:104: CMakeFiles/rtabmap_viz.dir/src/PreferencesDialogROS.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/student/ros2_ws/src/rtabmap_ros/rtabmap_viz/src/GuiNode.cpp:28[m[K:
+[01m[K/home/student/ros2_ws/src/rtabmap_ros/rtabmap_viz/include/rtabmap_viz/GuiWrapper.h:38:10:[m[K [01;31m[Kfatal error: [m[Krtabmap/utilite/UEventsHandler.h: No such file or directory
+   38 | #include [01;31m[K"rtabmap/utilite/UEventsHandler.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/student/ros2_ws/src/rtabmap_ros/rtabmap_viz/src/GuiWrapper.cpp:28[m[K:
+[01m[K/home/student/ros2_ws/src/rtabmap_ros/rtabmap_viz/include/rtabmap_viz/GuiWrapper.h:38:10:[m[K [01;31m[Kfatal error: [m[Krtabmap/utilite/UEventsHandler.h: No such file or directory
+   38 | #include [01;31m[K"rtabmap/utilite/UEventsHandler.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rtabmap_viz.dir/build.make:76: CMakeFiles/rtabmap_viz.dir/src/GuiNode.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/rtabmap_viz.dir/build.make:90: CMakeFiles/rtabmap_viz.dir/src/GuiWrapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rtabmap_viz.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

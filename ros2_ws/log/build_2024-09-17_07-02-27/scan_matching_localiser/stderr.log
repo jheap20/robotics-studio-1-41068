@@ -1,0 +1,18 @@
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In constructor ‘[01m[KMapProcessorNode::MapProcessorNode()[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:21:25:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW2[m[K’ was not declared in this scope; did you mean ‘[01m[KWINDOW1[m[K’?
+   21 |         cv::namedWindow([01;31m[KWINDOW2[m[K, cv::WINDOW_AUTOSIZE);  // New window for edge image
+      |                         [01;31m[K^~~~~~~[m[K
+      |                         [32m[KWINDOW1[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:25:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   25 | [01;35m[Kgs::msg::LaserScan::SharedPtr msg[m[K) {
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::mapCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:50:20:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW2[m[K’ was not declared in this scope; did you mean ‘[01m[KWINDOW1[m[K’?
+   50 |         cv::imshow([01;31m[KWINDOW2[m[K, edge_img);  // Show the edge image in a new window
+      |                    [01;31m[K^~~~~~~[m[K
+      |                    [32m[KWINDOW1[m[K
+gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

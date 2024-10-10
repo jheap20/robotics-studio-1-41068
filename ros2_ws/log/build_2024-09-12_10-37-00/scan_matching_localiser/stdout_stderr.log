@@ -1,0 +1,74 @@
+[35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+In file included from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:43:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KKDL::Twist[m[K’?
+  176 | Publisher<geometry_msgs::msg::[01;31m[KTwist[m[K>::SharedPtr cmd_publisher_;
+      |                               [01;31m[K^~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:53[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:37[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:9[m[K:
+[01m[K/usr/include/kdl/frames.hpp:720:7:[m[K [01;36m[Knote: [m[K‘[01m[KKDL::Twist[m[K’ declared here
+  720 | class [01;36m[KTwist[m[K {
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  176 | sher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr cmd_publisher_;
+      |                               [01;31m[K^[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  176 | r<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K cmd_publisher_;
+      |                               [01;31m[K^~~~~~~~~[m[K
+      |                                        [32m[K;[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_publisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+  176 | _msgs::msg::Twist>::SharedPtr [01;31m[Kcmd_publisher_[m[K;
+      |                               [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                               [32m[Krmw_publisher_t[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In constructor ‘[01m[KMapProcessorNode::MapProcessorNode()[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:15:59:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMapProcessorNode[m[K’ does not have any field named ‘[01m[Krelative_orientaion_[m[K’
+   15 | de"), angle_difference_(0.0), [01;31m[Krelative_orientaion_[m[K(0.0)
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   23 |         [01;31m[Kcmd_publisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:69:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KKDL::Twist[m[K’?
+   23 | publisher<geometry_msgs::msg::[01;31m[KTwist[m[K>("/cmd_vel", 10);
+      |                               [01;31m[K^~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:53[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:37[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:9[m[K:
+[01m[K/usr/include/kdl/frames.hpp:720:7:[m[K [01;36m[Knote: [m[K‘[01m[KKDL::Twist[m[K’ declared here
+  720 | class [01;36m[KTwist[m[K {
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMapProcessorNode::create_publisher<<expression error> >(const char [9], int)[m[K’
+   23 | [01;31m[Kher<geometry_msgs::msg::Twist>("/cmd_vel", 10)[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 | [01;31m[Kher<geometry_msgs::msg::Twist>("/cmd_vel", 10)[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::occupancyGridToImage(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:65:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   65 |         for (int row = 0; [01;35m[Krow < grid->info.height[m[K; ++row)
+      |                           [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:67:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   67 |         for (int col = 0; [01;35m[Kcol < grid->info.width[m[K; ++col)
+      |                           [01;35m[K~~~~^~~~~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

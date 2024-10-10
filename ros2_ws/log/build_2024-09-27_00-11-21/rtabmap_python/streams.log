@@ -1,0 +1,25 @@
+[1.821s] Invoking command in '/home/student/ros2_ws/build/rtabmap_python': PYTHONPATH=/home/student/ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/student/ros2_ws/build/rtabmap_python/build --no-deps symlink_data
+[3.053s] running develop
+[3.055s] running egg_info
+[3.056s] creating rtabmap_python.egg-info
+[3.056s] writing rtabmap_python.egg-info/PKG-INFO
+[3.056s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[3.056s] writing entry points to rtabmap_python.egg-info/entry_points.txt
+[3.056s] writing requirements to rtabmap_python.egg-info/requires.txt
+[3.056s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[3.056s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[3.056s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[3.057s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[3.057s] running build_ext
+[3.057s] Creating /home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[3.057s] 
+[3.057s] Installed /home/student/ros2_ws/build/rtabmap_python
+[3.057s] running symlink_data
+[3.057s] creating /home/student/ros2_ws/install/rtabmap_python/share/ament_index
+[3.061s] creating /home/student/ros2_ws/install/rtabmap_python/share/ament_index/resource_index
+[3.061s] creating /home/student/ros2_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+[3.061s] symbolically linking /home/student/ros2_ws/build/rtabmap_python/resource/rtabmap_python -> /home/student/ros2_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+[3.061s] symbolically linking /home/student/ros2_ws/build/rtabmap_python/package.xml -> /home/student/ros2_ws/install/rtabmap_python/share/rtabmap_python
+[3.061s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.061s]   warnings.warn(
+[3.063s] Invoked command in '/home/student/ros2_ws/build/rtabmap_python' returned '0': PYTHONPATH=/home/student/ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/student/ros2_ws/build/rtabmap_python/build --no-deps symlink_data

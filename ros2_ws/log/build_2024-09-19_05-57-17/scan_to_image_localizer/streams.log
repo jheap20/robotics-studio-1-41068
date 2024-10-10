@@ -1,0 +1,18 @@
+[0.025s] Invoking command in '/home/student/ros2_ws/build/scan_to_image_localizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_to_image_localizer -- -j8 -l8
+[0.467s] [35m[1mConsolidate compiler generated dependencies of target mapProcessor_node[0m
+[0.482s] [35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[0.637s] [ 50%] [32mBuilding CXX object CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o[0m
+[0.637s] [ 50%] [32mBuilding CXX object CMakeFiles/mapProcessor_node.dir/src/mapProcessor_node.cpp.o[0m
+[0.804s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/student/ros2_ws/src/scan_to_image_localizer/src/mapProcessor_node.cpp: No such file or directory
+[0.804s] compilation terminated.
+[0.808s] gmake[2]: *** [CMakeFiles/mapProcessor_node.dir/build.make:76: CMakeFiles/mapProcessor_node.dir/src/mapProcessor_node.cpp.o] Error 1
+[0.808s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mapProcessor_node.dir/all] Error 2
+[0.808s] gmake[1]: *** Waiting for unfinished jobs....
+[4.999s] [01m[K/home/student/ros2_ws/src/scan_to_image_localizer/src/scan_to_image_node.cpp:[m[K In member function ‘[01m[Kvoid ScanToImageNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.000s] [01m[K/home/student/ros2_ws/src/scan_to_image_localizer/src/scan_to_image_node.cpp:28:14:[m[K [01;31m[Kerror: [m[K‘[01m[KrotateRobot[m[K’ was not declared in this scope
+[5.000s]    28 |              [01;31m[KrotateRobot[m[K();
+[5.000s]       |              [01;31m[K^~~~~~~~~~~[m[K
+[7.590s] gmake[2]: *** [CMakeFiles/scan_to_image_node.dir/build.make:76: CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o] Error 1
+[7.590s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/scan_to_image_node.dir/all] Error 2
+[7.590s] gmake: *** [Makefile:146: all] Error 2
+[7.593s] Invoked command in '/home/student/ros2_ws/build/scan_to_image_localizer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_to_image_localizer -- -j8 -l8

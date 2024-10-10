@@ -1,0 +1,9 @@
+[  4%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbd_sync.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+gmake[2]: *** [CMakeFiles/rtabmap_sync_plugins.dir/build.make:76: CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:76: CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_sync_plugins.dir/build.make:90: CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbd_sync.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/rtabmap_sync.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/rtabmap_sync_plugins.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,10 @@
+[0.017s] Invoking command in '/home/student/ros2_ws/build/cylinder_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cylinder_detector -- -j8 -l8
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o[0m
+[0.288s] [01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Transform.hpp: No such file or directory
+[0.288s]     3 | #include [01;31m[K<tf2/LinearMath/Transform.hpp>[m[K
+[0.288s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.289s] compilation terminated.
+[0.290s] gmake[2]: *** [CMakeFiles/cylinderDetector.dir/build.make:76: CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o] Error 1
+[0.290s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cylinderDetector.dir/all] Error 2
+[0.290s] gmake: *** [Makefile:146: all] Error 2
+[0.293s] Invoked command in '/home/student/ros2_ws/build/cylinder_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cylinder_detector -- -j8 -l8

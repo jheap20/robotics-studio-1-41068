@@ -1,0 +1,390 @@
+[35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:136:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  136 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In constructor ‘[01m[KMapProcessorNode::MapProcessorNode()[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:15:35:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMapProcessorNode[m[K’ does not have any field named ‘[01m[Kangle_difference_[m[K’
+   15 | ("map_processor_node"), [01;31m[Kangle_difference_[m[K(0.0), relative_orientaion_(0.0)
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:15:59:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMapProcessorNode[m[K’ does not have any field named ‘[01m[Krelative_orientaion_[m[K’
+   15 | angle_difference_(0.0), [01;31m[Krelative_orientaion_[m[K(0.0)
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   17 |         [01;31m[Ksubscription_[m[K = this->create_subscription<nav_msgs::msg::OccupancyGrid>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+   20 |         [01;31m[Kscan_subscriber_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcount_subscribers[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_sub_[m[K’ was not declared in this scope
+   23 |         [01;31m[Kodom_sub_[m[K = this->create_subscription<nav_msgs::msg::Odometry>(
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:26:25:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW1[m[K’ was not declared in this scope
+   26 |         cv::namedWindow([01;31m[KWINDOW1[m[K, cv::WINDOW_AUTOSIZE);
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:27:25:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW2[m[K’ was not declared in this scope
+   27 |         cv::namedWindow([01;31m[KWINDOW2[m[K, cv::WINDOW_AUTOSIZE);  // New window for edge image
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:28:25:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW3[m[K’ was not declared in this scope
+   28 |         cv::namedWindow([01;31m[KWINDOW3[m[K, cv::WINDOW_AUTOSIZE);
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:29:25:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW4[m[K’ was not declared in this scope
+   29 |         cv::namedWindow([01;31m[KWINDOW4[m[K, cv::WINDOW_AUTOSIZE);
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:35:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitialized_[m[K’ was not declared in this scope
+   35 |         if (![01;31m[Kinitialized_[m[K)
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:37:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_pose_x_[m[K’ was not declared in this scope
+   37 |             [01;31m[Kinitial_pose_x_[m[K = msg->pose.pose.position.x;
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:38:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_pose_y_[m[K’ was not declared in this scope
+   38 |             [01;31m[Kinitial_pose_y_[m[K = msg->pose.pose.position.y;
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:47:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_pose_theta_[m[K’ was not declared in this scope
+   47 |   m.getRPY(roll, pitch, [01;31m[Kinitial_pose_theta_[m[K);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:49:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose_x_[m[K’ was not declared in this scope
+   49 |             [01;31m[Kcurrent_pose_x_[m[K = initial_pose_x_;
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:50:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose_y_[m[K’ was not declared in this scope
+   50 |             [01;31m[Kcurrent_pose_y_[m[K = initial_pose_y_;
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:51:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose_theta_[m[K’ was not declared in this scope
+   51 |             [01;31m[Kcurrent_pose_theta_[m[K = initial_pose_theta_;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_image[m[K’ was not declared in this scope
+   62 |         [01;31m[Kscan_image[m[K = laserScanToImage(msg);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:62:22:[m[K [01;31m[Kerror: [m[K‘[01m[KlaserScanToImage[m[K’ was not declared in this scope
+   62 |         scan_image = [01;31m[KlaserScanToImage[m[K(msg);
+      |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:65:20:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW3[m[K’ was not declared in this scope
+   65 |         cv::imshow([01;31m[KWINDOW3[m[K, scan_image);
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:68:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcalculateYawChange[m[K’ was not declared in this scope
+   68 |         [01;31m[KcalculateYawChange[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:69:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krelative_orientaion_[m[K’ was not declared in this scope
+   69 |         [01;31m[Krelative_orientaion_[m[K = relative_orientaion_ + angle_difference_;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:69:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_difference_[m[K’ was not declared in this scope
+   69 |  relative_orientaion_ + [01;31m[Kangle_difference_[m[K;
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::mapCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoccupancyGridToImage[m[K’ was not declared in this scope
+   78 |         [01;31m[KoccupancyGridToImage[m[K(mapMsg);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:80:31:[m[K [01;31m[Kerror: [m[K‘[01m[Km_MapColImage[m[K’ was not declared in this scope
+   80 |   cv::Mat tmp_col_img = [01;31m[Km_MapColImage[m[K.clone();
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:85:20:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW1[m[K’ was not declared in this scope
+   85 |         cv::imshow([01;31m[KWINDOW1[m[K, tmp_col_img);
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:89:19:[m[K [01;31m[Kerror: [m[K‘[01m[Km_MapBinImage[m[K’ was not declared in this scope
+   89 |         cv::Canny([01;31m[Km_MapBinImage[m[K, edge_img, 10, 50);  // Apply Canny edge detection
+      |                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:89:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kedge_img[m[K’ was not declared in this scope
+   89 | v::Canny(m_MapBinImage, [01;31m[Kedge_img[m[K, 10, 50);  // Apply Canny edge detection
+      |                         [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:93:20:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW2[m[K’ was not declared in this scope
+   93 |         cv::imshow([01;31m[KWINDOW2[m[K, edge_img);  // Show the edge image in a new window
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:95:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_image[m[K’ was not declared in this scope
+   95 |         if (![01;31m[Kscan_image[m[K.empty()) {
+      |              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::extractMapSection()[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:105:9:[m[K [01;31m[Kerror: [m[K‘[01m[Km_MapColImage[m[K’ was not declared in this scope
+  105 |     if ([01;31m[Km_MapColImage[m[K.empty() || scan_image.empty() || !initialized_) {
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:105:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_image[m[K’ was not declared in this scope
+  105 | _MapColImage.empty() || [01;31m[Kscan_image[m[K.empty() || !initialized_) {
+      |                         [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:105:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitialized_[m[K’ was not declared in this scope
+  105 |  scan_image.empty() || ![01;31m[Kinitialized_[m[K) {
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:109:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose_x_[m[K’ was not declared in this scope
+  109 | p_x = static_cast<int>(([01;31m[Kcurrent_pose_x_[m[K - origin_x) / map_scale_);
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:109:59:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_x[m[K’ was not declared in this scope
+  109 | int>((current_pose_x_ - [01;31m[Korigin_x[m[K) / map_scale_);
+      |                         [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:109:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_scale_[m[K’ was not declared in this scope
+  109 | t_pose_x_ - origin_x) / [01;31m[Kmap_scale_[m[K);
+      |                         [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:110:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose_y_[m[K’ was not declared in this scope
+  110 | p_y = static_cast<int>(([01;31m[Kcurrent_pose_y_[m[K - origin_y) / map_scale_);
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:110:59:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_y[m[K’ was not declared in this scope
+  110 | int>((current_pose_y_ - [01;31m[Korigin_y[m[K) / map_scale_);
+      |                         [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:113:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_image[m[K’ was not declared in this scope
+  113 |     int extract_size = [01;31m[Kscan_image[m[K.rows; // Assuming the laser scan image is square
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:119:43:[m[K [01;31m[Kerror: [m[K‘[01m[Km_MapColImage[m[K’ was not declared in this scope
+  119 | d::min(static_cast<int>([01;31m[Km_MapColImage[m[K.cols), robot_map_x + half_size);
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:132:16:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW4[m[K’ was not declared in this scope
+  132 |     cv::imshow([01;31m[KWINDOW4[m[K, resized_map_section);
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In function ‘[01m[Kvoid occupancyGridToImage(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:144:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_temp_img[m[K’ was not declared in this scope
+  144 |     [01;31m[Km_temp_img[m[K = cv::Mat::zeros(grid->info.height, grid->info.width, CV_8UC1);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:154:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  154 |      m_temp_img.at<uchar[01;31m[K>[m[K(grid->info.height - row - 1, col) = val;
+      |                         [01;31m[K^[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:154:62:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  154 | [01;35m[Kgrid->info.height - row - 1[m[K, col) = val;
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:156:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  156 |      m_temp_img.at<uchar[01;31m[K>[m[K(grid->info.height - row - 1, col) = 0;
+      |                         [01;31m[K^[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:156:62:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  156 | [01;35m[Kgrid->info.height - row - 1[m[K, col) = 0;
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:161:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_scale_[m[K’ was not declared in this scope
+  161 |     [01;31m[Kmap_scale_[m[K = grid->info.resolution;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:162:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_x[m[K’ was not declared in this scope
+  162 |     [01;31m[Korigin_x[m[K = grid->info.origin.position.x;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:163:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korigin_y[m[K’ was not declared in this scope
+  163 |     [01;31m[Korigin_y[m[K = grid->info.origin.position.y;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:164:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_x[m[K’ was not declared in this scope; did you mean ‘[01m[Ksize_t[m[K’?
+  164 |     [01;31m[Ksize_x[m[K = grid->info.width;
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ksize_t[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:165:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_y[m[K’ was not declared in this scope; did you mean ‘[01m[Ksize_t[m[K’?
+  165 |     [01;31m[Ksize_y[m[K = grid->info.height;
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ksize_t[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:170:27:[m[K [01;31m[Kerror: [m[K‘[01m[Km_MapBinImage[m[K’ was not declared in this scope
+  170 |   cv::erode(m_temp_img, [01;31m[Km_MapBinImage[m[K, kernel);
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:172:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_MapColImage[m[K’ was not declared in this scope
+  172 |     [01;31m[Km_MapColImage[m[K.create(m_MapBinImage.size(), CV_8UC3);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In function ‘[01m[Kvoid calculateYawChange()[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:239:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kedge_img[m[K’ was not declared in this scope
+  239 |  detectAndMatchFeatures([01;31m[Kedge_img[m[K, scan_image, srcPoints, dstPoints);
+      |                         [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:239:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_image[m[K’ was not declared in this scope
+  239 | MatchFeatures(edge_img, [01;31m[Kscan_image[m[K, srcPoints, dstPoints);
+      |                         [01;31m[K^~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1[m[K:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:242:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  242 |            RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Not enough points for affine transformation.");
+      |                         [01;31m[K^~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:242:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:242:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  242 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Not enough points for affine transformation.");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:242:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  242 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Not enough points for affine transformation.");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:242:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  242 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Not enough points for affine transformation.");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1[m[K:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:242:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  242 |            RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Not enough points for affine transformation.");
+      |                         [01;31m[K^~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:242:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  242 |            RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Not enough points for affine transformation.");
+      |                         [01;31m[K^~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1[m[K:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:249:30:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  249 |            RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Transformation matrix estimation failed.");
+      |                         [01;31m[K^~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:249:30:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:249:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  249 |                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Transformation matrix estimation failed.");
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:249:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  249 |                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Transformation matrix estimation failed.");
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:249:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  249 |                 [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Transformation matrix estimation failed.");
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1[m[K:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:249:30:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  249 |            RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Transformation matrix estimation failed.");
+      |                         [01;31m[K^~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:249:30:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  249 |            RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Transformation matrix estimation failed.");
+      |                         [01;31m[K^~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:252:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_difference_[m[K’ was not declared in this scope
+  252 |                 [01;31m[Kangle_difference_[m[K = atan2(transform_matrix.at<double>(1, 0), transform_matrix.at<double>(0, 0));
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1[m[K:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:254:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  254 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Estimated yaw angle change: %f degrees", angle_difference_);
+      |                         [01;31m[K^~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:254:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:254:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  254 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Estimated yaw angle change: %f degrees", angle_difference_);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:254:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  254 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Estimated yaw angle change: %f degrees", angle_difference_);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:254:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  254 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Estimated yaw angle change: %f degrees", angle_difference_);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1[m[K:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:254:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  254 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Estimated yaw angle change: %f degrees", angle_difference_);
+      |                         [01;31m[K^~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:254:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  254 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Estimated yaw angle change: %f degrees", angle_difference_);
+      |                         [01;31m[K^~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1[m[K:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:257:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  257 |            RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Error in estimateAffinePartial2D: %s", e.what());
+      |                         [01;31m[K^~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:257:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:257:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  257 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error in estimateAffinePartial2D: %s", e.what());
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:257:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  257 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error in estimateAffinePartial2D: %s", e.what());
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:257:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  257 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error in estimateAffinePartial2D: %s", e.what());
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1[m[K:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:257:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  257 |            RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Error in estimateAffinePartial2D: %s", e.what());
+      |                         [01;31m[K^~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:257:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  257 |            RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Error in estimateAffinePartial2D: %s", e.what());
+      |                         [01;31m[K^~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K At global scope:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:296:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  296 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

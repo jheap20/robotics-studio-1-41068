@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/student/ros2_ws/build/laser_processor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_processor_pkg -- -j8 -l8
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target laser_processor[0m
+[0.189s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_processor.dir/src/laser_processor.cpp.o[0m
+[17.966s] [100%] [32m[1mLinking CXX executable laser_processor[0m
+[18.823s] [100%] Built target laser_processor
+[18.846s] Invoked command in '/home/student/ros2_ws/build/laser_processor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_processor_pkg -- -j8 -l8
+[19.011s] Invoking command in '/home/student/ros2_ws/build/laser_processor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/laser_processor_pkg
+[19.027s] -- Install configuration: ""
+[19.027s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/lib/laser_processor_pkg/laser_processor
+[19.041s] -- Set runtime path of "/home/student/ros2_ws/install/laser_processor_pkg/lib/laser_processor_pkg/laser_processor" to ""
+[19.041s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/ament_index/resource_index/package_run_dependencies/laser_processor_pkg
+[19.041s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/ament_index/resource_index/parent_prefix_path/laser_processor_pkg
+[19.042s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/environment/ament_prefix_path.sh
+[19.042s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/environment/ament_prefix_path.dsv
+[19.042s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/environment/path.sh
+[19.042s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/environment/path.dsv
+[19.043s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/local_setup.bash
+[19.043s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/local_setup.sh
+[19.043s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/local_setup.zsh
+[19.043s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/local_setup.dsv
+[19.043s] -- Installing: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/package.dsv
+[19.043s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/ament_index/resource_index/packages/laser_processor_pkg
+[19.043s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/cmake/laser_processor_pkgConfig.cmake
+[19.044s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/cmake/laser_processor_pkgConfig-version.cmake
+[19.045s] -- Up-to-date: /home/student/ros2_ws/install/laser_processor_pkg/share/laser_processor_pkg/package.xml
+[19.053s] Invoked command in '/home/student/ros2_ws/build/laser_processor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/laser_processor_pkg

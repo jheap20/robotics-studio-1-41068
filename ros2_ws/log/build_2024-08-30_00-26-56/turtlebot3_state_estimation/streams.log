@@ -1,0 +1,30 @@
+[0.020s] Invoking command in '/home/student/ros2_ws/build/turtlebot3_state_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot3_state_estimation -- -j8 -l8
+[0.158s] [ 50%] [32mBuilding CXX object CMakeFiles/dead_reckoning.dir/src/dead_reckoning.cpp.o[0m
+[4.881s] [01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:[m[K In member function ‘[01m[Kvoid DeadReckoningNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.881s] [01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:20:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.881s]    20 | [01;35m[Knav_msgs::msg::Odometry::SharedPtr msg[m[K)
+[4.881s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.881s] 
+[16.310s] [100%] [32m[1mLinking CXX executable dead_reckoning[0m
+[17.103s] [100%] Built target dead_reckoning
+[17.130s] Invoked command in '/home/student/ros2_ws/build/turtlebot3_state_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot3_state_estimation -- -j8 -l8
+[17.244s] Invoking command in '/home/student/ros2_ws/build/turtlebot3_state_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/turtlebot3_state_estimation
+[17.283s] -- Install configuration: ""
+[17.284s] -- Installing: /home/student/ros2_ws/install/turtlebot3_state_estimation/lib/turtlebot3_state_estimation/dead_reckoning
+[17.304s] -- Set runtime path of "/home/student/ros2_ws/install/turtlebot3_state_estimation/lib/turtlebot3_state_estimation/dead_reckoning" to ""
+[17.304s] -- Up-to-date: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/ament_index/resource_index/package_run_dependencies/turtlebot3_state_estimation
+[17.305s] -- Installing: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/ament_index/resource_index/parent_prefix_path/turtlebot3_state_estimation
+[17.305s] -- Up-to-date: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/environment/ament_prefix_path.sh
+[17.306s] -- Installing: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/environment/ament_prefix_path.dsv
+[17.306s] -- Up-to-date: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/environment/path.sh
+[17.306s] -- Installing: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/environment/path.dsv
+[17.306s] -- Up-to-date: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/local_setup.bash
+[17.306s] -- Up-to-date: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/local_setup.sh
+[17.306s] -- Up-to-date: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/local_setup.zsh
+[17.307s] -- Installing: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/local_setup.dsv
+[17.307s] -- Up-to-date: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/package.dsv
+[17.307s] -- Up-to-date: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/ament_index/resource_index/packages/turtlebot3_state_estimation
+[17.307s] -- Up-to-date: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/cmake/turtlebot3_state_estimationConfig.cmake
+[17.307s] -- Up-to-date: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/cmake/turtlebot3_state_estimationConfig-version.cmake
+[17.307s] -- Up-to-date: /home/student/ros2_ws/install/turtlebot3_state_estimation/share/turtlebot3_state_estimation/package.xml
+[17.309s] Invoked command in '/home/student/ros2_ws/build/turtlebot3_state_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/turtlebot3_state_estimation

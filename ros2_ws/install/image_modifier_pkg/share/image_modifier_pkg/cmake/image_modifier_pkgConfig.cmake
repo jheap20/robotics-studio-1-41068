@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/image_modifier_pkg/ament_cmake_core/image_modifier_pkgConfig.cmake

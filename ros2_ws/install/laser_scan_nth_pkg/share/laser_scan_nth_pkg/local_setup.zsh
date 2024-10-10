@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/laser_scan_nth_pkg/ament_cmake_environment_hooks/local_setup.zsh

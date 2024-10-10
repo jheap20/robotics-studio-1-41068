@@ -1,0 +1,12 @@
+[0.025s] Invoking command in '/home/student/ros2_ws/build/laser_scan_nth_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_scan_nth_pkg -- -j8 -l8
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target laser_scan_nth[0m
+[0.188s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_scan_nth.dir/src/laser_scan_nth.cpp.o[0m
+[4.207s] [01m[K/home/student/ros2_ws/src/laser_scan_nth_pkg/src/laser_scan_nth.cpp:[m[K In member function ‘[01m[Kvoid LaserProcessor::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.207s] [01m[K/home/student/ros2_ws/src/laser_scan_nth_pkg/src/laser_scan_nth.cpp:62:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubset_scan_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubset_scan[m[K’?
+[4.208s]    62 |        scan_pub_->publish(*[01;31m[Ksubset_scan_[m[K);
+[4.208s]       |                            [01;31m[K^~~~~~~~~~~~[m[K
+[4.208s]       |                            [32m[Ksubset_scan[m[K
+[8.491s] gmake[2]: *** [CMakeFiles/laser_scan_nth.dir/build.make:76: CMakeFiles/laser_scan_nth.dir/src/laser_scan_nth.cpp.o] Error 1
+[8.491s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_scan_nth.dir/all] Error 2
+[8.491s] gmake: *** [Makefile:146: all] Error 2
+[8.495s] Invoked command in '/home/student/ros2_ws/build/laser_scan_nth_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_scan_nth_pkg -- -j8 -l8

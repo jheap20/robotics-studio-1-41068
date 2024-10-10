@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.000232] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000286] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000323] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000355] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000384] (-) JobUnselected: {'identifier': 'image_modifier_pkg'}
+[0.000423] (-) JobUnselected: {'identifier': 'laser_processor_pkg'}
+[0.000450] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000477] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000504] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000531] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000558] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000585] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000615] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000648] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000675] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000702] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000729] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000756] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000784] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000816] (laser_scan_nth_pkg) JobQueued: {'identifier': 'laser_scan_nth_pkg', 'dependencies': OrderedDict()}
+[0.000850] (laser_scan_nth_pkg) JobStarted: {'identifier': 'laser_scan_nth_pkg'}
+[0.036855] (laser_scan_nth_pkg) JobProgress: {'identifier': 'laser_scan_nth_pkg', 'progress': 'cmake'}
+[0.037055] (laser_scan_nth_pkg) JobProgress: {'identifier': 'laser_scan_nth_pkg', 'progress': 'build'}
+[0.037120] (laser_scan_nth_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/build/laser_scan_nth_pkg', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/build/laser_scan_nth_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1964'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1868'), ('SYSTEMD_EXEC_PID', '2076'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3111'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('JOURNAL_STREAM', '8:29610'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2052,unix/labMGJSX0:/tmp/.ICE-unix/2052'), ('INVOCATION_ID', '20fa03fea5a942d58e1c7225faa064b5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6a09c9fb-a71e-4c84-b6a2-ed364516f973'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/build/laser_scan_nth_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/build/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/build/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.098385] (-) TimerEvent: {}
+[0.145940] (laser_scan_nth_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target laser_scan_nth\x1b[0m\n'}
+[0.198527] (-) TimerEvent: {}
+[0.201686] (laser_scan_nth_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/laser_scan_nth.dir/src/laser_scan_nth.cpp.o\x1b[0m\n'}
+[0.298667] (-) TimerEvent: {}
+[0.399143] (-) TimerEvent: {}
+[0.499771] (-) TimerEvent: {}
+[0.602038] (-) TimerEvent: {}
+[0.704076] (-) TimerEvent: {}
+[0.804715] (-) TimerEvent: {}
+[0.905208] (-) TimerEvent: {}
+[1.005811] (-) TimerEvent: {}
+[1.106282] (-) TimerEvent: {}
+[1.206755] (-) TimerEvent: {}
+[1.307231] (-) TimerEvent: {}
+[1.407703] (-) TimerEvent: {}
+[1.508193] (-) TimerEvent: {}
+[1.609098] (-) TimerEvent: {}
+[1.709725] (-) TimerEvent: {}
+[1.810320] (-) TimerEvent: {}
+[1.910944] (-) TimerEvent: {}
+[2.011544] (-) TimerEvent: {}
+[2.116049] (-) TimerEvent: {}
+[2.217375] (-) TimerEvent: {}
+[2.317977] (-) TimerEvent: {}
+[2.418519] (-) TimerEvent: {}
+[2.518923] (-) TimerEvent: {}
+[2.619350] (-) TimerEvent: {}
+[2.721236] (-) TimerEvent: {}
+[2.821787] (-) TimerEvent: {}
+[2.922383] (-) TimerEvent: {}
+[3.022899] (-) TimerEvent: {}
+[3.123472] (-) TimerEvent: {}
+[3.224053] (-) TimerEvent: {}
+[3.324731] (-) TimerEvent: {}
+[3.425405] (-) TimerEvent: {}
+[3.525970] (-) TimerEvent: {}
+[3.626571] (-) TimerEvent: {}
+[3.727137] (-) TimerEvent: {}
+[3.827812] (-) TimerEvent: {}
+[3.928404] (-) TimerEvent: {}
+[4.029113] (-) TimerEvent: {}
+[4.129598] (-) TimerEvent: {}
+[4.230222] (-) TimerEvent: {}
+[4.330717] (-) TimerEvent: {}
+[4.431221] (-) TimerEvent: {}
+[4.531692] (-) TimerEvent: {}
+[4.632289] (-) TimerEvent: {}
+[4.732782] (-) TimerEvent: {}
+[4.833387] (-) TimerEvent: {}
+[4.933885] (-) TimerEvent: {}
+[5.034476] (-) TimerEvent: {}
+[5.135110] (-) TimerEvent: {}
+[5.235683] (-) TimerEvent: {}
+[5.339108] (-) TimerEvent: {}
+[5.439529] (-) TimerEvent: {}
+[5.540116] (-) TimerEvent: {}
+[5.640584] (-) TimerEvent: {}
+[5.741761] (-) TimerEvent: {}
+[5.842159] (-) TimerEvent: {}
+[5.942738] (-) TimerEvent: {}
+[6.043397] (-) TimerEvent: {}
+[6.143913] (-) TimerEvent: {}
+[6.244412] (-) TimerEvent: {}
+[6.344839] (-) TimerEvent: {}
+[6.445334] (-) TimerEvent: {}
+[6.545821] (-) TimerEvent: {}
+[6.646498] (-) TimerEvent: {}
+[6.747077] (-) TimerEvent: {}
+[6.847439] (-) TimerEvent: {}
+[6.947892] (-) TimerEvent: {}
+[7.048463] (-) TimerEvent: {}
+[7.151792] (-) TimerEvent: {}
+[7.252254] (-) TimerEvent: {}
+[7.353571] (-) TimerEvent: {}
+[7.454180] (-) TimerEvent: {}
+[7.554678] (-) TimerEvent: {}
+[7.655184] (-) TimerEvent: {}
+[7.755755] (-) TimerEvent: {}
+[7.856379] (-) TimerEvent: {}
+[7.956990] (-) TimerEvent: {}
+[8.057561] (-) TimerEvent: {}
+[8.158069] (-) TimerEvent: {}
+[8.258539] (-) TimerEvent: {}
+[8.359032] (-) TimerEvent: {}
+[8.459453] (-) TimerEvent: {}
+[8.559925] (-) TimerEvent: {}
+[8.660537] (-) TimerEvent: {}
+[8.761181] (-) TimerEvent: {}
+[8.861816] (-) TimerEvent: {}
+[8.962470] (-) TimerEvent: {}
+[9.063982] (-) TimerEvent: {}
+[9.164497] (-) TimerEvent: {}
+[9.265114] (-) TimerEvent: {}
+[9.365721] (-) TimerEvent: {}
+[9.466388] (-) TimerEvent: {}
+[9.568585] (-) TimerEvent: {}
+[9.669881] (-) TimerEvent: {}
+[9.770367] (-) TimerEvent: {}
+[9.870779] (-) TimerEvent: {}
+[9.972587] (-) TimerEvent: {}
+[10.074442] (-) TimerEvent: {}
+[10.174984] (-) TimerEvent: {}
+[10.275348] (-) TimerEvent: {}
+[10.375827] (-) TimerEvent: {}
+[10.476303] (-) TimerEvent: {}
+[10.576751] (-) TimerEvent: {}
+[10.677333] (-) TimerEvent: {}
+[10.777854] (-) TimerEvent: {}
+[10.878275] (-) TimerEvent: {}
+[10.978716] (-) TimerEvent: {}
+[11.079136] (-) TimerEvent: {}
+[11.179535] (-) TimerEvent: {}
+[11.279912] (-) TimerEvent: {}
+[11.380396] (-) TimerEvent: {}
+[11.488498] (-) TimerEvent: {}
+[11.589127] (-) TimerEvent: {}
+[11.689748] (-) TimerEvent: {}
+[11.799110] (-) TimerEvent: {}
+[11.899535] (-) TimerEvent: {}
+[11.999973] (-) TimerEvent: {}
+[12.100441] (-) TimerEvent: {}
+[12.202945] (-) TimerEvent: {}
+[12.303467] (-) TimerEvent: {}
+[12.407645] (-) TimerEvent: {}
+[12.508053] (-) TimerEvent: {}
+[12.608458] (-) TimerEvent: {}
+[12.712062] (-) TimerEvent: {}
+[12.812495] (-) TimerEvent: {}
+[12.912912] (-) TimerEvent: {}
+[13.013477] (-) TimerEvent: {}
+[13.114027] (-) TimerEvent: {}
+[13.214463] (-) TimerEvent: {}
+[13.314925] (-) TimerEvent: {}
+[13.415426] (-) TimerEvent: {}
+[13.515936] (-) TimerEvent: {}
+[13.616471] (-) TimerEvent: {}
+[13.716948] (-) TimerEvent: {}
+[13.817392] (-) TimerEvent: {}
+[13.917837] (-) TimerEvent: {}
+[14.018324] (-) TimerEvent: {}
+[14.118860] (-) TimerEvent: {}
+[14.219454] (-) TimerEvent: {}
+[14.283893] (laser_scan_nth_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable laser_scan_nth\x1b[0m\n'}
+[14.319586] (-) TimerEvent: {}
+[14.420570] (-) TimerEvent: {}
+[14.521034] (-) TimerEvent: {}
+[14.621700] (-) TimerEvent: {}
+[14.722179] (-) TimerEvent: {}
+[14.822628] (-) TimerEvent: {}
+[14.923116] (-) TimerEvent: {}
+[15.021890] (laser_scan_nth_pkg) StdoutLine: {'line': b'[100%] Built target laser_scan_nth\n'}
+[15.023262] (-) TimerEvent: {}
+[15.055779] (laser_scan_nth_pkg) CommandEnded: {'returncode': 0}
+[15.123397] (-) TimerEvent: {}
+[15.148271] (laser_scan_nth_pkg) JobProgress: {'identifier': 'laser_scan_nth_pkg', 'progress': 'install'}
+[15.173803] (laser_scan_nth_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/ros2_ws/build/laser_scan_nth_pkg'], 'cwd': '/home/student/ros2_ws/build/laser_scan_nth_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1964'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1868'), ('SYSTEMD_EXEC_PID', '2076'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3111'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('JOURNAL_STREAM', '8:29610'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2052,unix/labMGJSX0:/tmp/.ICE-unix/2052'), ('INVOCATION_ID', '20fa03fea5a942d58e1c7225faa064b5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6a09c9fb-a71e-4c84-b6a2-ed364516f973'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/build/laser_scan_nth_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/build/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/build/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[15.203886] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.204837] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/install/laser_scan_nth_pkg/lib/laser_scan_nth_pkg/laser_scan_nth\n'}
+[15.214975] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/install/laser_scan_nth_pkg/lib/laser_scan_nth_pkg/laser_scan_nth" to ""\n'}
+[15.215542] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/ament_index/resource_index/package_run_dependencies/laser_scan_nth_pkg\n'}
+[15.215894] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/ament_index/resource_index/parent_prefix_path/laser_scan_nth_pkg\n'}
+[15.216468] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/environment/ament_prefix_path.sh\n'}
+[15.216817] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/environment/ament_prefix_path.dsv\n'}
+[15.217257] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/environment/path.sh\n'}
+[15.217505] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/environment/path.dsv\n'}
+[15.217688] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/local_setup.bash\n'}
+[15.217843] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/local_setup.sh\n'}
+[15.217977] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/local_setup.zsh\n'}
+[15.218121] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/local_setup.dsv\n'}
+[15.218244] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/package.dsv\n'}
+[15.218367] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/ament_index/resource_index/packages/laser_scan_nth_pkg\n'}
+[15.218492] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/cmake/laser_scan_nth_pkgConfig.cmake\n'}
+[15.218618] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/cmake/laser_scan_nth_pkgConfig-version.cmake\n'}
+[15.218816] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/laser_scan_nth_pkg/share/laser_scan_nth_pkg/package.xml\n'}
+[15.221508] (laser_scan_nth_pkg) CommandEnded: {'returncode': 0}
+[15.223532] (-) TimerEvent: {}
+[15.324635] (-) TimerEvent: {}
+[15.360867] (laser_scan_nth_pkg) JobEnded: {'identifier': 'laser_scan_nth_pkg', 'rc': 0}
+[15.362110] (-) EventReactorShutdown: {}

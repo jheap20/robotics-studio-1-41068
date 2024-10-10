@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/scan_matching_localiser/ament_cmake_environment_hooks/local_setup.sh

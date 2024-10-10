@@ -1,0 +1,16 @@
+/home/student/ros2_ws/install/cylinder_detector/lib/cylinder_detector/cylinderDetector
+/home/student/ros2_ws/install/cylinder_detector/share/ament_index/resource_index/package_run_dependencies/cylinder_detector
+/home/student/ros2_ws/install/cylinder_detector/share/ament_index/resource_index/parent_prefix_path/cylinder_detector
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/ament_prefix_path.sh
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/path.sh
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/path.dsv
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.bash
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.sh
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.zsh
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.dsv
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/package.dsv
+/home/student/ros2_ws/install/cylinder_detector/share/ament_index/resource_index/packages/cylinder_detector
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/cmake/cylinder_detectorConfig.cmake
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/cmake/cylinder_detectorConfig-version.cmake
+/home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/package.xml

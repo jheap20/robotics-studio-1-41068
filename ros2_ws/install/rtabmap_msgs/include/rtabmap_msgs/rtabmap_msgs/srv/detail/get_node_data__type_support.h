@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/srv/detail/get_node_data__type_support.h

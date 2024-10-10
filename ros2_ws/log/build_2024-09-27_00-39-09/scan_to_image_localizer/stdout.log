@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[100%] Built target scan_to_image_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/lib/scan_to_image_localizer/scan_to_image_node
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/ament_index/resource_index/package_run_dependencies/scan_to_image_localizer
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/ament_index/resource_index/parent_prefix_path/scan_to_image_localizer
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/path.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/path.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.bash
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.zsh
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.dsv
+-- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/package.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/ament_index/resource_index/packages/scan_to_image_localizer
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/cmake/scan_to_image_localizerConfig.cmake
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/cmake/scan_to_image_localizerConfig-version.cmake
+-- Up-to-date symlink: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/package.xml

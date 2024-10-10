@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000196] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000238] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000265] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000289] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000312] (-) JobUnselected: {'identifier': 'gazebo_map_creator'}
+[0.000335] (-) JobUnselected: {'identifier': 'gazebo_map_creator_interface'}
+[0.000357] (-) JobUnselected: {'identifier': 'image_modifier_pkg'}
+[0.000380] (-) JobUnselected: {'identifier': 'laser_processor_pkg'}
+[0.000402] (-) JobUnselected: {'identifier': 'laser_scan_nth_pkg'}
+[0.000423] (-) JobUnselected: {'identifier': 'robot_localization'}
+[0.000445] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.000467] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.000489] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.000511] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.000533] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.000556] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.000580] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.000602] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.000624] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.000663] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.001114] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.002572] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.003946] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.004108] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.004220] (-) JobUnselected: {'identifier': 'scan_matching_localiser'}
+[0.004275] (-) JobUnselected: {'identifier': 'scan_to_image_localizer'}
+[0.004387] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.004437] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.004569] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.004669] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.004784] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.004816] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.004840] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.004863] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.004886] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.004909] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.004931] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.004953] (-) JobUnselected: {'identifier': 'turtlebot3_state_estimation'}
+[0.004975] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.004996] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.005022] (overlay_map) JobQueued: {'identifier': 'overlay_map', 'dependencies': OrderedDict()}
+[0.005049] (overlay_map) JobStarted: {'identifier': 'overlay_map'}
+[0.022289] (overlay_map) JobProgress: {'identifier': 'overlay_map', 'progress': 'cmake'}
+[0.022487] (overlay_map) JobProgress: {'identifier': 'overlay_map', 'progress': 'build'}
+[0.022519] (overlay_map) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/build/overlay_map', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/build/overlay_map', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1853'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/rtabmap_slam/lib:/home/student/ros2_ws/install/rtabmap_odom/lib:/home/student/ros2_ws/install/rtabmap_util/lib:/home/student/ros2_ws/install/rtabmap_sync/lib:/home/student/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/student/ros2_ws/install/rtabmap_conversions/lib:/home/student/ros2_ws/install/rtabmap_msgs/lib:/home/student/ros2_ws/install/rtabmap/lib:/home/student/ros2_ws/install/robot_localization/lib:/home/student/ros2_ws/install/gazebo_map_creator/lib:/home/student/ros2_ws/install/gazebo_map_creator_interface/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1757'), ('SYSTEMD_EXEC_PID', '1979'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2494'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install:/home/student/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('JOURNAL_STREAM', '8:16613'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/student/ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/student/ros2_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/student/ros2_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/1949,unix/labMGJSX0:/tmp/.ICE-unix/1949'), ('INVOCATION_ID', 'd417f1abe8d94a7c8d81725214146f7d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/overlay_map:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_state_estimation:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/scan_to_image_localizer:/home/student/ros2_ws/install/scan_matching_localiser:/home/student/ros2_ws/install/rtabmap_ros:/home/student/ros2_ws/install/rtabmap_launch:/home/student/ros2_ws/install/rtabmap_examples:/home/student/ros2_ws/install/rtabmap_demos:/home/student/ros2_ws/install/rtabmap_viz:/home/student/ros2_ws/install/rtabmap_slam:/home/student/ros2_ws/install/rtabmap_odom:/home/student/ros2_ws/install/rtabmap_util:/home/student/ros2_ws/install/rtabmap_sync:/home/student/ros2_ws/install/rtabmap_rviz_plugins:/home/student/ros2_ws/install/rtabmap_python:/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/home/student/install/scan_to_image_localizer:/home/student/install/scan_matching_localiser:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:33b49092-c6bd-46a9-92e2-8dc659fab5f1'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/build/overlay_map'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/build/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/build/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/build/rtabmap_python:/home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/overlay_map:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_state_estimation:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/scan_to_image_localizer:/home/student/ros2_ws/install/scan_matching_localiser:/home/student/ros2_ws/install/rtabmap_ros:/home/student/ros2_ws/install/rtabmap_launch:/home/student/ros2_ws/install/rtabmap_examples:/home/student/ros2_ws/install/rtabmap_demos:/home/student/ros2_ws/install/rtabmap_viz:/home/student/ros2_ws/install/rtabmap_slam:/home/student/ros2_ws/install/rtabmap_odom:/home/student/ros2_ws/install/rtabmap_util:/home/student/ros2_ws/install/rtabmap_sync:/home/student/ros2_ws/install/rtabmap_rviz_plugins:/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/rtabmap:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/gazebo_map_creator:/home/student/ros2_ws/install/gazebo_map_creator_interface:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/home/student/install/scan_to_image_localizer:/home/student/install/scan_matching_localiser:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble')]), 'shell': False}
+[0.099043] (-) TimerEvent: {}
+[0.123877] (overlay_map) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target overlay_map_node\x1b[0m\n'}
+[0.168215] (overlay_map) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/overlay_map_node.dir/src/overlay_map_node.cpp.o\x1b[0m\n'}
+[0.199199] (-) TimerEvent: {}
+[0.302911] (-) TimerEvent: {}
+[0.403409] (-) TimerEvent: {}
+[0.505499] (-) TimerEvent: {}
+[0.606044] (-) TimerEvent: {}
+[0.706608] (-) TimerEvent: {}
+[0.813760] (-) TimerEvent: {}
+[0.914362] (-) TimerEvent: {}
+[1.014885] (-) TimerEvent: {}
+[1.117333] (-) TimerEvent: {}
+[1.217988] (-) TimerEvent: {}
+[1.318504] (-) TimerEvent: {}
+[1.419753] (-) TimerEvent: {}
+[1.520277] (-) TimerEvent: {}
+[1.625966] (-) TimerEvent: {}
+[1.727899] (-) TimerEvent: {}
+[1.828463] (-) TimerEvent: {}
+[1.931724] (-) TimerEvent: {}
+[2.031234] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.031615] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:28:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmax(int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.031743] (-) TimerEvent: {}
+[2.031928] (overlay_map) StderrLine: {'line': b'   28 |     int max_width = \x1b[01;31m\x1b[Kstd::max(gazebo_map.cols)\x1b[m\x1b[K;\n'}
+[2.032037] (overlay_map) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.032120] (overlay_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[2.032467] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvdef.h:779\x1b[m\x1b[K,\n'}
+[2.032627] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:52\x1b[m\x1b[K,\n'}
+[2.032813] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.032959] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.033130] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:254:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.033939] (overlay_map) StderrLine: {'line': b'  254 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b)\n'}
+[2.034089] (overlay_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.036371] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:254:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.036531] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:28:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[2.036699] (overlay_map) StderrLine: {'line': b'   28 |     int max_width = \x1b[01;36m\x1b[Kstd::max(gazebo_map.cols)\x1b[m\x1b[K;\n'}
+[2.036863] (overlay_map) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.036989] (overlay_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[2.037124] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvdef.h:779\x1b[m\x1b[K,\n'}
+[2.038014] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:52\x1b[m\x1b[K,\n'}
+[2.038233] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.038372] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.038506] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:300:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.038664] (overlay_map) StderrLine: {'line': b'  300 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b, _Compare __comp)\n'}
+[2.038785] (overlay_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.038847] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:300:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.038912] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:28:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[2.038971] (overlay_map) StderrLine: {'line': b'   28 |     int max_width = \x1b[01;36m\x1b[Kstd::max(gazebo_map.cols)\x1b[m\x1b[K;\n'}
+[2.039028] (overlay_map) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.039085] (overlay_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[2.039141] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/base.hpp:55\x1b[m\x1b[K,\n'}
+[2.039223] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:53\x1b[m\x1b[K,\n'}
+[2.039307] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.039380] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.039450] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3461:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.039516] (overlay_map) StderrLine: {'line': b' 3461 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(initializer_list<_Tp> __l)\n'}
+[2.039572] (overlay_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.039628] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3461:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.039705] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:28:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.039776] (overlay_map) StderrLine: {'line': b'   28 |     int max_width = \x1b[01;36m\x1b[Kstd::max(gazebo_map.cols)\x1b[m\x1b[K;\n'}
+[2.039877] (overlay_map) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.039978] (overlay_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[2.040097] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/base.hpp:55\x1b[m\x1b[K,\n'}
+[2.040159] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:53\x1b[m\x1b[K,\n'}
+[2.040222] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.040281] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.040338] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3467:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.040396] (overlay_map) StderrLine: {'line': b' 3467 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(initializer_list<_Tp> __l, _Compare __comp)\n'}
+[2.040453] (overlay_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.040507] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3467:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.040567] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:28:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.040625] (overlay_map) StderrLine: {'line': b'   28 |     int max_width = \x1b[01;36m\x1b[Kstd::max(gazebo_map.cols)\x1b[m\x1b[K;\n'}
+[2.040699] (overlay_map) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.040756] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:30:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmax(int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.040814] (overlay_map) StderrLine: {'line': b'   30 |     int max_height = \x1b[01;31m\x1b[Kstd::max(gazebo_map.rows)\x1b[m\x1b[K;\n'}
+[2.040870] (overlay_map) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.040925] (overlay_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[2.041005] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvdef.h:779\x1b[m\x1b[K,\n'}
+[2.041060] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:52\x1b[m\x1b[K,\n'}
+[2.041137] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.041240] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.041341] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:254:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.041416] (overlay_map) StderrLine: {'line': b'  254 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b)\n'}
+[2.041474] (overlay_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.041531] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:254:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.041587] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:30:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[2.041670] (overlay_map) StderrLine: {'line': b'   30 |     int max_height = \x1b[01;36m\x1b[Kstd::max(gazebo_map.rows)\x1b[m\x1b[K;\n'}
+[2.041748] (overlay_map) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.041804] (overlay_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[2.041860] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cvdef.h:779\x1b[m\x1b[K,\n'}
+[2.041916] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:52\x1b[m\x1b[K,\n'}
+[2.041971] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.042026] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.042081] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:300:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.042149] (overlay_map) StderrLine: {'line': b'  300 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b, _Compare __comp)\n'}
+[2.042246] (overlay_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.042332] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:300:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.042409] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:30:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[2.042496] (overlay_map) StderrLine: {'line': b'   30 |     int max_height = \x1b[01;36m\x1b[Kstd::max(gazebo_map.rows)\x1b[m\x1b[K;\n'}
+[2.042594] (overlay_map) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.042714] (overlay_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[2.042817] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/base.hpp:55\x1b[m\x1b[K,\n'}
+[2.042927] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:53\x1b[m\x1b[K,\n'}
+[2.043030] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.043136] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.043237] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3461:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.043345] (overlay_map) StderrLine: {'line': b' 3461 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(initializer_list<_Tp> __l)\n'}
+[2.043439] (overlay_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.043536] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3461:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.043634] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:30:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.043763] (overlay_map) StderrLine: {'line': b'   30 |     int max_height = \x1b[01;36m\x1b[Kstd::max(gazebo_map.rows)\x1b[m\x1b[K;\n'}
+[2.043906] (overlay_map) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.044013] (overlay_map) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[2.044112] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/base.hpp:55\x1b[m\x1b[K,\n'}
+[2.044215] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:53\x1b[m\x1b[K,\n'}
+[2.044311] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.044416] (overlay_map) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.044514] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3467:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.044617] (overlay_map) StderrLine: {'line': b' 3467 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(initializer_list<_Tp> __l, _Compare __comp)\n'}
+[2.044735] (overlay_map) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.044838] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3467:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.044940] (overlay_map) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:30:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.045039] (overlay_map) StderrLine: {'line': b'   30 |     int max_height = \x1b[01;36m\x1b[Kstd::max(gazebo_map.rows)\x1b[m\x1b[K;\n'}
+[2.045136] (overlay_map) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.132832] (-) TimerEvent: {}
+[2.233968] (-) TimerEvent: {}
+[2.334390] (-) TimerEvent: {}
+[2.435054] (-) TimerEvent: {}
+[2.535500] (-) TimerEvent: {}
+[2.636237] (-) TimerEvent: {}
+[2.656984] (overlay_map) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/overlay_map_node.dir/build.make:76: CMakeFiles/overlay_map_node.dir/src/overlay_map_node.cpp.o] Error 1\n'}
+[2.657355] (overlay_map) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/overlay_map_node.dir/all] Error 2\n'}
+[2.657717] (overlay_map) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.669267] (overlay_map) CommandEnded: {'returncode': 2}
+[2.737030] (-) TimerEvent: {}
+[2.779005] (overlay_map) JobEnded: {'identifier': 'overlay_map', 'rc': 2}
+[2.790631] (-) EventReactorShutdown: {}

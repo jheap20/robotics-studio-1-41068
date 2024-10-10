@@ -1,0 +1,309 @@
+[0.000000] (-) TimerEvent: {}
+[0.000858] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000997] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001033] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001087] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001112] (-) JobUnselected: {'identifier': 'image_modifier_pkg'}
+[0.001135] (-) JobUnselected: {'identifier': 'laser_processor_pkg'}
+[0.001158] (-) JobUnselected: {'identifier': 'laser_scan_nth_pkg'}
+[0.001180] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001201] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001221] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001242] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001261] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001286] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001543] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001571] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001675] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001718] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001742] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001763] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001790] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001815] (robot_localization) JobQueued: {'identifier': 'robot_localization', 'dependencies': OrderedDict()}
+[0.001846] (robot_localization) JobStarted: {'identifier': 'robot_localization'}
+[0.023740] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'cmake'}
+[0.024178] (robot_localization) Command: {'cmd': ['/usr/bin/cmake', '/home/student/ros2_ws/src/robot_localization', '-DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/robot_localization'], 'cwd': '/home/student/ros2_ws/build/robot_localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '2314'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2217'), ('SYSTEMD_EXEC_PID', '2428'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8157'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('JOURNAL_STREAM', '8:27539'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2398,unix/labMGJSX0:/tmp/.ICE-unix/2398'), ('INVOCATION_ID', 'b4cbb49d553f49e0aa42da3af3953282'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0cf51468-7be4-4135-97e3-40852e38058d'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/build/robot_localization'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/build/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/build/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.099504] (-) TimerEvent: {}
+[0.199932] (-) TimerEvent: {}
+[0.300372] (-) TimerEvent: {}
+[0.400775] (-) TimerEvent: {}
+[0.501236] (-) TimerEvent: {}
+[0.601740] (-) TimerEvent: {}
+[0.702224] (-) TimerEvent: {}
+[0.802687] (-) TimerEvent: {}
+[0.857207] (robot_localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.902822] (-) TimerEvent: {}
+[1.003228] (-) TimerEvent: {}
+[1.103688] (-) TimerEvent: {}
+[1.204135] (-) TimerEvent: {}
+[1.304628] (-) TimerEvent: {}
+[1.394676] (robot_localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.404753] (-) TimerEvent: {}
+[1.423044] (robot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.504902] (-) TimerEvent: {}
+[1.569770] (robot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.577519] (robot_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.577922] (robot_localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.582122] (robot_localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.586177] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.605030] (-) TimerEvent: {}
+[1.705472] (-) TimerEvent: {}
+[1.713343] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.722642] (robot_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.722940] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.723445] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.724077] (robot_localization) StdoutLine: {'line': b"-- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.\n"}
+[1.750005] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.805675] (-) TimerEvent: {}
+[1.906094] (-) TimerEvent: {}
+[1.994848] (robot_localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.006210] (-) TimerEvent: {}
+[2.106592] (-) TimerEvent: {}
+[2.207013] (-) TimerEvent: {}
+[2.223151] (robot_localization) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[2.237276] (robot_localization) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.307177] (-) TimerEvent: {}
+[2.386280] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.402715] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.407245] (-) TimerEvent: {}
+[2.433345] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.475763] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.507429] (-) TimerEvent: {}
+[2.533609] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.607577] (-) TimerEvent: {}
+[2.678776] (robot_localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.684896] (robot_localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.707732] (-) TimerEvent: {}
+[2.808136] (-) TimerEvent: {}
+[2.889540] (robot_localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.908260] (-) TimerEvent: {}
+[2.924842] (robot_localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.983673] (robot_localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.012309] (-) TimerEvent: {}
+[3.030078] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.112442] (-) TimerEvent: {}
+[3.155050] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.155383] (robot_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.212618] (-) TimerEvent: {}
+[3.260149] (robot_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.261326] (robot_localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.312749] (-) TimerEvent: {}
+[3.413162] (-) TimerEvent: {}
+[3.513653] (-) TimerEvent: {}
+[3.614092] (-) TimerEvent: {}
+[3.714539] (-) TimerEvent: {}
+[3.815033] (-) TimerEvent: {}
+[3.915539] (-) TimerEvent: {}
+[4.016059] (-) TimerEvent: {}
+[4.116519] (-) TimerEvent: {}
+[4.216995] (-) TimerEvent: {}
+[4.306292] (robot_localization) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[4.317238] (-) TimerEvent: {}
+[4.389359] (robot_localization) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[4.417435] (-) TimerEvent: {}
+[4.423016] (robot_localization) StdoutLine: {'line': b'-- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)\n'}
+[4.517612] (-) TimerEvent: {}
+[4.618117] (-) TimerEvent: {}
+[4.718509] (-) TimerEvent: {}
+[4.734611] (robot_localization) StdoutLine: {'line': b'-- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[4.765232] (robot_localization) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.818670] (-) TimerEvent: {}
+[4.919062] (-) TimerEvent: {}
+[4.921773] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.965250] (robot_localization) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.019320] (-) TimerEvent: {}
+[5.092610] (robot_localization) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[5.119458] (-) TimerEvent: {}
+[5.173695] (robot_localization) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[5.209289] (robot_localization) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.7 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[5.219675] (-) TimerEvent: {}
+[5.320124] (-) TimerEvent: {}
+[5.420586] (-) TimerEvent: {}
+[5.521024] (-) TimerEvent: {}
+[5.621419] (-) TimerEvent: {}
+[5.722002] (-) TimerEvent: {}
+[5.793878] (robot_localization) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.822202] (-) TimerEvent: {}
+[5.826335] (robot_localization) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.832066] (robot_localization) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.832277] (robot_localization) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.904107] (robot_localization) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[5.920967] (robot_localization) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[5.922268] (-) TimerEvent: {}
+[5.941871] (robot_localization) StdoutLine: {'line': b'-- Found GeographicLib: /usr/lib/x86_64-linux-gnu  \n'}
+[6.022491] (-) TimerEvent: {}
+[6.122894] (-) TimerEvent: {}
+[6.223290] (-) TimerEvent: {}
+[6.323740] (-) TimerEvent: {}
+[6.396384] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[6.402157] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[6.408741] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[6.416036] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.423855] (-) TimerEvent: {}
+[6.524234] (-) TimerEvent: {}
+[6.624659] (-) TimerEvent: {}
+[6.725048] (-) TimerEvent: {}
+[6.825419] (-) TimerEvent: {}
+[6.925890] (-) TimerEvent: {}
+[7.026363] (-) TimerEvent: {}
+[7.038950] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.126594] (-) TimerEvent: {}
+[7.226989] (-) TimerEvent: {}
+[7.270515] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.307385] (robot_localization) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.315203] (robot_localization) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.327115] (-) TimerEvent: {}
+[7.364885] (robot_localization) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[7.365164] (robot_localization) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.365275] (robot_localization) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.365351] (robot_localization) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[7.391441] (robot_localization) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.427262] (-) TimerEvent: {}
+[7.520598] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[7.526761] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[7.527328] (-) TimerEvent: {}
+[7.548515] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)\n'}
+[7.557189] (robot_localization) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)\n'}
+[7.587800] (robot_localization) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.588079] (robot_localization) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.588247] (robot_localization) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[7.597482] (robot_localization) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[7.627549] (-) TimerEvent: {}
+[7.642917] (robot_localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.663244] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:67 (add_library):\n'}
+[7.663510] (robot_localization) StderrLine: {'line': b'  Target "rl_lib" links to target "yaml-cpp::yaml-cpp" but the target was not\n'}
+[7.663588] (robot_localization) StderrLine: {'line': b'  found.  Perhaps a find_package() call is missing for an IMPORTED target, or\n'}
+[7.663654] (robot_localization) StderrLine: {'line': b'  an ALIAS target is missing?\n'}
+[7.663718] (robot_localization) StderrLine: {'line': b'\n'}
+[7.663781] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.664117] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:82 (add_executable):\n'}
+[7.664203] (robot_localization) StderrLine: {'line': b'  Target "ekf_node" links to target "yaml-cpp::yaml-cpp" but the target was\n'}
+[7.664328] (robot_localization) StderrLine: {'line': b'  not found.  Perhaps a find_package() call is missing for an IMPORTED\n'}
+[7.664476] (robot_localization) StderrLine: {'line': b'  target, or an ALIAS target is missing?\n'}
+[7.664600] (robot_localization) StderrLine: {'line': b'\n'}
+[7.664732] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.664864] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:87 (add_executable):\n'}
+[7.664997] (robot_localization) StderrLine: {'line': b'  Target "ukf_node" links to target "yaml-cpp::yaml-cpp" but the target was\n'}
+[7.665181] (robot_localization) StderrLine: {'line': b'  not found.  Perhaps a find_package() call is missing for an IMPORTED\n'}
+[7.665325] (robot_localization) StderrLine: {'line': b'  target, or an ALIAS target is missing?\n'}
+[7.665446] (robot_localization) StderrLine: {'line': b'\n'}
+[7.665563] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.665690] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:92 (add_executable):\n'}
+[7.665787] (robot_localization) StderrLine: {'line': b'  Target "navsat_transform_node" links to target "yaml-cpp::yaml-cpp" but the\n'}
+[7.665930] (robot_localization) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[7.666031] (robot_localization) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[7.666115] (robot_localization) StderrLine: {'line': b'\n'}
+[7.666189] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.666264] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:97 (add_executable):\n'}
+[7.666338] (robot_localization) StderrLine: {'line': b'  Target "robot_localization_listener_node" links to target\n'}
+[7.666458] (robot_localization) StderrLine: {'line': b'  "yaml-cpp::yaml-cpp" but the target was not found.  Perhaps a\n'}
+[7.666525] (robot_localization) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[7.666591] (robot_localization) StderrLine: {'line': b'  is missing?\n'}
+[7.666665] (robot_localization) StderrLine: {'line': b'\n'}
+[7.666724] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.666785] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[7.666845] (robot_localization) StderrLine: {'line': b'  Target "filter_base-test" links to target "yaml-cpp::yaml-cpp" but the\n'}
+[7.666907] (robot_localization) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[7.666966] (robot_localization) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[7.667039] (robot_localization) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.667100] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[7.667162] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[7.667223] (robot_localization) StderrLine: {'line': b'  CMakeLists.txt:178 (ament_add_gtest)\n'}
+[7.667284] (robot_localization) StderrLine: {'line': b'\n'}
+[7.667345] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.667406] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[7.667474] (robot_localization) StderrLine: {'line': b'  Target "test_filter_base_diagnostics_timestamps" links to target\n'}
+[7.667536] (robot_localization) StderrLine: {'line': b'  "yaml-cpp::yaml-cpp" but the target was not found.  Perhaps a\n'}
+[7.667597] (robot_localization) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[7.667658] (robot_localization) StderrLine: {'line': b'  is missing?\n'}
+[7.667720] (robot_localization) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.667780] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[7.667842] (robot_localization) StderrLine: {'line': b'  CMakeLists.txt:182 (ament_add_gtest_executable)\n'}
+[7.667902] (robot_localization) StderrLine: {'line': b'\n'}
+[7.667963] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.668040] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[7.668106] (robot_localization) StderrLine: {'line': b'  Target "test_ekf" links to target "yaml-cpp::yaml-cpp" but the target was\n'}
+[7.668175] (robot_localization) StderrLine: {'line': b'  not found.  Perhaps a find_package() call is missing for an IMPORTED\n'}
+[7.668236] (robot_localization) StderrLine: {'line': b'  target, or an ALIAS target is missing?\n'}
+[7.668299] (robot_localization) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.668365] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[7.668426] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[7.668487] (robot_localization) StderrLine: {'line': b'  CMakeLists.txt:198 (ament_add_gtest)\n'}
+[7.668547] (robot_localization) StderrLine: {'line': b'\n'}
+[7.668607] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.668668] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[7.668728] (robot_localization) StderrLine: {'line': b'  Target "test_ekf_node_interfaces" links to target "yaml-cpp::yaml-cpp" but\n'}
+[7.668789] (robot_localization) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[7.668861] (robot_localization) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[7.668938] (robot_localization) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.669015] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[7.669077] (robot_localization) StderrLine: {'line': b'  CMakeLists.txt:204 (ament_add_gtest_executable)\n'}
+[7.669137] (robot_localization) StderrLine: {'line': b'\n'}
+[7.669196] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.669262] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[7.669323] (robot_localization) StderrLine: {'line': b'  Target "test_ukf" links to target "yaml-cpp::yaml-cpp" but the target was\n'}
+[7.669384] (robot_localization) StderrLine: {'line': b'  not found.  Perhaps a find_package() call is missing for an IMPORTED\n'}
+[7.669445] (robot_localization) StderrLine: {'line': b'  target, or an ALIAS target is missing?\n'}
+[7.669502] (robot_localization) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.669555] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[7.669608] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[7.669669] (robot_localization) StderrLine: {'line': b'  CMakeLists.txt:230 (ament_add_gtest)\n'}
+[7.669722] (robot_localization) StderrLine: {'line': b'\n'}
+[7.669775] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.669832] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[7.669886] (robot_localization) StderrLine: {'line': b'  Target "test_ukf_node_interfaces" links to target "yaml-cpp::yaml-cpp" but\n'}
+[7.669940] (robot_localization) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[7.669992] (robot_localization) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[7.670045] (robot_localization) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.670099] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[7.670153] (robot_localization) StderrLine: {'line': b'  CMakeLists.txt:236 (ament_add_gtest_executable)\n'}
+[7.670211] (robot_localization) StderrLine: {'line': b'\n'}
+[7.670267] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.670327] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[7.670380] (robot_localization) StderrLine: {'line': b'  Target "test_robot_localization_estimator" links to target\n'}
+[7.670442] (robot_localization) StderrLine: {'line': b'  "yaml-cpp::yaml-cpp" but the target was not found.  Perhaps a\n'}
+[7.670503] (robot_localization) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[7.670560] (robot_localization) StderrLine: {'line': b'  is missing?\n'}
+[7.670618] (robot_localization) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.670678] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[7.670739] (robot_localization) StderrLine: {'line': b'  CMakeLists.txt:281 (ament_add_gtest_executable)\n'}
+[7.670800] (robot_localization) StderrLine: {'line': b'\n'}
+[7.670854] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.670914] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[7.670968] (robot_localization) StderrLine: {'line': b'  Target "test_navsat_conversions" links to target "yaml-cpp::yaml-cpp" but\n'}
+[7.671025] (robot_localization) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[7.671090] (robot_localization) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[7.671148] (robot_localization) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.671213] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[7.671275] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[7.671334] (robot_localization) StderrLine: {'line': b'  CMakeLists.txt:294 (ament_add_gtest)\n'}
+[7.671394] (robot_localization) StderrLine: {'line': b'\n'}
+[7.671449] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.671510] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[7.671570] (robot_localization) StderrLine: {'line': b'  Target "test_ros_robot_localization_listener" links to target\n'}
+[7.671631] (robot_localization) StderrLine: {'line': b'  "yaml-cpp::yaml-cpp" but the target was not found.  Perhaps a\n'}
+[7.671691] (robot_localization) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[7.671748] (robot_localization) StderrLine: {'line': b'  is missing?\n'}
+[7.671812] (robot_localization) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.671871] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[7.671932] (robot_localization) StderrLine: {'line': b'  CMakeLists.txt:297 (ament_add_gtest_executable)\n'}
+[7.671992] (robot_localization) StderrLine: {'line': b'\n'}
+[7.672090] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.672156] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[7.672214] (robot_localization) StderrLine: {'line': b'  Target "test_ros_robot_localization_listener_publisher" links to target\n'}
+[7.672267] (robot_localization) StderrLine: {'line': b'  "yaml-cpp::yaml-cpp" but the target was not found.  Perhaps a\n'}
+[7.672319] (robot_localization) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[7.672374] (robot_localization) StderrLine: {'line': b'  is missing?\n'}
+[7.672437] (robot_localization) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.672500] (robot_localization) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[7.672564] (robot_localization) StderrLine: {'line': b'  CMakeLists.txt:302 (ament_add_gtest_executable)\n'}
+[7.672629] (robot_localization) StderrLine: {'line': b'\n'}
+[7.672692] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.727772] (-) TimerEvent: {}
+[7.828202] (-) TimerEvent: {}
+[7.855592] (robot_localization) StdoutLine: {'line': b'-- Generating done\n'}
+[7.860914] (robot_localization) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[7.887151] (robot_localization) CommandEnded: {'returncode': 1}
+[7.924975] (robot_localization) JobEnded: {'identifier': 'robot_localization', 'rc': 1}
+[7.928293] (-) TimerEvent: {}
+[7.935521] (-) EventReactorShutdown: {}

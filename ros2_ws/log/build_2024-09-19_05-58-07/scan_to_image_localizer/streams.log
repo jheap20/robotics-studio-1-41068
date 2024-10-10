@@ -1,0 +1,13 @@
+[0.014s] Invoking command in '/home/student/ros2_ws/build/scan_to_image_localizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_to_image_localizer -- -j8 -l8
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[0.079s] [ 25%] [32mBuilding CXX object CMakeFiles/mapProcessor_node.dir/src/mapProcessor_node.cpp.o[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o[0m
+[0.085s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/student/ros2_ws/src/scan_to_image_localizer/src/mapProcessor_node.cpp: No such file or directory
+[0.085s] compilation terminated.
+[0.086s] gmake[2]: *** [CMakeFiles/mapProcessor_node.dir/build.make:76: CMakeFiles/mapProcessor_node.dir/src/mapProcessor_node.cpp.o] Error 1
+[0.086s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mapProcessor_node.dir/all] Error 2
+[0.086s] gmake[1]: *** Waiting for unfinished jobs....
+[8.967s] [ 75%] [32m[1mLinking CXX executable scan_to_image_node[0m
+[10.967s] [ 75%] Built target scan_to_image_node
+[10.968s] gmake: *** [Makefile:146: all] Error 2
+[10.970s] Invoked command in '/home/student/ros2_ws/build/scan_to_image_localizer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_to_image_localizer -- -j8 -l8

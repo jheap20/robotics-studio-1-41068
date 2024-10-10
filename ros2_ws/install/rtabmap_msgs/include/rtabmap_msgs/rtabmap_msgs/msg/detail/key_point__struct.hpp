@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/rtabmap_msgs/rosidl_generator_cpp/rtabmap_msgs/msg/detail/key_point__struct.hpp

@@ -1,0 +1,1 @@
+/home/student/ros2_ws/src/rtabmap_ros/rtabmap_examples/launch/euroc_datasets.launch.py

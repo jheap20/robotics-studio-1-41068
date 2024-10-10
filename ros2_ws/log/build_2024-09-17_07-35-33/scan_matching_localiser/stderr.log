@@ -1,0 +1,29 @@
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:39:14:[m[K [01;31m[Kerror: [m[K‘[01m[Km_edge_image[m[K’ was not declared in this scope
+   39 |         if (![01;31m[Km_edge_image[m[K.empty() && !m_laser_scan_image.empty()) {
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:39:39:[m[K [01;31m[Kerror: [m[K‘[01m[Km_laser_scan_image[m[K’ was not declared in this scope; did you mean ‘[01m[KlaserScanToImage[m[K’?
+   39 | m_edge_image.empty() && ![01;31m[Km_laser_scan_image[m[K.empty()) {
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                          [32m[KlaserScanToImage[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::mapCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:68:14:[m[K [01;31m[Kerror: [m[K‘[01m[Km_edge_image[m[K’ was not declared in this scope; did you mean ‘[01m[Kedge_img[m[K’?
+   68 |         if (![01;31m[Km_edge_image[m[K.empty() && !m_laser_scan_image.empty()) {
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+      |              [32m[Kedge_img[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:68:39:[m[K [01;31m[Kerror: [m[K‘[01m[Km_laser_scan_image[m[K’ was not declared in this scope; did you mean ‘[01m[KlaserScanToImage[m[K’?
+   68 | m_edge_image.empty() && ![01;31m[Km_laser_scan_image[m[K.empty()) {
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                          [32m[KlaserScanToImage[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::matchFeatures()[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:172:32:[m[K [01;31m[Kerror: [m[K‘[01m[Km_edge_image[m[K’ was not declared in this scope
+  172 |   detectAndMatchFeatures([01;31m[Km_edge_image[m[K, m_laser_scan_image, srcPoints, dstPoints);
+      |                          [01;31m[K^~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:172:46:[m[K [01;31m[Kerror: [m[K‘[01m[Km_laser_scan_image[m[K’ was not declared in this scope; did you mean ‘[01m[KlaserScanToImage[m[K’?
+  172 | chFeatures(m_edge_image, [01;31m[Km_laser_scan_image[m[K, srcPoints, dstPoints);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                          [32m[KlaserScanToImage[m[K
+gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

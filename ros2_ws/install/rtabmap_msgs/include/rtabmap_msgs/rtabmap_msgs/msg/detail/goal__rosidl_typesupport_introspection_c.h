@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/rtabmap_msgs/rosidl_typesupport_introspection_c/rtabmap_msgs/msg/detail/goal__rosidl_typesupport_introspection_c.h

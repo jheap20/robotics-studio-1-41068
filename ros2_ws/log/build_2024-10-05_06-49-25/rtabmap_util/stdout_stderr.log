@@ -1,0 +1,8 @@
+[  2%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/MapsManager.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyzrgb.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o[0m
+gmake[2]: *** [CMakeFiles/rtabmap_util_plugins.dir/build.make:76: CMakeFiles/rtabmap_util_plugins.dir/src/MapsManager.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_util_plugins.dir/build.make:90: CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyzrgb.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_util_plugins.dir/build.make:104: CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:161: CMakeFiles/rtabmap_util_plugins.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

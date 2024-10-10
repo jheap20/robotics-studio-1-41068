@@ -1,0 +1,24 @@
+[0.062s] Invoking command in '/home/student/ros2_ws/build/scan_to_image_localizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_to_image_localizer -- -j8 -l8
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[0.170s] [100%] Built target scan_to_image_node
+[0.194s] Invoked command in '/home/student/ros2_ws/build/scan_to_image_localizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_to_image_localizer -- -j8 -l8
+[0.274s] Invoking command in '/home/student/ros2_ws/build/scan_to_image_localizer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/scan_to_image_localizer
+[0.291s] -- Install configuration: ""
+[0.292s] -- Execute custom install script
+[0.292s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/lib/scan_to_image_localizer/scan_to_image_node
+[0.313s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/ament_index/resource_index/package_run_dependencies/scan_to_image_localizer
+[0.330s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/ament_index/resource_index/parent_prefix_path/scan_to_image_localizer
+[0.344s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/ament_prefix_path.sh
+[0.359s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/ament_prefix_path.dsv
+[0.375s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/path.sh
+[0.398s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/environment/path.dsv
+[0.414s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.bash
+[0.433s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.sh
+[0.444s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.zsh
+[0.467s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/local_setup.dsv
+[0.483s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/package.dsv
+[0.500s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/ament_index/resource_index/packages/scan_to_image_localizer
+[0.515s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/cmake/scan_to_image_localizerConfig.cmake
+[0.532s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/cmake/scan_to_image_localizerConfig-version.cmake
+[0.547s] -- Symlinking: /home/student/ros2_ws/install/scan_to_image_localizer/share/scan_to_image_localizer/package.xml
+[0.564s] Invoked command in '/home/student/ros2_ws/build/scan_to_image_localizer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/scan_to_image_localizer

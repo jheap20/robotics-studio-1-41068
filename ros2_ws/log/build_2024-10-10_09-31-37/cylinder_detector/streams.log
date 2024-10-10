@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/student/ros2_ws/build/cylinder_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cylinder_detector -- -j8 -l8
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o[0m
+[9.309s] [100%] [32m[1mLinking CXX executable cylinderDetector[0m
+[10.590s] /usr/bin/ld: CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o: in function `cylinderDetector::laserCallback(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >)':
+[10.590s] cylinderDetector.cpp:(.text._ZN16cylinderDetector13laserCallbackESt10shared_ptrIN11sensor_msgs3msg10LaserScan_ISaIvEEEE[_ZN16cylinderDetector13laserCallbackESt10shared_ptrIN11sensor_msgs3msg10LaserScan_ISaIvEEEE]+0x641): undefined reference to `void tf2::fromMsg<geometry_msgs::msg::Transform_<std::allocator<void> >, tf2::Transform>(geometry_msgs::msg::Transform_<std::allocator<void> > const&, tf2::Transform&)'
+[10.640s] collect2: error: ld returned 1 exit status
+[10.642s] gmake[2]: *** [CMakeFiles/cylinderDetector.dir/build.make:267: cylinderDetector] Error 1
+[10.642s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cylinderDetector.dir/all] Error 2
+[10.642s] gmake: *** [Makefile:146: all] Error 2
+[10.645s] Invoked command in '/home/student/ros2_ws/build/cylinder_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cylinder_detector -- -j8 -l8

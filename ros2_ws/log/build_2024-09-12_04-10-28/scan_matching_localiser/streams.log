@@ -1,0 +1,58 @@
+[0.023s] Invoking command in '/home/student/ros2_ws/build/scan_matching_localiser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/scan_matching_localiser -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scan_matching_localiser
+[0.934s] -- The C compiler identification is GNU 11.4.0
+[1.516s] -- The CXX compiler identification is GNU 11.4.0
+[1.545s] -- Detecting C compiler ABI info
+[1.683s] -- Detecting C compiler ABI info - done
+[1.692s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.692s] -- Detecting C compile features
+[1.696s] -- Detecting C compile features - done
+[1.699s] -- Detecting CXX compiler ABI info
+[1.814s] -- Detecting CXX compiler ABI info - done
+[1.823s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.824s] -- Detecting CXX compile features
+[1.824s] -- Detecting CXX compile features - done
+[1.926s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.199s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.532s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.733s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.750s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.797s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.866s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.122s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.132s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.333s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.366s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.420s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.478s] -- Looking for pthread.h
+[3.589s] -- Looking for pthread.h - found
+[3.590s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.683s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.685s] -- Found Threads: TRUE  
+[4.082s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.339s] -- Found OpenCV: /usr (found version "4.5.4") 
+[4.344s] [31mCMake Error at CMakeLists.txt:25 (target_include_directories):
+[4.344s]   Cannot specify include directories for target "MapProcessorNode" which is
+[4.344s]   not built by this project.
+[4.344s] 
+[4.344s] [0m
+[4.344s] [31mCMake Error at CMakeLists.txt:28 (target_compile_features):
+[4.344s]   Cannot specify compile features for target "MapProcessorNode" which is not
+[4.345s]   built by this project.
+[4.345s] 
+[4.345s] [0m
+[4.345s] [31mCMake Error at CMakeLists.txt:30 (install):
+[4.345s]   install TARGETS given target "MapProcessorNode" which does not exist.
+[4.345s] 
+[4.345s] [0m
+[4.351s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.543s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.543s] -- Configured cppcheck include dirs: 
+[4.543s] -- Configured cppcheck exclude dirs and/or files: 
+[4.550s] -- Added test 'lint_cmake' to check CMake code style
+[4.556s] -- Added test 'uncrustify' to check C / C++ code style
+[4.556s] -- Configured uncrustify additional arguments: 
+[4.560s] -- Added test 'xmllint' to check XML markup files
+[4.566s] -- Configuring incomplete, errors occurred!
+[4.566s] See also "/home/student/ros2_ws/build/scan_matching_localiser/CMakeFiles/CMakeOutput.log".
+[4.578s] Invoked command in '/home/student/ros2_ws/build/scan_matching_localiser' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/scan_matching_localiser -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scan_matching_localiser

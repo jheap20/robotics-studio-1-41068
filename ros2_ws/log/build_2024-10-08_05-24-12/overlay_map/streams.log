@@ -1,0 +1,110 @@
+[0.027s] Invoking command in '/home/student/ros2_ws/build/overlay_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/overlay_map -- -j8 -l8
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target overlay_map_node[0m
+[0.164s] [ 50%] [32mBuilding CXX object CMakeFiles/overlay_map_node.dir/src/overlay_map_node.cpp.o[0m
+[2.026s] [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[2.027s] [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:28:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmax(int&)[m[K’
+[2.027s]    28 |     int max_width = [01;31m[Kstd::max(gazebo_map.cols)[m[K;
+[2.027s]       |                     [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.027s] In file included from [01m[K/usr/include/c++/11/array:40[m[K,
+[2.028s]                  from [01m[K/usr/include/opencv4/opencv2/core/cvdef.h:779[m[K,
+[2.028s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:52[m[K,
+[2.028s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[2.028s]                  from [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1[m[K:
+[2.029s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:254:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)[m[K’
+[2.029s]   254 |     [01;36m[Kmax[m[K(const _Tp& __a, const _Tp& __b)
+[2.031s]       |     [01;36m[K^~~[m[K
+[2.031s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:254:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.032s] [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:28:29:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.032s]    28 |     int max_width = [01;36m[Kstd::max(gazebo_map.cols)[m[K;
+[2.032s]       |                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.032s] In file included from [01m[K/usr/include/c++/11/array:40[m[K,
+[2.032s]                  from [01m[K/usr/include/opencv4/opencv2/core/cvdef.h:779[m[K,
+[2.033s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:52[m[K,
+[2.033s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[2.033s]                  from [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1[m[K:
+[2.034s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:300:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)[m[K’
+[2.034s]   300 |     [01;36m[Kmax[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+[2.034s]       |     [01;36m[K^~~[m[K
+[2.034s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:300:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.034s] [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:28:29:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[2.034s]    28 |     int max_width = [01;36m[Kstd::max(gazebo_map.cols)[m[K;
+[2.034s]       |                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.034s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[2.034s]                  from [01m[K/usr/include/opencv4/opencv2/core/base.hpp:55[m[K,
+[2.034s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:53[m[K,
+[2.034s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[2.034s]                  from [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1[m[K:
+[2.034s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3461:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)[m[K’
+[2.034s]  3461 |     [01;36m[Kmax[m[K(initializer_list<_Tp> __l)
+[2.035s]       |     [01;36m[K^~~[m[K
+[2.035s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3461:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.035s] [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:28:29:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[2.035s]    28 |     int max_width = [01;36m[Kstd::max(gazebo_map.cols)[m[K;
+[2.035s]       |                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.035s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[2.035s]                  from [01m[K/usr/include/opencv4/opencv2/core/base.hpp:55[m[K,
+[2.035s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:53[m[K,
+[2.035s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[2.035s]                  from [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1[m[K:
+[2.035s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3467:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)[m[K’
+[2.035s]  3467 |     [01;36m[Kmax[m[K(initializer_list<_Tp> __l, _Compare __comp)
+[2.035s]       |     [01;36m[K^~~[m[K
+[2.035s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3467:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.036s] [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:28:29:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[2.036s]    28 |     int max_width = [01;36m[Kstd::max(gazebo_map.cols)[m[K;
+[2.036s]       |                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.036s] [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:30:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmax(int&)[m[K’
+[2.036s]    30 |     int max_height = [01;31m[Kstd::max(gazebo_map.rows)[m[K;
+[2.036s]       |                      [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.036s] In file included from [01m[K/usr/include/c++/11/array:40[m[K,
+[2.036s]                  from [01m[K/usr/include/opencv4/opencv2/core/cvdef.h:779[m[K,
+[2.036s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:52[m[K,
+[2.036s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[2.036s]                  from [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1[m[K:
+[2.036s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:254:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)[m[K’
+[2.036s]   254 |     [01;36m[Kmax[m[K(const _Tp& __a, const _Tp& __b)
+[2.036s]       |     [01;36m[K^~~[m[K
+[2.037s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:254:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.037s] [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:30:30:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.037s]    30 |     int max_height = [01;36m[Kstd::max(gazebo_map.rows)[m[K;
+[2.037s]       |                      [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.037s] In file included from [01m[K/usr/include/c++/11/array:40[m[K,
+[2.037s]                  from [01m[K/usr/include/opencv4/opencv2/core/cvdef.h:779[m[K,
+[2.037s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:52[m[K,
+[2.037s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[2.037s]                  from [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1[m[K:
+[2.037s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:300:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)[m[K’
+[2.037s]   300 |     [01;36m[Kmax[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+[2.037s]       |     [01;36m[K^~~[m[K
+[2.037s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:300:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.037s] [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:30:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[2.038s]    30 |     int max_height = [01;36m[Kstd::max(gazebo_map.rows)[m[K;
+[2.038s]       |                      [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.038s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[2.038s]                  from [01m[K/usr/include/opencv4/opencv2/core/base.hpp:55[m[K,
+[2.038s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:53[m[K,
+[2.038s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[2.038s]                  from [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1[m[K:
+[2.038s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3461:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)[m[K’
+[2.038s]  3461 |     [01;36m[Kmax[m[K(initializer_list<_Tp> __l)
+[2.038s]       |     [01;36m[K^~~[m[K
+[2.039s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3461:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.039s] [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:30:30:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[2.039s]    30 |     int max_height = [01;36m[Kstd::max(gazebo_map.rows)[m[K;
+[2.039s]       |                      [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.039s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[2.039s]                  from [01m[K/usr/include/opencv4/opencv2/core/base.hpp:55[m[K,
+[2.039s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:53[m[K,
+[2.039s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[2.039s]                  from [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:1[m[K:
+[2.040s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3467:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)[m[K’
+[2.040s]  3467 |     [01;36m[Kmax[m[K(initializer_list<_Tp> __l, _Compare __comp)
+[2.040s]       |     [01;36m[K^~~[m[K
+[2.040s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3467:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.040s] [01m[K/home/student/ros2_ws/src/overlay_map/src/overlay_map_node.cpp:30:30:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[2.040s]    30 |     int max_height = [01;36m[Kstd::max(gazebo_map.rows)[m[K;
+[2.040s]       |                      [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.652s] gmake[2]: *** [CMakeFiles/overlay_map_node.dir/build.make:76: CMakeFiles/overlay_map_node.dir/src/overlay_map_node.cpp.o] Error 1
+[2.653s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/overlay_map_node.dir/all] Error 2
+[2.653s] gmake: *** [Makefile:146: all] Error 2
+[2.668s] Invoked command in '/home/student/ros2_ws/build/overlay_map' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/overlay_map -- -j8 -l8

@@ -1,0 +1,8 @@
+[01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:[m[K In constructor ‘[01m[KDeadReckoningNode::DeadReckoningNode()[m[K’:
+[01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:17:75:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveRobot[m[K’ is not a member of ‘[01m[KDeadReckoningNode[m[K’
+   17 | d::bind(&DeadReckoningNode::[01;31m[KmoveRobot[m[K, this));
+      |                             [01;31m[K^~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/dead_reckoning.dir/build.make:76: CMakeFiles/dead_reckoning.dir/src/dead_reckoning.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dead_reckoning.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

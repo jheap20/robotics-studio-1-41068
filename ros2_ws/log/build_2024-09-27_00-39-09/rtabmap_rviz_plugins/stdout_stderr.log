@@ -1,0 +1,6 @@
+[ 16%] [34m[1mAutomatic MOC for target rtabmap_rviz_plugins[0m
+[ 16%] Built target rtabmap_rviz_plugins_autogen
+[ 33%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/InfoDisplay.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/MapGraphDisplay.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/rtabmap_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/MapCloudDisplay.cpp.o[0m

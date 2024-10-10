@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target cylinderDetector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:[m[K In member function ‘[01m[Kvoid cylinderDetector::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:34:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KcylinderDetector::is_part_of_cylinder(__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type&, __gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type&, __gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type&, float&)[m[K’
+   34 | [01;31m[Kt_of_cylinder(ranges[i - 1], ranges[i], ranges[i + 1], angle_increment)[m[K)
+      | [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:63:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool cylinderDetector::is_part_of_cylinder(float, float, float)[m[K’
+   63 |     bool [01;36m[Kis_part_of_cylinder[m[K(float r1, float r2, float r3)
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/cylinder_detector/src/cylinderDetector.cpp:63:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+gmake[2]: *** [CMakeFiles/cylinderDetector.dir/build.make:76: CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cylinderDetector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

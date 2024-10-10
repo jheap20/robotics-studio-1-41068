@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::detectAndMatchFeatures(const cv::Mat&, const cv::Mat&, std::vector<cv::Point_<float> >&, std::vector<cv::Point_<float> >&)[m[K’:
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:163:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kgood_matches[m[K’ was not declared in this scope; did you mean ‘[01m[KgoodMatches[m[K’?
+  163 |  scan_image, keypoints2, [01;31m[Kgood_matches[m[K, img_matches);
+      |                          [01;31m[K^~~~~~~~~~~~[m[K
+      |                          [32m[KgoodMatches[m[K
+gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

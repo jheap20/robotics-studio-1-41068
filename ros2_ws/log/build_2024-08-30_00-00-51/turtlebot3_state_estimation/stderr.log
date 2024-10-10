@@ -1,0 +1,12 @@
+[01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:[m[K In member function ‘[01m[Kvoid DeadReckoningNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:23:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen_[m[K’ was not declared in this scope
+   23 | se.pose.position.x + noise_dist_([01;31m[Kgen_[m[K);
+      |                                  [01;31m[K^~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/turtlebot3_state_estimation/src/dead_reckoning.cpp:23:54:[m[K [01;31m[Kerror: [m[K‘[01m[Knoise_dist_[m[K’ was not declared in this scope
+   23 | msg->pose.pose.position.x + [01;31m[Knoise_dist_[m[K(gen_);
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/dead_reckoning.dir/build.make:76: CMakeFiles/dead_reckoning.dir/src/dead_reckoning.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dead_reckoning.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

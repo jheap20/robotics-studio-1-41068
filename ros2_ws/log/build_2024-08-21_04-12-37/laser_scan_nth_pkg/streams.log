@@ -1,0 +1,55 @@
+[0.029s] Invoking command in '/home/student/ros2_ws/build/laser_scan_nth_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/laser_scan_nth_pkg -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/laser_scan_nth_pkg
+[0.590s] -- The C compiler identification is GNU 11.4.0
+[0.703s] -- The CXX compiler identification is GNU 11.4.0
+[0.755s] -- Detecting C compiler ABI info
+[0.978s] -- Detecting C compiler ABI info - done
+[0.999s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.001s] -- Detecting C compile features
+[1.006s] -- Detecting C compile features - done
+[1.011s] -- Detecting CXX compiler ABI info
+[1.232s] -- Detecting CXX compiler ABI info - done
+[1.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.247s] -- Detecting CXX compile features
+[1.249s] -- Detecting CXX compile features - done
+[1.284s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.650s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.057s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.324s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.359s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.412s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.622s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.942s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.968s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.310s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.380s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.569s] -- Looking for pthread.h
+[3.761s] -- Looking for pthread.h - found
+[3.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.947s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.949s] -- Found Threads: TRUE  
+[4.446s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.738s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.022s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.023s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/student/ros2_ws/src/laser_scan_nth_pkg/include>
+[5.023s] -- Configured cppcheck exclude dirs and/or files: 
+[5.028s] -- Added test 'lint_cmake' to check CMake code style
+[5.036s] -- Added test 'uncrustify' to check C / C++ code style
+[5.036s] -- Configured uncrustify additional arguments: 
+[5.041s] -- Added test 'xmllint' to check XML markup files
+[5.045s] -- Configuring done
+[5.061s] -- Generating done
+[5.064s] -- Build files have been written to: /home/student/ros2_ws/build/laser_scan_nth_pkg
+[5.093s] Invoked command in '/home/student/ros2_ws/build/laser_scan_nth_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/laser_scan_nth_pkg -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/laser_scan_nth_pkg
+[5.094s] Invoking command in '/home/student/ros2_ws/build/laser_scan_nth_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_scan_nth_pkg -- -j8 -l8
+[5.204s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_scan_nth.dir/src/laser_scan_nth.cpp.o[0m
+[9.223s] [01m[K/home/student/ros2_ws/src/laser_scan_nth_pkg/src/laser_scan_nth.cpp:[m[K In constructor ‘[01m[KLaserProcessor::LaserProcessor()[m[K’:
+[9.223s] [01m[K/home/student/ros2_ws/src/laser_scan_nth_pkg/src/laser_scan_nth.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kscan_sub_[m[K’?
+[9.223s]    12 |         [01;31m[Kscan_pub_[m[K = this->create_publisher<sensor_msgs::msg::LaserScan>("/scan_subset", 10);
+[9.224s]       |         [01;31m[K^~~~~~~~~[m[K
+[9.224s]       |         [32m[Kscan_sub_[m[K
+[13.588s] gmake[2]: *** [CMakeFiles/laser_scan_nth.dir/build.make:76: CMakeFiles/laser_scan_nth.dir/src/laser_scan_nth.cpp.o] Error 1
+[13.588s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_scan_nth.dir/all] Error 2
+[13.588s] gmake: *** [Makefile:146: all] Error 2
+[13.592s] Invoked command in '/home/student/ros2_ws/build/laser_scan_nth_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/laser_scan_nth_pkg -- -j8 -l8

@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/student/ros2_ws/build/cylinder_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cylinder_detector -- -j8 -l8
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target cylinderDetector[0m
+[0.109s] [ 50%] [32mBuilding CXX object CMakeFiles/cylinderDetector.dir/src/cylinderDetector.cpp.o[0m
+[9.331s] [100%] [32m[1mLinking CXX executable cylinderDetector[0m
+[9.897s] [100%] Built target cylinderDetector
+[9.912s] Invoked command in '/home/student/ros2_ws/build/cylinder_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/cylinder_detector -- -j8 -l8
+[9.968s] Invoking command in '/home/student/ros2_ws/build/cylinder_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/cylinder_detector
+[9.980s] -- Install configuration: ""
+[9.980s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/lib/cylinder_detector/cylinderDetector
+[9.985s] -- Set runtime path of "/home/student/ros2_ws/install/cylinder_detector/lib/cylinder_detector/cylinderDetector" to ""
+[9.989s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/ament_index/resource_index/package_run_dependencies/cylinder_detector
+[9.989s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/ament_index/resource_index/parent_prefix_path/cylinder_detector
+[9.989s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/ament_prefix_path.sh
+[9.989s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/ament_prefix_path.dsv
+[9.989s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/path.sh
+[9.989s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/environment/path.dsv
+[9.990s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.bash
+[9.990s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.sh
+[9.990s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.zsh
+[9.990s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/local_setup.dsv
+[9.990s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/package.dsv
+[9.990s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/ament_index/resource_index/packages/cylinder_detector
+[9.991s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/cmake/cylinder_detectorConfig.cmake
+[9.991s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/cmake/cylinder_detectorConfig-version.cmake
+[9.991s] -- Installing: /home/student/ros2_ws/install/cylinder_detector/share/cylinder_detector/package.xml
+[9.994s] Invoked command in '/home/student/ros2_ws/build/cylinder_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/cylinder_detector

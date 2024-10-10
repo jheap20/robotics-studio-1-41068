@@ -1,0 +1,14 @@
+[31mCMake Error at CMakeLists.txt:25 (target_include_directories):
+  Cannot specify include directories for target "MapProcessorNode" which is
+  not built by this project.
+
+[0m
+[31mCMake Error at CMakeLists.txt:28 (target_compile_features):
+  Cannot specify compile features for target "MapProcessorNode" which is not
+  built by this project.
+
+[0m
+[31mCMake Error at CMakeLists.txt:30 (install):
+  install TARGETS given target "MapProcessorNode" which does not exist.
+
+[0m

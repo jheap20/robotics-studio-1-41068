@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.008168] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.008625] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.009454] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.009506] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.009571] (-) JobUnselected: {'identifier': 'image_modifier_pkg'}
+[0.009625] (-) JobUnselected: {'identifier': 'laser_processor_pkg'}
+[0.009656] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.009696] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.009732] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.009799] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.009861] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.009918] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.009951] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.009980] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.010010] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.010088] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.010123] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.010160] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.010223] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.010284] (laser_scan_nth_pkg) JobQueued: {'identifier': 'laser_scan_nth_pkg', 'dependencies': OrderedDict()}
+[0.010334] (laser_scan_nth_pkg) JobStarted: {'identifier': 'laser_scan_nth_pkg'}
+[0.021507] (laser_scan_nth_pkg) JobProgress: {'identifier': 'laser_scan_nth_pkg', 'progress': 'cmake'}
+[0.022535] (laser_scan_nth_pkg) JobProgress: {'identifier': 'laser_scan_nth_pkg', 'progress': 'build'}
+[0.023697] (laser_scan_nth_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/build/laser_scan_nth_pkg', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/build/laser_scan_nth_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1964'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1868'), ('SYSTEMD_EXEC_PID', '2076'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3111'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('JOURNAL_STREAM', '8:29610'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2052,unix/labMGJSX0:/tmp/.ICE-unix/2052'), ('INVOCATION_ID', '20fa03fea5a942d58e1c7225faa064b5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6a09c9fb-a71e-4c84-b6a2-ed364516f973'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/build/laser_scan_nth_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/build/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/build/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.099907] (-) TimerEvent: {}
+[0.104290] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200046] (-) TimerEvent: {}
+[0.300450] (-) TimerEvent: {}
+[0.376585] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400594] (-) TimerEvent: {}
+[0.422581] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.427161] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.437219] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.457152] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.483764] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.505859] (-) TimerEvent: {}
+[0.589255] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.592313] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.605972] (-) TimerEvent: {}
+[0.706389] (-) TimerEvent: {}
+[0.806860] (-) TimerEvent: {}
+[0.837944] (laser_scan_nth_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.915387] (-) TimerEvent: {}
+[1.016462] (-) TimerEvent: {}
+[1.117132] (-) TimerEvent: {}
+[1.129612] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.217265] (-) TimerEvent: {}
+[1.317765] (-) TimerEvent: {}
+[1.360968] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.417893] (-) TimerEvent: {}
+[1.489658] (laser_scan_nth_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.490392] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/student/ros2_ws/src/laser_scan_nth_pkg/include>\n'}
+[1.490716] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.491857] (laser_scan_nth_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.493362] (laser_scan_nth_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.493702] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.494511] (laser_scan_nth_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.496042] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.518027] (-) TimerEvent: {}
+[1.521612] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.525288] (laser_scan_nth_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/student/ros2_ws/build/laser_scan_nth_pkg\n'}
+[1.582599] (laser_scan_nth_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target laser_scan_nth\x1b[0m\n'}
+[1.627187] (-) TimerEvent: {}
+[1.627696] (laser_scan_nth_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/laser_scan_nth.dir/src/laser_scan_nth.cpp.o\x1b[0m\n'}
+[1.728119] (-) TimerEvent: {}
+[1.828697] (-) TimerEvent: {}
+[1.929164] (-) TimerEvent: {}
+[2.029615] (-) TimerEvent: {}
+[2.130223] (-) TimerEvent: {}
+[2.230718] (-) TimerEvent: {}
+[2.331152] (-) TimerEvent: {}
+[2.431705] (-) TimerEvent: {}
+[2.532334] (-) TimerEvent: {}
+[2.632997] (-) TimerEvent: {}
+[2.733611] (-) TimerEvent: {}
+[2.839254] (-) TimerEvent: {}
+[2.940716] (-) TimerEvent: {}
+[3.042222] (-) TimerEvent: {}
+[3.142659] (-) TimerEvent: {}
+[3.243652] (-) TimerEvent: {}
+[3.344228] (-) TimerEvent: {}
+[3.445697] (-) TimerEvent: {}
+[3.552932] (-) TimerEvent: {}
+[3.653559] (-) TimerEvent: {}
+[3.754021] (-) TimerEvent: {}
+[3.854596] (-) TimerEvent: {}
+[3.955075] (-) TimerEvent: {}
+[4.055745] (-) TimerEvent: {}
+[4.156254] (-) TimerEvent: {}
+[4.256747] (-) TimerEvent: {}
+[4.357227] (-) TimerEvent: {}
+[4.457824] (-) TimerEvent: {}
+[4.558439] (-) TimerEvent: {}
+[4.658947] (-) TimerEvent: {}
+[4.759600] (-) TimerEvent: {}
+[4.860711] (-) TimerEvent: {}
+[4.962096] (-) TimerEvent: {}
+[5.062571] (-) TimerEvent: {}
+[5.163102] (-) TimerEvent: {}
+[5.263677] (-) TimerEvent: {}
+[5.365273] (-) TimerEvent: {}
+[5.465709] (-) TimerEvent: {}
+[5.566137] (-) TimerEvent: {}
+[5.662083] (laser_scan_nth_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/laser_scan_nth_pkg/src/laser_scan_nth.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LaserProcessor::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.662542] (laser_scan_nth_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/laser_scan_nth_pkg/src/laser_scan_nth.cpp:21:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubset_scan\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.662714] (laser_scan_nth_pkg) StderrLine: {'line': b'   21 |       \x1b[01;31m\x1b[Ksubset_scan\x1b[m\x1b[K->angle_min = scan->angle_min;\n'}
+[5.662849] (laser_scan_nth_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.666235] (-) TimerEvent: {}
+[5.668149] (laser_scan_nth_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/laser_scan_nth_pkg/src/laser_scan_nth.cpp:60:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubset_scan_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksubset_size\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.668471] (laser_scan_nth_pkg) StderrLine: {'line': b'   60 |        scan_pub_->publish(*\x1b[01;31m\x1b[Ksubset_scan_\x1b[m\x1b[K);\n'}
+[5.668632] (laser_scan_nth_pkg) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.668817] (laser_scan_nth_pkg) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Ksubset_size\x1b[m\x1b[K\n'}
+[5.766621] (-) TimerEvent: {}
+[5.867085] (-) TimerEvent: {}
+[5.967549] (-) TimerEvent: {}
+[6.068116] (-) TimerEvent: {}
+[6.168726] (-) TimerEvent: {}
+[6.269297] (-) TimerEvent: {}
+[6.369788] (-) TimerEvent: {}
+[6.470439] (-) TimerEvent: {}
+[6.571066] (-) TimerEvent: {}
+[6.671763] (-) TimerEvent: {}
+[6.772285] (-) TimerEvent: {}
+[6.872796] (-) TimerEvent: {}
+[6.973299] (-) TimerEvent: {}
+[7.073980] (-) TimerEvent: {}
+[7.176713] (-) TimerEvent: {}
+[7.277150] (-) TimerEvent: {}
+[7.377615] (-) TimerEvent: {}
+[7.478073] (-) TimerEvent: {}
+[7.578688] (-) TimerEvent: {}
+[7.679188] (-) TimerEvent: {}
+[7.779743] (-) TimerEvent: {}
+[7.880295] (-) TimerEvent: {}
+[7.980895] (-) TimerEvent: {}
+[8.081470] (-) TimerEvent: {}
+[8.182044] (-) TimerEvent: {}
+[8.283008] (-) TimerEvent: {}
+[8.383437] (-) TimerEvent: {}
+[8.484510] (-) TimerEvent: {}
+[8.585236] (-) TimerEvent: {}
+[8.685897] (-) TimerEvent: {}
+[8.786479] (-) TimerEvent: {}
+[8.887000] (-) TimerEvent: {}
+[8.987746] (-) TimerEvent: {}
+[9.091662] (-) TimerEvent: {}
+[9.192222] (-) TimerEvent: {}
+[9.292676] (-) TimerEvent: {}
+[9.393171] (-) TimerEvent: {}
+[9.493789] (-) TimerEvent: {}
+[9.594276] (-) TimerEvent: {}
+[9.697799] (-) TimerEvent: {}
+[9.798400] (-) TimerEvent: {}
+[9.899257] (-) TimerEvent: {}
+[9.930990] (laser_scan_nth_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/laser_scan_nth.dir/build.make:76: CMakeFiles/laser_scan_nth.dir/src/laser_scan_nth.cpp.o] Error 1\n'}
+[9.936127] (laser_scan_nth_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_scan_nth.dir/all] Error 2\n'}
+[9.936325] (laser_scan_nth_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.936467] (laser_scan_nth_pkg) CommandEnded: {'returncode': 2}
+[9.999359] (-) TimerEvent: {}
+[10.016874] (laser_scan_nth_pkg) JobEnded: {'identifier': 'laser_scan_nth_pkg', 'rc': 2}
+[10.033620] (-) EventReactorShutdown: {}

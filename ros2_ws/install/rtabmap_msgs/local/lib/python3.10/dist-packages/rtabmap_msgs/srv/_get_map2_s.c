@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/rtabmap_msgs/rosidl_generator_py/rtabmap_msgs/srv/_get_map2_s.c

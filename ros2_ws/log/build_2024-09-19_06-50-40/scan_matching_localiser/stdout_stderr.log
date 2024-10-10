@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:27:49:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type
+   27 | nst geometry_msgs::msg::[01;31m[KPoseStamped[m[K::SharedPtr msg)
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:27:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   27 | s::msg::PoseStamped::SharedPtr [01;31m[Kmsg[m[K)
+      |                                [01;31m[K^~~[m[K
+
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:27:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   27 | s::msg::PoseStamped::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+      |                               [01;31m[K^[m[K[32m[K~~~[m[K
+      |                               [32m[K)[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:27:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   27 | msgs::msg::PoseStamped::[01;31m[KSharedPtr[m[K msg)
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                                  [32m[K;[m[K
+[01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:27:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   27 | s::msg::PoseStamped::SharedPtr [01;31m[Kmsg[m[K)
+      |                                [01;31m[K^~~[m[K
+
+gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

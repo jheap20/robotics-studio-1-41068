@@ -1,0 +1,78 @@
+[0.023s] Invoking command in '/home/student/ros2_ws/build/scan_matching_localiser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[0.138s] [ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+[4.512s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:31:49:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type
+[4.512s]    31 | nst geometry_msgs::msg::[01;31m[KPoseStamped[m[K::SharedPtr msg)
+[4.513s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[4.513s] 
+[4.513s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:31:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[4.513s]    31 | s::msg::PoseStamped::SharedPtr [01;31m[Kmsg[m[K)
+[4.513s]       |                                [01;31m[K^~~[m[K
+[4.513s] 
+[4.513s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:31:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[4.513s]    31 | s::msg::PoseStamped::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+[4.514s]       |                               [01;31m[K^[m[K[32m[K~~~[m[K
+[4.514s]       |                               [32m[K)[m[K
+[4.518s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:31:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.518s]    31 | msgs::msg::PoseStamped::[01;31m[KSharedPtr[m[K msg)
+[4.518s]       |                         [01;31m[K^~~~~~~~~[m[K
+[4.519s]       |                                  [32m[K;[m[K
+[4.525s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:31:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[4.526s]    31 | s::msg::PoseStamped::SharedPtr [01;31m[Kmsg[m[K)
+[4.526s]       |                                [01;31m[K^~~[m[K
+[4.526s] 
+[4.649s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:253:46:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[4.649s]   253 | ion<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>::SharedPtr pose_subscriber_;
+[4.649s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[4.649s] 
+[4.650s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:253:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.650s]   253 | y_msgs::msg::PoseStamped[01;31m[K>[m[K::SharedPtr pose_subscriber_;
+[4.650s]       |                         [01;31m[K^[m[K
+[4.650s] 
+[4.650s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:253:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[4.650s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:253:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[4.650s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:253:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[4.650s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:253:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.650s]   253 | sgs::msg::PoseStamped>::[01;31m[KSharedPtr[m[K pose_subscriber_;
+[4.650s]       |                         [01;31m[K^~~~~~~~~[m[K
+[4.650s]       |                                  [32m[K;[m[K
+[4.660s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:253:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscriber_[m[K’ does not name a type
+[4.661s]   253 | PoseStamped>::SharedPtr [01;31m[Kpose_subscriber_[m[K;
+[4.662s]       |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.663s] 
+[4.690s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In constructor ‘[01m[KMapProcessorNode::MapProcessorNode()[m[K’:
+[4.690s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kscan_subscriber_[m[K’?
+[4.690s]    21 |         [01;31m[Kpose_subscriber_[m[K = this->create_subscription<geometry_msgs::msg::PoseStamped>(
+[4.690s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.691s]       |         [32m[Kscan_subscriber_[m[K
+[4.691s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:21:74:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[4.691s]    21 | ion<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>(
+[4.692s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[4.692s] 
+[4.699s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:21:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMapProcessorNode::create_subscription<<expression error> >(const char [12], int, std::_Bind_helper<false, void (MapProcessorNode::*)(...), MapProcessorNode*, const std::_Placeholder<1>&>::type)[m[K’
+[4.699s]    21 | [01;31m[Kn<geometry_msgs::msg::PoseStamped>([m[K
+[4.700s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.700s] 
+[4.700s]    22 | [01;31m[KsorNode::poseCallback, this, std::placeholders::_1))[m[K;
+[4.700s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.700s] 
+[4.700s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[4.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.700s]                  from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1[m[K:
+[4.700s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[4.701s]    92 | [01;36m[KNode[m[K::create_subscription(
+[4.701s]       | [01;36m[K^~~~[m[K
+[4.701s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.701s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:21:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.701s]    21 | [01;31m[Kn<geometry_msgs::msg::PoseStamped>([m[K
+[4.701s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.701s] 
+[4.701s]    22 | [01;31m[KsorNode::poseCallback, this, std::placeholders::_1))[m[K;
+[4.701s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.701s] 
+[9.699s] gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+[9.700s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+[9.702s] gmake: *** [Makefile:146: all] Error 2
+[9.711s] Invoked command in '/home/student/ros2_ws/build/scan_matching_localiser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8

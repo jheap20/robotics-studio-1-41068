@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000518] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000574] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001074] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001115] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001146] (-) JobUnselected: {'identifier': 'image_modifier_pkg'}
+[0.001181] (-) JobUnselected: {'identifier': 'laser_processor_pkg'}
+[0.001410] (-) JobUnselected: {'identifier': 'laser_scan_nth_pkg'}
+[0.001442] (-) JobUnselected: {'identifier': 'robot_localization'}
+[0.001463] (-) JobUnselected: {'identifier': 'scan_to_image_localizer'}
+[0.001483] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001504] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001524] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001543] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001563] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001583] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001603] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001622] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001643] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001662] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001682] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001703] (-) JobUnselected: {'identifier': 'turtlebot3_state_estimation'}
+[0.001723] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001743] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001768] (scan_matching_localiser) JobQueued: {'identifier': 'scan_matching_localiser', 'dependencies': OrderedDict()}
+[0.001795] (scan_matching_localiser) JobStarted: {'identifier': 'scan_matching_localiser'}
+[0.027363] (scan_matching_localiser) JobProgress: {'identifier': 'scan_matching_localiser', 'progress': 'cmake'}
+[0.027633] (scan_matching_localiser) JobProgress: {'identifier': 'scan_matching_localiser', 'progress': 'build'}
+[0.032125] (scan_matching_localiser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/build/scan_matching_localiser', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/build/scan_matching_localiser', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1861'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/robot_localization/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1765'), ('SYSTEMD_EXEC_PID', '1973'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2bcb3aa092f2b6032576f3fd56ad9afe9'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2452'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install:/home/student/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('JOURNAL_STREAM', '8:10994'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/1950,unix/labMGJSX0:/tmp/.ICE-unix/1950'), ('INVOCATION_ID', 'cf8dc3da6a134e36acbb99fd42096aa0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_state_estimation:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/scan_to_image_localizer:/home/student/ros2_ws/install/scan_matching_localiser:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/home/student/install/scan_to_image_localizer:/home/student/install/scan_matching_localiser:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:abc400fe-1fbd-4751-88c7-fd34fd9ad876'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/build/scan_matching_localiser'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/build/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/build/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_state_estimation:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/scan_to_image_localizer:/home/student/ros2_ws/install/scan_matching_localiser:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/laser_scan_nth_pkg:/home/student/ros2_ws/install/laser_processor_pkg:/home/student/ros2_ws/install/image_modifier_pkg:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/cpp_pubsub:/home/student/install/scan_to_image_localizer:/home/student/install/scan_matching_localiser:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.099651] (-) TimerEvent: {}
+[0.111807] (scan_matching_localiser) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target map_processor_node\x1b[0m\n'}
+[0.156816] (scan_matching_localiser) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o\x1b[0m\n'}
+[0.203645] (-) TimerEvent: {}
+[0.304968] (-) TimerEvent: {}
+[0.407173] (-) TimerEvent: {}
+[0.511928] (-) TimerEvent: {}
+[0.612396] (-) TimerEvent: {}
+[0.712866] (-) TimerEvent: {}
+[0.813338] (-) TimerEvent: {}
+[0.913937] (-) TimerEvent: {}
+[1.014459] (-) TimerEvent: {}
+[1.120992] (-) TimerEvent: {}
+[1.221786] (-) TimerEvent: {}
+[1.324066] (-) TimerEvent: {}
+[1.424570] (-) TimerEvent: {}
+[1.528254] (-) TimerEvent: {}
+[1.628755] (-) TimerEvent: {}
+[1.729254] (-) TimerEvent: {}
+[1.829749] (-) TimerEvent: {}
+[1.935941] (-) TimerEvent: {}
+[2.036437] (-) TimerEvent: {}
+[2.136939] (-) TimerEvent: {}
+[2.238638] (-) TimerEvent: {}
+[2.339190] (-) TimerEvent: {}
+[2.439682] (-) TimerEvent: {}
+[2.541687] (-) TimerEvent: {}
+[2.642239] (-) TimerEvent: {}
+[2.742720] (-) TimerEvent: {}
+[2.843297] (-) TimerEvent: {}
+[2.943694] (-) TimerEvent: {}
+[3.045307] (-) TimerEvent: {}
+[3.146474] (-) TimerEvent: {}
+[3.249460] (-) TimerEvent: {}
+[3.350068] (-) TimerEvent: {}
+[3.455119] (-) TimerEvent: {}
+[3.555669] (-) TimerEvent: {}
+[3.658602] (-) TimerEvent: {}
+[3.759076] (-) TimerEvent: {}
+[3.860371] (-) TimerEvent: {}
+[3.963228] (-) TimerEvent: {}
+[4.066218] (-) TimerEvent: {}
+[4.166681] (-) TimerEvent: {}
+[4.267180] (-) TimerEvent: {}
+[4.367664] (-) TimerEvent: {}
+[4.468165] (-) TimerEvent: {}
+[4.548148] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MapProcessorNode::detectAndMatchFeatures(const cv::Mat&, const cv::Mat&, std::vector<cv::Point_<float> >&, std::vector<cv::Point_<float> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.548454] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:163:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KdrawMatches(cv::Mat&, std::vector<cv::KeyPoint>&, cv::Mat&, std::vector<cv::KeyPoint>&, size_t&, cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.548554] (scan_matching_localiser) StderrLine: {'line': b'  163 |         \x1b[01;31m\x1b[Kcv::drawMatches(edge_img, keypoints1, scan_image, keypoints2, numGoodMatches, img_matches)\x1b[m\x1b[K;\n'}
+[4.548650] (scan_matching_localiser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.548737] (scan_matching_localiser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/calib3d.hpp:48\x1b[m\x1b[K,\n'}
+[4.548823] (scan_matching_localiser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:56\x1b[m\x1b[K,\n'}
+[4.548945] (scan_matching_localiser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:4\x1b[m\x1b[K:\n'}
+[4.549025] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/features2d.hpp:1333:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid cv::drawMatches(cv::InputArray, const std::vector<cv::KeyPoint>&, cv::InputArray, const std::vector<cv::KeyPoint>&, const std::vector<cv::DMatch>&, cv::InputOutputArray, const Scalar&, const Scalar&, const std::vector<char>&, cv::DrawMatchesFlags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.549108] (scan_matching_localiser) StderrLine: {'line': b' 1333 | CV_EXPORTS_W void \x1b[01;36m\x1b[KdrawMatches\x1b[m\x1b[K( InputArray img1, const std::vector<KeyPoint>& keypoints1,\n'}
+[4.549186] (scan_matching_localiser) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.549266] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/features2d.hpp:1335:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 5 from \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<cv::DMatch>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.549351] (scan_matching_localiser) StderrLine: {'line': b' 1335 | \x1b[01;36m\x1b[Knst std::vector<DMatch>& matches1to2\x1b[m\x1b[K, InputOutputArray outImg,\n'}
+[4.549439] (scan_matching_localiser) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.549514] (scan_matching_localiser) StderrLine: {'line': b'\n'}
+[4.549590] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/features2d.hpp:1340:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid cv::drawMatches(cv::InputArray, const std::vector<cv::KeyPoint>&, cv::InputArray, const std::vector<cv::KeyPoint>&, const std::vector<cv::DMatch>&, cv::InputOutputArray, int, const Scalar&, const Scalar&, const std::vector<char>&, cv::DrawMatchesFlags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.549674] (scan_matching_localiser) StderrLine: {'line': b' 1340 | CV_EXPORTS_W void \x1b[01;36m\x1b[KdrawMatches\x1b[m\x1b[K( InputArray img1, const std::vector<KeyPoint>& keypoints1,\n'}
+[4.549757] (scan_matching_localiser) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.553153] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/features2d.hpp:1340:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 11 arguments, 6 provided\n'}
+[4.553456] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/features2d.hpp:1347:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid cv::drawMatches(cv::InputArray, const std::vector<cv::KeyPoint>&, cv::InputArray, const std::vector<cv::KeyPoint>&, const std::vector<std::vector<cv::DMatch> >&, cv::InputOutputArray, const Scalar&, const Scalar&, const std::vector<std::vector<char> >&, cv::DrawMatchesFlags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.553594] (scan_matching_localiser) StderrLine: {'line': b' 1347 | _AS(drawMatchesKnn) void \x1b[01;36m\x1b[KdrawMatches\x1b[m\x1b[K( InputArray img1, const std::vector<KeyPoint>& keypoints1,\n'}
+[4.553695] (scan_matching_localiser) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.553790] (scan_matching_localiser) StderrLine: {'line': b'\n'}
+[4.553919] (scan_matching_localiser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/features2d.hpp:1349:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 5 from \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::vector<cv::DMatch> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.554050] (scan_matching_localiser) StderrLine: {'line': b' 1349 | \x1b[01;36m\x1b[Kr<std::vector<DMatch> >& matches1to2\x1b[m\x1b[K, InputOutputArray outImg,\n'}
+[4.554154] (scan_matching_localiser) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.554249] (scan_matching_localiser) StderrLine: {'line': b'\n'}
+[4.569921] (-) TimerEvent: {}
+[4.670379] (-) TimerEvent: {}
+[4.770871] (-) TimerEvent: {}
+[4.871956] (-) TimerEvent: {}
+[4.972612] (-) TimerEvent: {}
+[5.073182] (-) TimerEvent: {}
+[5.178221] (-) TimerEvent: {}
+[5.278707] (-) TimerEvent: {}
+[5.383355] (-) TimerEvent: {}
+[5.483845] (-) TimerEvent: {}
+[5.587932] (-) TimerEvent: {}
+[5.688391] (-) TimerEvent: {}
+[5.789229] (-) TimerEvent: {}
+[5.889700] (-) TimerEvent: {}
+[5.993759] (-) TimerEvent: {}
+[6.094212] (-) TimerEvent: {}
+[6.197367] (-) TimerEvent: {}
+[6.300273] (-) TimerEvent: {}
+[6.400752] (-) TimerEvent: {}
+[6.507782] (-) TimerEvent: {}
+[6.608305] (-) TimerEvent: {}
+[6.708761] (-) TimerEvent: {}
+[6.809855] (-) TimerEvent: {}
+[6.910514] (-) TimerEvent: {}
+[7.010940] (-) TimerEvent: {}
+[7.112661] (-) TimerEvent: {}
+[7.215033] (-) TimerEvent: {}
+[7.316293] (-) TimerEvent: {}
+[7.418514] (-) TimerEvent: {}
+[7.524576] (-) TimerEvent: {}
+[7.632250] (-) TimerEvent: {}
+[7.734455] (-) TimerEvent: {}
+[7.835177] (-) TimerEvent: {}
+[7.935593] (-) TimerEvent: {}
+[8.036204] (-) TimerEvent: {}
+[8.138723] (-) TimerEvent: {}
+[8.239186] (-) TimerEvent: {}
+[8.341810] (-) TimerEvent: {}
+[8.442291] (-) TimerEvent: {}
+[8.543244] (-) TimerEvent: {}
+[8.647861] (-) TimerEvent: {}
+[8.748319] (-) TimerEvent: {}
+[8.848796] (-) TimerEvent: {}
+[8.949281] (-) TimerEvent: {}
+[9.050075] (-) TimerEvent: {}
+[9.153897] (-) TimerEvent: {}
+[9.254497] (-) TimerEvent: {}
+[9.355568] (-) TimerEvent: {}
+[9.456046] (-) TimerEvent: {}
+[9.556526] (-) TimerEvent: {}
+[9.594501] (scan_matching_localiser) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1\n'}
+[9.597027] (scan_matching_localiser) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2\n'}
+[9.597294] (scan_matching_localiser) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.598361] (scan_matching_localiser) CommandEnded: {'returncode': 2}
+[9.657720] (-) TimerEvent: {}
+[9.686265] (scan_matching_localiser) JobEnded: {'identifier': 'scan_matching_localiser', 'rc': 2}
+[9.687711] (-) EventReactorShutdown: {}

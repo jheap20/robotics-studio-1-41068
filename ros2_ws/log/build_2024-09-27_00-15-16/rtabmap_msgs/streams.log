@@ -1,0 +1,821 @@
+[0.057s] Invoking command in '/home/student/ros2_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/rtabmap_msgs
+[0.787s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_generator_c[0m
+[0.790s] [  0%] Built target rtabmap_msgs__cpp
+[0.791s] [  0%] Built target ament_cmake_python_symlink_rtabmap_msgs
+[0.791s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_cpp[0m
+[0.793s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.793s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.793s] [ 12%] Built target rtabmap_msgs__rosidl_generator_c
+[0.794s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_introspection_c[0m
+[0.794s] [ 24%] Built target rtabmap_msgs__rosidl_typesupport_cpp
+[0.794s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.795s] [ 37%] Built target rtabmap_msgs__rosidl_typesupport_introspection_cpp
+[0.795s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_c[0m
+[0.795s] [ 50%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c
+[0.795s] [ 63%] Built target rtabmap_msgs__rosidl_typesupport_c
+[0.795s] [ 76%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c
+[0.795s] [ 88%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_cpp
+[0.795s] [ 88%] Built target rtabmap_msgs
+[0.796s] [ 88%] Built target rtabmap_msgs__py
+[0.796s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_generator_py[0m
+[0.796s] [100%] Built target rtabmap_msgs__rosidl_generator_py
+[0.796s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_c__pyext[0m
+[0.796s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.797s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.799s] [100%] Built target rtabmap_msgs__rosidl_typesupport_c__pyext
+[0.800s] [100%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.800s] [100%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c__pyext
+[0.814s] running egg_info
+[0.815s] writing rtabmap_msgs.egg-info/PKG-INFO
+[0.815s] writing dependency_links to rtabmap_msgs.egg-info/dependency_links.txt
+[0.816s] writing top-level names to rtabmap_msgs.egg-info/top_level.txt
+[0.817s] reading manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'
+[0.818s] writing manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'
+[0.860s] [100%] Built target ament_cmake_python_build_rtabmap_msgs_egg
+[0.888s] Invoked command in '/home/student/ros2_ws/build/rtabmap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/rtabmap_msgs
+[4.010s] Invoking command in '/home/student/ros2_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/rtabmap_msgs
+[4.036s] -- Install configuration: "Release"
+[4.039s] -- Execute custom install script
+[4.039s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/ament_index/resource_index/rosidl_interfaces/rtabmap_msgs
+[4.081s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/camera_model.h
+[4.125s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/camera_models.h
+[4.147s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__functions.h
+[4.183s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__struct.h
+[4.213s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__type_support.h
+[4.249s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__functions.h
+[4.269s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__struct.h
+[4.287s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__type_support.h
+[4.315s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__functions.h
+[4.345s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__struct.h
+[4.387s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__type_support.h
+[4.418s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__functions.h
+[4.435s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__struct.h
+[4.454s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__type_support.h
+[4.472s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__functions.h
+[4.508s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__struct.h
+[4.543s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__type_support.h
+[4.578s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__functions.h
+[4.612s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__struct.h
+[4.653s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__type_support.h
+[4.696s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__functions.h
+[4.720s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__struct.h
+[4.759s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__type_support.h
+[4.795s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__functions.h
+[4.829s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__struct.h
+[4.869s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__type_support.h
+[4.906s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__functions.h
+[4.945s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__struct.h
+[4.971s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__type_support.h
+[5.002s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__functions.h
+[5.040s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__struct.h
+[5.055s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__type_support.h
+[5.087s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__functions.h
+[5.119s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__struct.h
+[5.155s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__type_support.h
+[5.174s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__functions.h
+[5.192s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__struct.h
+[5.208s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__type_support.h
+[5.225s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__functions.h
+[5.241s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__struct.h
+[5.259s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__type_support.h
+[5.276s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__functions.h
+[5.295s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__struct.h
+[5.312s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__type_support.h
+[5.329s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__functions.h
+[5.346s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__struct.h
+[5.378s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__type_support.h
+[5.414s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__functions.h
+[5.444s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__struct.h
+[5.479s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__type_support.h
+[5.528s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__functions.h
+[5.561s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__struct.h
+[5.595s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__type_support.h
+[5.630s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__functions.h
+[5.662s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__struct.h
+[5.697s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__type_support.h
+[5.728s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__functions.h
+[5.759s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__struct.h
+[5.801s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__type_support.h
+[5.837s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__functions.h
+[5.872s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__struct.h
+[5.902s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__type_support.h
+[5.926s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__functions.h
+[5.965s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__struct.h
+[5.996s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__type_support.h
+[6.026s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__functions.h
+[6.064s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__struct.h
+[6.089s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__type_support.h
+[6.119s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__functions.h
+[6.154s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__struct.h
+[6.190s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__type_support.h
+[6.223s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/env_sensor.h
+[6.256s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/global_descriptor.h
+[6.288s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/goal.h
+[6.301s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/gps.h
+[6.317s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/info.h
+[6.333s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/key_point.h
+[6.350s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/landmark_detection.h
+[6.366s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/landmark_detections.h
+[6.398s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/link.h
+[6.431s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/map_data.h
+[6.465s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/map_graph.h
+[6.485s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/node.h
+[6.506s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/odom_info.h
+[6.539s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/path.h
+[6.576s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/point2f.h
+[6.605s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/point3f.h
+[6.627s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rgbd_image.h
+[6.671s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rgbd_images.h
+[6.672s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.710s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/scan_descriptor.h
+[6.753s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/sensor_data.h
+[6.789s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/user_data.h
+[6.829s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/add_link.h
+[6.865s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/cleanup_local_grids.h
+[6.899s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__functions.h
+[6.943s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__struct.h
+[6.979s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__type_support.h
+[7.012s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__functions.h
+[7.054s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__struct.h
+[7.091s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__type_support.h
+[7.123s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__functions.h
+[7.160s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__struct.h
+[7.198s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__type_support.h
+[7.232s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__functions.h
+[7.267s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__struct.h
+[7.301s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__type_support.h
+[7.336s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__functions.h
+[7.366s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__struct.h
+[7.397s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__type_support.h
+[7.428s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__functions.h
+[7.466s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__struct.h
+[7.497s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__type_support.h
+[7.540s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__functions.h
+[7.566s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__struct.h
+[7.593s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__type_support.h
+[7.616s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__functions.h
+[7.655s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__struct.h
+[7.687s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__type_support.h
+[7.731s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__functions.h
+[7.759s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__struct.h
+[7.794s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__type_support.h
+[7.821s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__functions.h
+[7.838s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__struct.h
+[7.857s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__type_support.h
+[7.887s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__functions.h
+[7.923s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__struct.h
+[7.952s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__type_support.h
+[7.985s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__functions.h
+[8.023s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__struct.h
+[8.057s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__type_support.h
+[8.087s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__functions.h
+[8.104s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__struct.h
+[8.144s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__type_support.h
+[8.173s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__functions.h
+[8.208s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__struct.h
+[8.241s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__type_support.h
+[8.273s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__functions.h
+[8.315s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__struct.h
+[8.345s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__type_support.h
+[8.383s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__functions.h
+[8.419s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__struct.h
+[8.458s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__type_support.h
+[8.492s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detect_more_loop_closures.h
+[8.529s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_map.h
+[8.557s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_map2.h
+[8.590s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_node_data.h
+[8.631s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_nodes_in_radius.h
+[8.667s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_plan.h
+[8.700s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/global_bundle_adjustment.h
+[8.735s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/list_labels.h
+[8.754s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/load_database.h
+[8.770s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/publish_map.h
+[8.787s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/remove_label.h
+[8.804s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/reset_pose.h
+[8.824s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/set_goal.h
+[8.841s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/set_label.h
+[8.857s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/library_path.sh
+[8.874s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/library_path.dsv
+[8.894s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__rosidl_typesupport_fastrtps_c.h
+[8.910s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__rosidl_typesupport_fastrtps_c.h
+[8.931s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__rosidl_typesupport_fastrtps_c.h
+[8.949s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__rosidl_typesupport_fastrtps_c.h
+[8.966s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__rosidl_typesupport_fastrtps_c.h
+[8.983s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__rosidl_typesupport_fastrtps_c.h
+[9.000s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__rosidl_typesupport_fastrtps_c.h
+[9.049s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__rosidl_typesupport_fastrtps_c.h
+[9.080s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__rosidl_typesupport_fastrtps_c.h
+[9.116s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__rosidl_typesupport_fastrtps_c.h
+[9.148s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__rosidl_typesupport_fastrtps_c.h
+[9.181s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__rosidl_typesupport_fastrtps_c.h
+[9.216s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__rosidl_typesupport_fastrtps_c.h
+[9.255s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[9.290s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__rosidl_typesupport_fastrtps_c.h
+[9.325s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[9.360s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__rosidl_typesupport_fastrtps_c.h
+[9.393s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__rosidl_typesupport_fastrtps_c.h
+[9.430s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__rosidl_typesupport_fastrtps_c.h
+[9.464s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__rosidl_typesupport_fastrtps_c.h
+[9.497s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__rosidl_typesupport_fastrtps_c.h
+[9.535s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h
+[9.570s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__rosidl_typesupport_fastrtps_c.h
+[9.604s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.637s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__rosidl_typesupport_fastrtps_c.h
+[9.665s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__rosidl_typesupport_fastrtps_c.h
+[9.702s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__rosidl_typesupport_fastrtps_c.h
+[9.733s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__rosidl_typesupport_fastrtps_c.h
+[9.770s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[9.801s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__rosidl_typesupport_fastrtps_c.h
+[9.835s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__rosidl_typesupport_fastrtps_c.h
+[9.872s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[9.901s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__rosidl_typesupport_fastrtps_c.h
+[9.934s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__rosidl_typesupport_fastrtps_c.h
+[9.968s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__rosidl_typesupport_fastrtps_c.h
+[10.002s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__rosidl_typesupport_fastrtps_c.h
+[10.035s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__rosidl_typesupport_fastrtps_c.h
+[10.069s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__rosidl_typesupport_fastrtps_c.h
+[10.103s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__rosidl_typesupport_fastrtps_c.h
+[10.136s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__rosidl_typesupport_fastrtps_c.h
+[10.172s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__rosidl_typesupport_introspection_c.h
+[10.204s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__rosidl_typesupport_introspection_c.h
+[10.241s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__rosidl_typesupport_introspection_c.h
+[10.267s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__rosidl_typesupport_introspection_c.h
+[10.285s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__rosidl_typesupport_introspection_c.h
+[10.303s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__rosidl_typesupport_introspection_c.h
+[10.326s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__rosidl_typesupport_introspection_c.h
+[10.344s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__rosidl_typesupport_introspection_c.h
+[10.360s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__rosidl_typesupport_introspection_c.h
+[10.378s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__rosidl_typesupport_introspection_c.h
+[10.395s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__rosidl_typesupport_introspection_c.h
+[10.414s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__rosidl_typesupport_introspection_c.h
+[10.448s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__rosidl_typesupport_introspection_c.h
+[10.483s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[10.515s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__rosidl_typesupport_introspection_c.h
+[10.552s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[10.582s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__rosidl_typesupport_introspection_c.h
+[10.620s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__rosidl_typesupport_introspection_c.h
+[10.651s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__rosidl_typesupport_introspection_c.h
+[10.681s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__rosidl_typesupport_introspection_c.h
+[10.706s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__rosidl_typesupport_introspection_c.h
+[10.735s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h
+[10.775s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__rosidl_typesupport_introspection_c.h
+[10.799s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.834s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__rosidl_typesupport_introspection_c.h
+[10.869s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__rosidl_typesupport_introspection_c.h
+[10.903s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__rosidl_typesupport_introspection_c.h
+[10.945s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__rosidl_typesupport_introspection_c.h
+[10.979s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[11.012s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__rosidl_typesupport_introspection_c.h
+[11.028s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__rosidl_typesupport_introspection_c.h
+[11.061s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+[11.090s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__rosidl_typesupport_introspection_c.h
+[11.127s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__rosidl_typesupport_introspection_c.h
+[11.158s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__rosidl_typesupport_introspection_c.h
+[11.187s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__rosidl_typesupport_introspection_c.h
+[11.221s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__rosidl_typesupport_introspection_c.h
+[11.255s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__rosidl_typesupport_introspection_c.h
+[11.288s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__rosidl_typesupport_introspection_c.h
+[11.318s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__rosidl_typesupport_introspection_c.h
+[11.353s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/camera_model.hpp
+[11.389s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/camera_models.hpp
+[11.420s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__builder.hpp
+[11.456s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__struct.hpp
+[11.492s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__traits.hpp
+[11.536s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__builder.hpp
+[11.571s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__struct.hpp
+[11.608s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__traits.hpp
+[11.645s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__builder.hpp
+[11.667s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__struct.hpp
+[11.700s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__traits.hpp
+[11.732s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__builder.hpp
+[11.761s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__struct.hpp
+[11.794s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__traits.hpp
+[11.831s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__builder.hpp
+[11.863s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__struct.hpp
+[11.895s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__traits.hpp
+[11.928s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__builder.hpp
+[11.965s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__struct.hpp
+[11.995s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__traits.hpp
+[12.030s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__builder.hpp
+[12.060s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__struct.hpp
+[12.078s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__traits.hpp
+[12.096s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__builder.hpp
+[12.113s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__struct.hpp
+[12.131s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__traits.hpp
+[12.148s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__builder.hpp
+[12.164s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__struct.hpp
+[12.196s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__traits.hpp
+[12.230s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__builder.hpp
+[12.246s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__struct.hpp
+[12.266s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__traits.hpp
+[12.284s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__builder.hpp
+[12.303s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__struct.hpp
+[12.324s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__traits.hpp
+[12.338s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__builder.hpp
+[12.362s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__struct.hpp
+[12.395s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__traits.hpp
+[12.410s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__builder.hpp
+[12.427s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__struct.hpp
+[12.447s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__traits.hpp
+[12.470s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__builder.hpp
+[12.489s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__struct.hpp
+[12.506s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__traits.hpp
+[12.527s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__builder.hpp
+[12.564s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__struct.hpp
+[12.599s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__traits.hpp
+[12.635s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__builder.hpp
+[12.669s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__struct.hpp
+[12.705s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__traits.hpp
+[12.742s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__builder.hpp
+[12.776s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__struct.hpp
+[12.811s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__traits.hpp
+[12.846s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__builder.hpp
+[12.882s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__struct.hpp
+[12.918s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__traits.hpp
+[12.960s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__builder.hpp
+[12.992s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__struct.hpp
+[13.040s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__traits.hpp
+[13.084s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__builder.hpp
+[13.126s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__struct.hpp
+[13.161s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__traits.hpp
+[13.196s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__builder.hpp
+[13.234s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__struct.hpp
+[13.273s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__traits.hpp
+[13.302s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__builder.hpp
+[13.344s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__struct.hpp
+[13.374s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__traits.hpp
+[13.419s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__builder.hpp
+[13.454s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__struct.hpp
+[13.488s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__traits.hpp
+[13.533s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/env_sensor.hpp
+[13.573s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/global_descriptor.hpp
+[13.628s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/goal.hpp
+[13.682s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/gps.hpp
+[13.739s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/info.hpp
+[13.797s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/key_point.hpp
+[13.845s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/landmark_detection.hpp
+[13.880s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/landmark_detections.hpp
+[13.915s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/link.hpp
+[13.957s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/map_data.hpp
+[13.993s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/map_graph.hpp
+[14.038s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/node.hpp
+[14.059s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/odom_info.hpp
+[14.108s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/path.hpp
+[14.160s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/point2f.hpp
+[14.200s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/point3f.hpp
+[14.243s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rgbd_image.hpp
+[14.287s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rgbd_images.hpp
+[14.338s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/scan_descriptor.hpp
+[14.388s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/sensor_data.hpp
+[14.438s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/user_data.hpp
+[14.472s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/add_link.hpp
+[14.508s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/cleanup_local_grids.hpp
+[14.547s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__builder.hpp
+[14.604s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__struct.hpp
+[14.633s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__traits.hpp
+[14.677s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__builder.hpp
+[14.711s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__struct.hpp
+[14.747s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__traits.hpp
+[14.799s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__builder.hpp
+[14.834s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__struct.hpp
+[14.867s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__traits.hpp
+[14.905s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__builder.hpp
+[14.939s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__struct.hpp
+[14.977s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__traits.hpp
+[15.027s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__builder.hpp
+[15.086s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__struct.hpp
+[15.127s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__traits.hpp
+[15.180s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__builder.hpp
+[15.218s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__struct.hpp
+[15.253s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__traits.hpp
+[15.307s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__builder.hpp
+[15.351s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__struct.hpp
+[15.402s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__traits.hpp
+[15.421s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__builder.hpp
+[15.453s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__struct.hpp
+[15.488s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__traits.hpp
+[15.522s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__builder.hpp
+[15.557s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__struct.hpp
+[15.592s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__traits.hpp
+[15.617s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__builder.hpp
+[15.643s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__struct.hpp
+[15.664s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__traits.hpp
+[15.699s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__builder.hpp
+[15.730s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__struct.hpp
+[15.755s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__traits.hpp
+[15.785s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__builder.hpp
+[15.812s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__struct.hpp
+[15.823s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__traits.hpp
+[15.847s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__builder.hpp
+[15.885s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__struct.hpp
+[15.913s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__traits.hpp
+[15.962s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__builder.hpp
+[15.996s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__struct.hpp
+[16.032s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__traits.hpp
+[16.081s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__builder.hpp
+[16.137s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__struct.hpp
+[16.188s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__traits.hpp
+[16.235s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__builder.hpp
+[16.291s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__struct.hpp
+[16.337s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__traits.hpp
+[16.393s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detect_more_loop_closures.hpp
+[16.442s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_map.hpp
+[16.495s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_map2.hpp
+[16.544s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_node_data.hpp
+[16.596s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_nodes_in_radius.hpp
+[16.643s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_plan.hpp
+[16.695s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/global_bundle_adjustment.hpp
+[16.729s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/list_labels.hpp
+[16.772s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/load_database.hpp
+[16.825s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/publish_map.hpp
+[16.888s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/remove_label.hpp
+[16.944s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/reset_pose.hpp
+[16.993s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/set_goal.hpp
+[17.057s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/set_label.hpp
+[17.118s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__rosidl_typesupport_fastrtps_cpp.hpp
+[17.176s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__rosidl_typesupport_fastrtps_cpp.hpp
+[17.225s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[17.280s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__rosidl_typesupport_fastrtps_cpp.hpp
+[17.316s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp
+[17.351s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__rosidl_typesupport_fastrtps_cpp.hpp
+[17.398s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__rosidl_typesupport_fastrtps_cpp.hpp
+[17.443s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__rosidl_typesupport_fastrtps_cpp.hpp
+[17.495s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[17.543s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__rosidl_typesupport_fastrtps_cpp.hpp
+[17.597s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__rosidl_typesupport_fastrtps_cpp.hpp
+[17.645s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__rosidl_typesupport_fastrtps_cpp.hpp
+[17.700s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[17.748s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[17.798s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__rosidl_typesupport_fastrtps_cpp.hpp
+[17.855s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[17.902s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__rosidl_typesupport_fastrtps_cpp.hpp
+[17.954s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__rosidl_typesupport_fastrtps_cpp.hpp
+[18.005s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__rosidl_typesupport_fastrtps_cpp.hpp
+[18.058s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__rosidl_typesupport_fastrtps_cpp.hpp
+[18.111s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__rosidl_typesupport_fastrtps_cpp.hpp
+[18.165s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[18.225s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__rosidl_typesupport_fastrtps_cpp.hpp
+[18.271s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.324s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__rosidl_typesupport_fastrtps_cpp.hpp
+[18.379s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__rosidl_typesupport_fastrtps_cpp.hpp
+[18.433s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__rosidl_typesupport_fastrtps_cpp.hpp
+[18.494s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__rosidl_typesupport_fastrtps_cpp.hpp
+[18.543s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[18.599s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__rosidl_typesupport_fastrtps_cpp.hpp
+[18.651s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__rosidl_typesupport_fastrtps_cpp.hpp
+[18.706s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[18.757s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__rosidl_typesupport_fastrtps_cpp.hpp
+[18.811s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__rosidl_typesupport_fastrtps_cpp.hpp
+[18.853s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__rosidl_typesupport_fastrtps_cpp.hpp
+[18.896s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__rosidl_typesupport_fastrtps_cpp.hpp
+[18.932s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__rosidl_typesupport_fastrtps_cpp.hpp
+[18.990s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[19.044s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[19.095s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__rosidl_typesupport_fastrtps_cpp.hpp
+[19.154s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__rosidl_typesupport_introspection_cpp.hpp
+[19.184s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__rosidl_typesupport_introspection_cpp.hpp
+[19.215s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__rosidl_typesupport_introspection_cpp.hpp
+[19.233s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__rosidl_typesupport_introspection_cpp.hpp
+[19.254s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__rosidl_typesupport_introspection_cpp.hpp
+[19.272s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__rosidl_typesupport_introspection_cpp.hpp
+[19.310s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__rosidl_typesupport_introspection_cpp.hpp
+[19.342s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__rosidl_typesupport_introspection_cpp.hpp
+[19.380s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__rosidl_typesupport_introspection_cpp.hpp
+[19.425s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__rosidl_typesupport_introspection_cpp.hpp
+[19.457s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__rosidl_typesupport_introspection_cpp.hpp
+[19.501s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__rosidl_typesupport_introspection_cpp.hpp
+[19.539s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__rosidl_typesupport_introspection_cpp.hpp
+[19.574s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[19.626s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__rosidl_typesupport_introspection_cpp.hpp
+[19.657s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[19.689s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__rosidl_typesupport_introspection_cpp.hpp
+[19.735s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__rosidl_typesupport_introspection_cpp.hpp
+[19.785s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__rosidl_typesupport_introspection_cpp.hpp
+[19.833s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__rosidl_typesupport_introspection_cpp.hpp
+[19.879s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__rosidl_typesupport_introspection_cpp.hpp
+[19.923s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp
+[19.977s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__rosidl_typesupport_introspection_cpp.hpp
+[20.017s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__rosidl_typesupport_introspection_cpp.hpp
+[20.061s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__rosidl_typesupport_introspection_cpp.hpp
+[20.110s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__rosidl_typesupport_introspection_cpp.hpp
+[20.147s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__rosidl_typesupport_introspection_cpp.hpp
+[20.196s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[20.244s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__rosidl_typesupport_introspection_cpp.hpp
+[20.289s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__rosidl_typesupport_introspection_cpp.hpp
+[20.325s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[20.362s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__rosidl_typesupport_introspection_cpp.hpp
+[20.409s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__rosidl_typesupport_introspection_cpp.hpp
+[20.444s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__rosidl_typesupport_introspection_cpp.hpp
+[20.485s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__rosidl_typesupport_introspection_cpp.hpp
+[20.534s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__rosidl_typesupport_introspection_cpp.hpp
+[20.598s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__rosidl_typesupport_introspection_cpp.hpp
+[20.655s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__rosidl_typesupport_introspection_cpp.hpp
+[20.704s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__rosidl_typesupport_introspection_cpp.hpp
+[20.759s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/pythonpath.sh
+[20.822s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/pythonpath.dsv
+[20.872s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs-0.21.5-py3.10.egg-info/PKG-INFO
+[20.907s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs-0.21.5-py3.10.egg-info/SOURCES.txt
+[20.954s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs-0.21.5-py3.10.egg-info/dependency_links.txt
+[20.987s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs-0.21.5-py3.10.egg-info/top_level.txt
+[21.036s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/__init__.py
+[21.070s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/_rtabmap_msgs_s.ep.rosidl_typesupport_c.c
+[21.111s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/_rtabmap_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[21.152s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/_rtabmap_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[21.207s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/librtabmap_msgs__rosidl_generator_py.so
+[21.254s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/__init__.py
+[21.282s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_camera_model.py
+[21.324s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_camera_model_s.c
+[21.363s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_camera_models.py
+[21.399s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_camera_models_s.c
+[21.438s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_env_sensor.py
+[21.479s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_env_sensor_s.c
+[21.514s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_global_descriptor.py
+[21.565s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_global_descriptor_s.c
+[21.605s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_goal.py
+[21.650s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_goal_s.c
+[21.686s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_gps.py
+[21.733s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_gps_s.c
+[21.772s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_info.py
+[21.810s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_info_s.c
+[21.852s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_key_point.py
+[21.894s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_key_point_s.c
+[21.933s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_landmark_detection.py
+[21.982s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_landmark_detection_s.c
+[22.039s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_landmark_detections.py
+[22.084s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_landmark_detections_s.c
+[22.130s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_link.py
+[22.173s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_link_s.c
+[22.216s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_map_data.py
+[22.266s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_map_data_s.c
+[22.316s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_map_graph.py
+[22.352s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_map_graph_s.c
+[22.391s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_node.py
+[22.460s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_node_s.c
+[22.510s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_odom_info.py
+[22.562s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_odom_info_s.c
+[22.619s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_path.py
+[22.667s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_path_s.c
+[22.717s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_point2f.py
+[22.769s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_point2f_s.c
+[22.827s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_point3f.py
+[22.871s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_point3f_s.c
+[22.921s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_rgbd_image.py
+[22.977s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_rgbd_image_s.c
+[23.027s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_rgbd_images.py
+[23.080s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_rgbd_images_s.c
+[23.129s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_scan_descriptor.py
+[23.189s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_scan_descriptor_s.c
+[23.239s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_sensor_data.py
+[23.281s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_sensor_data_s.c
+[23.324s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_user_data.py
+[23.377s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_user_data_s.c
+[23.395s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.411s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.440s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.488s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/__init__.py
+[23.540s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_add_link.py
+[23.589s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_add_link_s.c
+[23.638s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_cleanup_local_grids.py
+[23.690s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_cleanup_local_grids_s.c
+[23.735s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_detect_more_loop_closures.py
+[23.776s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_detect_more_loop_closures_s.c
+[23.824s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_map.py
+[23.873s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_map2.py
+[23.913s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_map2_s.c
+[23.972s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_map_s.c
+[24.017s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_node_data.py
+[24.070s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_node_data_s.c
+[24.120s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_nodes_in_radius.py
+[24.169s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_nodes_in_radius_s.c
+[24.218s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_plan.py
+[24.256s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_plan_s.c
+[24.300s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_global_bundle_adjustment.py
+[24.359s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_global_bundle_adjustment_s.c
+[24.413s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_list_labels.py
+[24.477s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_list_labels_s.c
+[24.553s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_load_database.py
+[24.609s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_load_database_s.c
+[24.664s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_publish_map.py
+[24.729s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_publish_map_s.c
+[24.784s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_remove_label.py
+[24.837s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_remove_label_s.c
+[24.902s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_reset_pose.py
+[24.960s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_reset_pose_s.c
+[25.024s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_set_goal.py
+[25.099s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_set_goal_s.c
+[25.161s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_set_label.py
+[25.204s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_set_label_s.c
+[25.242s] -- Up-to-date symlink: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[25.243s] -- Up-to-date symlink: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[25.245s] -- Up-to-date symlink: /home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[25.248s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Info.idl
+[25.314s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/KeyPoint.idl
+[25.368s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/GlobalDescriptor.idl
+[25.415s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/ScanDescriptor.idl
+[25.484s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/MapData.idl
+[25.524s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/MapGraph.idl
+[25.601s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Node.idl
+[25.653s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/SensorData.idl
+[25.707s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Link.idl
+[25.759s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/LandmarkDetection.idl
+[25.812s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/LandmarkDetections.idl
+[25.873s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/OdomInfo.idl
+[25.933s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Point2f.idl
+[25.982s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Point3f.idl
+[26.040s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Goal.idl
+[26.073s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/RGBDImage.idl
+[26.117s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/RGBDImages.idl
+[26.150s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/UserData.idl
+[26.185s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/GPS.idl
+[26.224s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Path.idl
+[26.259s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/EnvSensor.idl
+[26.284s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/CameraModel.idl
+[26.355s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/CameraModels.idl
+[26.393s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap.idl
+[26.465s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap2.idl
+[26.500s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ListLabels.idl
+[26.536s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/PublishMap.idl
+[26.565s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ResetPose.idl
+[26.587s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetGoal.idl
+[26.606s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetLabel.idl
+[26.678s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/RemoveLabel.idl
+[26.717s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetPlan.idl
+[26.789s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/AddLink.idl
+[26.851s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodeData.idl
+[26.889s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodesInRadius.idl
+[26.924s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/LoadDatabase.idl
+[26.956s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/DetectMoreLoopClosures.idl
+[26.990s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GlobalBundleAdjustment.idl
+[27.014s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/CleanupLocalGrids.idl
+[27.032s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Info.msg
+[27.054s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/KeyPoint.msg
+[27.073s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/GlobalDescriptor.msg
+[27.092s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/ScanDescriptor.msg
+[27.149s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/MapData.msg
+[27.168s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/MapGraph.msg
+[27.186s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Node.msg
+[27.217s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/SensorData.msg
+[27.234s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Link.msg
+[27.252s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/LandmarkDetection.msg
+[27.271s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/LandmarkDetections.msg
+[27.289s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/OdomInfo.msg
+[27.368s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Point2f.msg
+[27.422s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Point3f.msg
+[27.456s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Goal.msg
+[27.521s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/RGBDImage.msg
+[27.554s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/RGBDImages.msg
+[27.628s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/UserData.msg
+[27.681s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/GPS.msg
+[27.744s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Path.msg
+[27.782s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/EnvSensor.msg
+[27.818s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/CameraModel.msg
+[27.855s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/CameraModels.msg
+[27.892s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap.srv
+[27.949s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap_Request.msg
+[27.995s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap_Response.msg
+[28.022s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap2.srv
+[28.056s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap2_Request.msg
+[28.121s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap2_Response.msg
+[28.150s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ListLabels.srv
+[28.186s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ListLabels_Request.msg
+[28.221s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ListLabels_Response.msg
+[28.261s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/PublishMap.srv
+[28.290s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/PublishMap_Request.msg
+[28.309s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/PublishMap_Response.msg
+[28.327s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ResetPose.srv
+[28.346s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ResetPose_Request.msg
+[28.364s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ResetPose_Response.msg
+[28.385s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetGoal.srv
+[28.411s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetGoal_Request.msg
+[28.429s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetGoal_Response.msg
+[28.447s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetLabel.srv
+[28.465s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetLabel_Request.msg
+[28.483s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetLabel_Response.msg
+[28.501s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/RemoveLabel.srv
+[28.529s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/RemoveLabel_Request.msg
+[28.542s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/RemoveLabel_Response.msg
+[28.561s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetPlan.srv
+[28.579s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetPlan_Request.msg
+[28.615s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetPlan_Response.msg
+[28.667s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/AddLink.srv
+[28.702s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/AddLink_Request.msg
+[28.742s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/AddLink_Response.msg
+[28.809s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodeData.srv
+[28.869s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodeData_Request.msg
+[28.922s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodeData_Response.msg
+[28.973s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodesInRadius.srv
+[29.023s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodesInRadius_Request.msg
+[29.094s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodesInRadius_Response.msg
+[29.152s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/LoadDatabase.srv
+[29.203s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/LoadDatabase_Request.msg
+[29.256s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/LoadDatabase_Response.msg
+[29.314s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/DetectMoreLoopClosures.srv
+[29.376s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/DetectMoreLoopClosures_Request.msg
+[29.429s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/DetectMoreLoopClosures_Response.msg
+[29.483s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GlobalBundleAdjustment.srv
+[29.543s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GlobalBundleAdjustment_Request.msg
+[29.591s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GlobalBundleAdjustment_Response.msg
+[29.625s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/CleanupLocalGrids.srv
+[29.668s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/CleanupLocalGrids_Request.msg
+[29.697s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/CleanupLocalGrids_Response.msg
+[29.767s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/ament_index/resource_index/package_run_dependencies/rtabmap_msgs
+[29.840s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/ament_index/resource_index/parent_prefix_path/rtabmap_msgs
+[29.879s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/ament_prefix_path.sh
+[29.918s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/ament_prefix_path.dsv
+[29.970s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/path.sh
+[30.051s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/path.dsv
+[30.091s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/local_setup.bash
+[30.140s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/local_setup.sh
+[30.190s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/local_setup.zsh
+[30.244s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/local_setup.dsv
+[30.298s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/package.dsv
+[30.344s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/ament_index/resource_index/packages/rtabmap_msgs
+[30.397s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rosidl_cmake-extras.cmake
+[30.464s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.509s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.551s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[30.585s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[30.619s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[30.664s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[30.695s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgsConfig.cmake
+[30.727s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgsConfig-version.cmake
+[30.769s] -- Symlinking: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/package.xml
+[30.810s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_generator_c.so
+[30.811s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_generator_c.so" to ""
+[30.811s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_fastrtps_c.so
+[30.822s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[30.822s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_introspection_c.so
+[30.822s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_introspection_c.so" to ""
+[30.822s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_c.so
+[30.830s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_c.so" to ""
+[30.830s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_fastrtps_cpp.so
+[30.836s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[30.836s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_introspection_cpp.so
+[30.837s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[30.841s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_cpp.so
+[30.844s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_cpp.so" to ""
+[31.418s] Listing '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs'...
+[31.419s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/__init__.py'...
+[31.419s] Listing '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg'...
+[31.419s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/__init__.py'...
+[31.419s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_camera_model.py'...
+[31.419s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_camera_models.py'...
+[31.419s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_env_sensor.py'...
+[31.420s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_global_descriptor.py'...
+[31.420s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_goal.py'...
+[31.420s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_gps.py'...
+[31.420s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_info.py'...
+[31.420s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_key_point.py'...
+[31.420s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_landmark_detection.py'...
+[31.420s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_landmark_detections.py'...
+[31.421s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_link.py'...
+[31.421s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_map_data.py'...
+[31.421s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_map_graph.py'...
+[31.421s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_node.py'...
+[31.421s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_odom_info.py'...
+[31.421s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_path.py'...
+[31.425s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_point2f.py'...
+[31.425s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_point3f.py'...
+[31.425s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_rgbd_image.py'...
+[31.426s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_rgbd_images.py'...
+[31.426s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_scan_descriptor.py'...
+[31.426s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_sensor_data.py'...
+[31.426s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_user_data.py'...
+[31.426s] Listing '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv'...
+[31.430s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/__init__.py'...
+[31.430s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_add_link.py'...
+[31.430s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_cleanup_local_grids.py'...
+[31.430s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_detect_more_loop_closures.py'...
+[31.431s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_map.py'...
+[31.431s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_map2.py'...
+[31.431s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_node_data.py'...
+[31.435s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_nodes_in_radius.py'...
+[31.435s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_plan.py'...
+[31.435s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_global_bundle_adjustment.py'...
+[31.439s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_list_labels.py'...
+[31.439s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_load_database.py'...
+[31.439s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_publish_map.py'...
+[31.439s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_remove_label.py'...
+[31.439s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_reset_pose.py'...
+[31.439s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_set_goal.py'...
+[31.440s] Compiling '/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_set_label.py'...
+[31.442s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_generator_py.so
+[31.442s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_generator_py.so" to ""
+[31.442s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_generator_cExport.cmake
+[31.442s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_generator_cExport-release.cmake
+[31.443s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[31.443s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[31.443s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_introspection_cExport.cmake
+[31.444s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[31.453s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_cExport.cmake
+[31.453s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_cExport-release.cmake
+[31.453s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_generator_cppExport.cmake
+[31.453s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.454s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[31.454s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[31.454s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[31.454s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_cppExport.cmake
+[31.455s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_cppExport-release.cmake
+[31.455s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_generator_pyExport.cmake
+[31.468s] -- Installing: /home/student/ros2_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_generator_pyExport-release.cmake
+[31.539s] Invoked command in '/home/student/ros2_ws/build/rtabmap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/rtabmap_msgs

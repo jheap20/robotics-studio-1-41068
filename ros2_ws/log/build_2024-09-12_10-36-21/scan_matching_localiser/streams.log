@@ -1,0 +1,80 @@
+[0.022s] Invoking command in '/home/student/ros2_ws/build/scan_matching_localiser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target map_processor_node[0m
+[0.181s] [ 50%] [32mBuilding CXX object CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o[0m
+[0.698s] In file included from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:9[m[K:
+[0.698s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.698s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.699s]       |  [01;35m[K^~~~~~~[m[K
+[5.071s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:43:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KKDL::Twist[m[K’?
+[5.071s]   176 | Publisher<geometry_msgs::msg::[01;31m[KTwist[m[K>::SharedPtr cmd_publisher_;
+[5.072s]       |                               [01;31m[K^~~~~[m[K
+[5.072s] 
+[5.072s] In file included from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:53[m[K,
+[5.072s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:37[m[K,
+[5.073s]                  from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:9[m[K:
+[5.073s] [01m[K/usr/include/kdl/frames.hpp:720:7:[m[K [01;36m[Knote: [m[K‘[01m[KKDL::Twist[m[K’ declared here
+[5.073s]   720 | class [01;36m[KTwist[m[K {
+[5.073s]       |       [01;36m[K^~~~~[m[K
+[5.073s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.074s]   176 | sher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr cmd_publisher_;
+[5.074s]       |                               [01;31m[K^[m[K
+[5.074s] 
+[5.074s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[5.075s]   176 | r<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K cmd_publisher_;
+[5.075s]       |                               [01;31m[K^~~~~~~~~[m[K
+[5.075s]       |                                        [32m[K;[m[K
+[5.080s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:176:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_publisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[5.080s]   176 | _msgs::msg::Twist>::SharedPtr [01;31m[Kcmd_publisher_[m[K;
+[5.081s]       |                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.081s]       |                               [32m[Krmw_publisher_t[m[K
+[5.082s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In constructor ‘[01m[KMapProcessorNode::MapProcessorNode()[m[K’:
+[5.082s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:15:59:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMapProcessorNode[m[K’ does not have any field named ‘[01m[Krelative_orientaion_[m[K’
+[5.082s]    15 | de"), angle_difference_(0.0), [01;31m[Krelative_orientaion_[m[K(0.0)
+[5.082s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.083s] 
+[5.109s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[5.109s]    23 |         [01;31m[Kcmd_publisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
+[5.109s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.109s]       |         [32m[Krmw_publisher_t[m[K
+[5.110s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:69:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KKDL::Twist[m[K’?
+[5.110s]    23 | publisher<geometry_msgs::msg::[01;31m[KTwist[m[K>("/cmd_vel", 10);
+[5.110s]       |                               [01;31m[K^~~~~[m[K
+[5.110s] 
+[5.111s] In file included from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:53[m[K,
+[5.111s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:37[m[K,
+[5.111s]                  from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:9[m[K:
+[5.111s] [01m[K/usr/include/kdl/frames.hpp:720:7:[m[K [01;36m[Knote: [m[K‘[01m[KKDL::Twist[m[K’ declared here
+[5.111s]   720 | class [01;36m[KTwist[m[K {
+[5.111s]       |       [01;36m[K^~~~~[m[K
+[5.112s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMapProcessorNode::create_publisher<<expression error> >(const char [9], int)[m[K’
+[5.112s]    23 | [01;31m[Kher<geometry_msgs::msg::Twist>("/cmd_vel", 10)[m[K;
+[5.112s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[5.112s] 
+[5.112s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.112s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.112s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.112s]                  from [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:1[m[K:
+[5.112s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[5.113s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[5.113s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.113s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.113s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:23:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.113s]    23 | [01;31m[Kher<geometry_msgs::msg::Twist>("/cmd_vel", 10)[m[K;
+[5.113s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[5.113s] 
+[5.138s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.138s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[KrotateRobot[m[K’ was not declared in this scope
+[5.139s]    58 |         [01;31m[KrotateRobot[m[K();
+[5.139s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.139s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:[m[K In member function ‘[01m[Kvoid MapProcessorNode::occupancyGridToImage(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.140s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:65:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.140s]    65 |         for (int row = 0; [01;35m[Krow < grid->info.height[m[K; ++row)
+[5.140s]       |                           [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[5.140s] [01m[K/home/student/ros2_ws/src/scan_matching_localiser/src/map_processor_node.cpp:67:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.140s]    67 |         for (int col = 0; [01;35m[Kcol < grid->info.width[m[K; ++col)
+[5.140s]       |                           [01;35m[K~~~~^~~~~~~~~~~~~~~~~~[m[K
+[5.140s] 
+[10.653s] gmake[2]: *** [CMakeFiles/map_processor_node.dir/build.make:76: CMakeFiles/map_processor_node.dir/src/map_processor_node.cpp.o] Error 1
+[10.654s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/map_processor_node.dir/all] Error 2
+[10.654s] gmake: *** [Makefile:146: all] Error 2
+[10.657s] Invoked command in '/home/student/ros2_ws/build/scan_matching_localiser' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scan_matching_localiser -- -j8 -l8

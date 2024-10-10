@@ -1,0 +1,10 @@
+/home/student/ros2_ws/build/cylinder_detector/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/build/cylinder_detector/CMakeFiles/cylinder_detector_uninstall.dir
+/home/student/ros2_ws/build/cylinder_detector/CMakeFiles/cylinderDetector.dir
+/home/student/ros2_ws/build/cylinder_detector/CMakeFiles/test.dir
+/home/student/ros2_ws/build/cylinder_detector/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/build/cylinder_detector/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/build/cylinder_detector/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/build/cylinder_detector/CMakeFiles/install.dir
+/home/student/ros2_ws/build/cylinder_detector/CMakeFiles/install/local.dir
+/home/student/ros2_ws/build/cylinder_detector/CMakeFiles/install/strip.dir
